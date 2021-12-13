@@ -12,6 +12,7 @@
 - Added `Y Axis Rail Guide` parts for both sides on the `Stepper Pulleys` components. *The Y limit switch mounts on this guide*.
 - Spent part of the day learning to crimp JST-SM pins and replacing Blender's heater cartridge (terminated in JST-SM, but also what Clock 3 uses)
 - Added `X Limit Switch Mount`
+- Published to a public repository.
 
 ## 2021-12-12
 

@@ -28,8 +28,6 @@ Clock 3 is a working name for this project and is not final. It is an evolution 
 
 # Organization
 
-This is the Clock 3 branch. It contains all data needed to build a Clock 3 printer aside from some tools common to all projects. These tools can be found in the `master` branch.
-
 ## Naming Scheme
 
 ### STL Files
@@ -38,8 +36,8 @@ STLs are numbered sequentially to help with assembly. The number of each compone
 
 The printed text on each component also include an L or R for chiral components to help with identification. Some miscellanious and very basic parts lack numbers due to size or geometry constraints.
 
-You can find all of the step files in the [STL](STL/) folder, and the list of [part codes here](docs/Part Codes.md).
+You can find all of the step files in the [STL](STL/) folder, and the list of [part codes](Docs/Part%20Codes.md).
 
 ## Tools
 
-There are a number of tools to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. *Exported STL files will come with default tolerances and may not fit.*
+There are a number of tools to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. Exported STL files will come with default tolerances and may not fit as precisely.
