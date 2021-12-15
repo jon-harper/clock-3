@@ -1,5 +1,15 @@
 # Changelog
 
+## 2021-12-14
+- Fixed some issues with the left pulley component.
+- Fixed an incorrect peg hole depth on right mid `XY Joint`.
+- Added 5mm to the AB stepper mounts.
+- Pushed Y limit switch out ~20mm to allow clearance for the X limit switch. This is hacky, but will work and keep the bed area available.
+- Adjusted screw holes on right pulley component to account for the new limit switch mount.
+- Designed Bowden mount for BMG.
+- Designed `Gantry Lock` for servicing hotend and belts.
+- Raised the Y limit switch a bit to give clearance for heated inserts in the mount.
+
 ## 2021-12-13
 - Fixed up some Tony Table issues
 - Created a Y rail alignment guide for in front of the tensioners
@@ -13,6 +23,7 @@
 - Spent part of the day learning to crimp JST-SM pins and replacing Blender's heater cartridge (terminated in JST-SM, but also what Clock 3 uses)
 - Added `X Limit Switch Mount`
 - Published to a public repository.
+- Dropped the fan duct about a millimeter to get it to blow under the nozzle (hopefully).
 
 ## 2021-12-12
 
