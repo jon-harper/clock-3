@@ -1,5 +1,17 @@
 # Changelog
 
+## 2021-12-15
+
+- Tested XY motion
+- Designed and tested replacement for Z bottom bracket that includes rail alignment.
+- Tested all endstops
+- Added build plate
+- Sketched up panel mounts for JST-SM connectors for 2-6 pins and fit-tested
+- Began setting up wiring for JST-SM
+- Added STL Filename column to `Part Codes`
+- Crimped a lot of wires.
+- Created file for tracking wire codes and terminal names
+
 ## 2021-12-14
 - Fixed some issues with the left pulley component.
 - Fixed an incorrect peg hole depth on right mid `XY Joint`.
