@@ -1,6 +1,12 @@
 # Clock 3
 
-Clock 3 is a working name for this project and is not final. It is an evolution of my second attempt at an enclosed 3D printer. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm. Clock 1 was a thought experiment; Clock 2 I built. Clock 3 is a refinement incorporating lessons from other projects and a lot of experimentation.
+This is an evolution of my second attempt at an enclosed 3D printer. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm. Clock 1 was a thought experiment; Clock 2 I built. Clock 3 is a refinement incorporating lessons from other projects and a lot of experimentation. Clock 3 is a working name for this project and is not final.
+
+## First, a Note
+
+This project is very much under active development. All renders will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
+
+Assembly documentation compilation will start in January of 2022 after a full Bill of Materials is available.
 
 ## Development Goals
 
@@ -32,9 +38,9 @@ Clock 3 is a working name for this project and is not final. It is an evolution 
   - Active chamber temperature control (*to come*)
   - Dual filters and fans for recirculated and vented air (*to come*)
 - Documentation
-  - Full changelog
+  - Full [changelog](changelog.md)
   - Component-by-component, step-by-step assembly instructions (*in progress*)
-  - Open development on github
+  - Open development on Github
 
 ## Key Specifications
 
@@ -47,10 +53,12 @@ Clock 3 is a working name for this project and is not final. It is an evolution 
   - Simple side and rear panel removal
   - Large, clear front door with inset frame
 - HEPA and activated carbon filtration
+  - Continuous interior filtration
+  - Filtered ventilation
 - External steppers and electronics (exluding direct drive extruder)
-- 12V RGB LED lighting
+- 12V RGB LED lighting (WS2815 preferred, any SPI addressible strip will work)
 - Spring steel magnetic bed
-- Multiple ABL options
+- Multiple ABL options, initially BLTouch
 
 # Organization
 
@@ -62,7 +70,13 @@ STLs are numbered sequentially to help with assembly. The number of each compone
 
 The printed text on each component also include an L or R for chiral components to help with identification. Some miscellanious and very basic parts lack numbers due to size or geometry constraints.
 
+Example: `01 - XY - Pulleys - L Bottom.stl`
+
 You can find all of the printable files in the [STL](STL/) folder along with a list of [part codes](Docs/Part%20Codes.md).
+
+## Component labelling
+
+What one board labels as "THB" another may label as "TB". Likewise, endstop/limit switch connector abbreviations (and pin order!) are not standard, inasmuch as anything in 3D printing is standardized. To that end, a single nomenclature is adopted for part labels. Each connector has a two- or three-letter code for labeling panels and wiring. Your actual wiring may use a different system, but printed parts with labels follow this pattern. It is recommended for continuity with printed parts and documentation to use the same. The full part list may be found in the [`Docs`](Docs/) folder.
 
 ## Tools
 

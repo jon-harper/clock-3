@@ -1,5 +1,27 @@
 # Changelog
 
+## 2021-12-17
+- Fixed issue with patch panels.
+- Terminated wires, probably terribly, but at least have the lengths and wrap done. Will re-crimp properly later (before using the wires).
+- Finished up the `T Slot Wire Anchor` design.
+- Tested panel mount--will need to be moved backwards.
+- Added a wire guide for the right `XY Joint` to keep the harness elevated.
+- Redesigned wire panel mounts to sit further back, leaving more room for exiting wire.
+- Added a folder for test GCODE and a basic movement test file, though it needs...testing.
+- Modified Z limit switches to lower them 6mm.
+- Discovered issue with BLTouch mount after attaching cable ties. Will probably try and move mount position forward a few mm.
+
+## 2021-12-16
+
+- Finished labeling wiring panels.
+- Documented part names for consistency and added info to the Readme.
+- All parts with wires now have 2-3 letter codes for commonality of labels on connectors and panels.
+- Designed panels for left and right side to connect wiring.
+- Created `Electronics Master` file for undercarriage area.
+- Working on wire anchors/guide channels
+- Will start testing lighting channels at some point soon.
+- Crimped way, way more wires today. Probably done crimping until the JST-PH connectors arrive.
+
 ## 2021-12-15
 
 - Tested XY motion
