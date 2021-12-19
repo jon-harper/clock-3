@@ -1,5 +1,19 @@
 # Changelog
 
+## 2021-12-18
+
+- Fixed emboss on right patch panel
+- Revision 2 of XY Joint wire guide. Dealing with some elephant's foot.
+- Added a file for extending spare T slot underneath for mounting equipment. The file is parametric for the end-user's modification.
+- Designed clamps for board mounting
+- Added screw holes to board tray to secure it in place.
+- Modified blank tray template and exported STEP file to `/CAD` folder.
+- Rebuilt Octopus tray from template file.
+- Threw out the last four entries about clamps and boards and went with a simpler design with fewer parts and easier mounting.
+- Boards mount at an angle for easier access from the front.
+- Made parts for both Octopus and SKR 2 (1.4 if you can find it anymore)
+- Started plotting out Octopus fan header usage (cleaner and simpler for now than using SKR 2 + bucks)
+
 ## 2021-12-17
 - Fixed issue with patch panels.
 - Terminated wires, probably terribly, but at least have the lengths and wrap done. Will re-crimp properly later (before using the wires).
