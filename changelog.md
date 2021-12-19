@@ -1,5 +1,13 @@
 # Changelog
 
+## 2021-12-19
+
+- Recrimped (properly) all but three of the JST SM connections. Generic crimper for the XH and PH connectors arrived, so went ahead and finished the connectors for all three harnesses above the electrical undercarriage.
+- Created an 80mm fan mount for cooling the steppers. Will upload after verifying the second print fits.
+- Mounted the Octopus.
+- Started work on skirt layout, including IEC (power in) and power switch location.
+- Crimped even more wires.
+
 ## 2021-12-18
 
 - Fixed emboss on right patch panel
