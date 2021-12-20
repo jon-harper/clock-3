@@ -1,5 +1,17 @@
 # Changelog
 
+## 2021-12-20
+
+- Finished all crimps but ABL.
+- Started mapping headers and began Wiki with corresponding article.
+- Tested limit switches, fans, thermistors, bed heat, and finally first hotend heat and filament extrusion.
+- Designed mount for programmable LEDs. Design is parametric based on spacing, PCB width, and LED count. Includes a zip tie anchor.
+- LED tests. SP901E is finicky with WS2815, leaving it out for now.
+- Nearly all connectors are now labeled.
+- Resolved display issue.
+- Added a modification of an old PTFE tubing coupler design. This part should go away in later revisions.
+- First print should be tomorrow.
+
 ## 2021-12-19
 
 - Recrimped (properly) all but three of the JST SM connections. Generic crimper for the XH and PH connectors arrived, so went ahead and finished the connectors for all three harnesses above the electrical undercarriage.
