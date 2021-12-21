@@ -1,5 +1,16 @@
 # Changelog
 
+## 2021-12-21
+
+**IT PRINTS.**
+
+- Working on firmware for lighting. May need to open an issue with Marlin or push a fix to get two light strips synced with different controllers. First controller (BTT 12864 display) follows the lighting pattern, the second is static.
+- Testing a patch to `printer_event_leds.h` and `printer_event_leds.cpp`. It requires adding another preprocessor flag, but it seems to work.
+- Printing at 120mm/s and 0.16mm layers okay. Blower needs a higher minimum cutoff.
+- Reintroduced Y axis frame bracing to reduce frame vibration during Y axis moves.
+- Modified light channel to have deeper siding.
+- 
+
 ## 2021-12-20
 
 - Finished all crimps but ABL.

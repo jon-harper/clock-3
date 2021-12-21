@@ -4,7 +4,7 @@ This is an evolution of my second attempt at an enclosed 3D printer. The idea of
 
 ## First, a Note
 
-This project is very much under active development. All renders will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
+This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
 
 Assembly documentation compilation will start in January of 2022 after a full Bill of Materials is available.
 
