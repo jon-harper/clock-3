@@ -58,10 +58,21 @@ Each printer part contains a numerical stamp (excluding the X gantry) to assist 
 | 73     | Electrical | Wiring         | L         | Panel Mount           | ABS      | 1   |                           | 73 - Electrical - Wiring - L Panel Mount.stl        |
 | 74     | Electrical | Wiring         | R         | Panel Faceplate       | ABS      | 1   |                           | 74 - Electrical - Wiring - R Panel Faceplate.stl    |
 | 75     | Electrical | Wiring         | L         | Panel Faceplate       | ABS      | 1   |                           | 75 - Electrical - Wiring - L Panel Faceplate.stl    |
+| 76     | Electrical | Mount          | L         | Octopus Board Mount   | ABS      | 1   |                           | 76 - Electrical - Mount - L Octopus Board Mount.stl |
+| 77     | Electrical | Mount          | R         | Octopus Board Mount   | ABS      | 1   |                           | 77 - Electrical - Mount - R Octopus Board Mount.stl |
+| 78     | Electrical | Mount          | L         | SKR Board Tray        | ABS      | 1   |                           | 78 - Electrical - Mount - L SKR Board Mount.stl     |
+| 79     | Electrical | Mount          | R         | SKR Board Tray        | ABS      | 1   |                           | 79 - Electrical - Mount - R SKR Board Mount.stl     |
+| 80     | Electrical | Fan Mount      | N         | 80mm Fan Mount        | ABS      | 1   |                           | 80 - Electrical - Fan Mount - 80mm Fan Mount.stl    |
+| 81     | Electrical | Fan Grill      | N         | 80mm Fan Grill        | ABS      | 1   |                           | 81 - Electrical - Fan Grill - 80mm Fan Grill.stl    |
+| 82     | Electrical | Lighting       | N         | LED Guide, 12mm       | ABS      | 1   | 144 LEDs/m                | 82 - Electrical - Lighting - LED Guide, 12mm.stl    |
+| 83     | Electrical | Mount          | L         | RPi Board Mount       | ABS      | 1   |                           | 83 - Electrical - Mount - L RPi Board Mount.stl     |
+| 84     | Electrical | Mount          | R         | RPi Board Mount       | ABS      | 1   |                           | 84 - Electrical - Mount - R RPi Board Mount.stl     |
 | 90     | Misc       | Frame          | N         | Bracket Cover         | ABS      | ?   |                           | 90 - Misc - Bracket Cover.stl                       |
 | 91     | Misc       | Motion         | N         | Limit Switch Cap      | ABS      | 5   |                           | 91 - Misc - Limit Switch Cap.stl                    |
 | 92     | Misc       | Frame          | N         | Frame Base Foot       | TPU      | 4   |                           | 92 - Misc - Frame Base Foot (TPU).stl               |
 | 93     | XY         | Motion         | R         | X Limit Switch Mount  | ABS      | 1   |                           | 93 - XY - Motion - X Limit Switch Mount.stl         |
-| 94     | Misc       | Tools          | N         | Gantry Lock           | ABS      | 2   |                           | 94 - Misc - Tools - Gantry Lock.stl                 |
+| 94     | Misc       | Tools          | N         | Gantry Lock           | ABS      | 2   | Still Testing             | 94 - Misc - Tools - Gantry Lock.stl                 |
 | 95     | Misc       | Wiring         | N         | Wire Guide            | TPU      | ?   | Still Testing             | 95 - Misc - Wiring - Wire Guide.stl                 |
-| 96     | Misc       | Wiring         | N         | Wire Anchor           | ABS      | 10  |                           | 96 - Misc - Wiring - Wire Anchor.stl                |               |
+| 96     | Misc       | Wiring         | N         | T Slot Wire Anchor    | ABS      | 10  |                           | 96 - Misc - Wiring - T Slot Wire Anchor.stl         |
+| 97     | Misc       | Wiring         | R         | XY Joint Wire Guide   | ABS      | 1   |                           | 97 - Misc - Wiring - R XY Joint Wire Guide.stl      |
+| 98     | Misc       | Wiring         | N         | PTFE Tube Coupler     | ABS      | 1   |                           | 98 - Misc - Wiring - PTFE Tube Coupler.stl          |

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2021-12-22
+
+- Preparing for vacation, so slowing activity.
+- Significantly cleaned up wiring in undercarriage area.
+- Added Marlin firmware modifications to source tree. Eventually switching to Klipper, but this is functional.
+- Slight modification to the SKR2 board mount to improve clearance beneath.
+- Created a Raspberry Pi board mount.
+
 ## 2021-12-21
 
 **IT PRINTS.**
@@ -9,7 +17,6 @@
 - Printing at 120mm/s and 0.16mm layers okay. Blower needs a higher minimum cutoff.
 - Reintroduced Y axis frame bracing to reduce frame vibration during Y axis moves.
 - Modified light channel to have deeper siding.
-- 
 
 ## 2021-12-20
 
