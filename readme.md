@@ -1,6 +1,6 @@
 # Clock 3
 
-![Cover photo of hotend](/Media/2021-12/20211223_cover.jpg)
+![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg)
 
 This is the evolution of the concept of an enclosed 3D printer with externally mounted steppers. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm.
 
