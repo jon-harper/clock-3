@@ -1,12 +1,18 @@
 # Clock 3
 
-This is an evolution of my second attempt at an enclosed 3D printer. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm. Clock 1 was a thought experiment; Clock 2 I built. Clock 3 is a refinement incorporating lessons from other projects and a lot of experimentation. Clock 3 is a working name for this project and is not final.
+![Cover photo of hotend](/Media/2021-12/20211223_cover.jpg)
+
+This is the evolution of the concept of an enclosed 3D printer with externally mounted steppers. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm.
+
+Clock 1 was a thought experiment to enclose an Ender 5-like Cartesian printer. Clock 2 was a from-scratch CoreXY printer that I largely built before acquiring the ability to safely print ABS.
+
+Clock 3 is a complete redesign incorporating most of the common, off-the-shelf components from Clock 2. It incorporates lessons from repeated assembly/disassembly of Clock 2, successful concepts from other projects, and a lot of experimentation with ABS in an enclosure. Clock 3 is a working name for this project and is not final.
 
 ## First, a Note
 
-This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
+This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders and quite a few photos will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
 
-Assembly documentation compilation will start in January of 2022 after a full Bill of Materials is available.
+Compilation of assembly and maintenance documentation will start in January of 2022 after a full Bill of Materials is available (i.e. the initial prototype is finished).
 
 ## Development Goals
 
@@ -74,10 +80,10 @@ Example: `01 - XY - Pulleys - L Bottom.stl`
 
 You can find all of the printable files in the [STL](STL/) folder along with a list of [part codes](Docs/Part%20Codes.md).
 
-## Component labelling
+## Component Labeling
 
 What one board labels as "THB" another may label as "TB". Likewise, endstop/limit switch connector abbreviations (and pin order!) are not standard, inasmuch as anything in 3D printing is standardized. To that end, a single nomenclature is adopted for part labels. Each connector has a two- or three-letter code for labeling panels and wiring. Your actual wiring may use a different system, but printed parts with labels follow this pattern. It is recommended for continuity with printed parts and documentation to use the same. The full part list may be found in the [`Docs`](Docs/) folder.
 
 ## Tools
 
-There are a number of tools to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. Exported STL files will come with default tolerances and may not fit as precisely.
+There are a number of tools to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. Stock exported STL files will come with default tolerances and may not fit as precisely.
