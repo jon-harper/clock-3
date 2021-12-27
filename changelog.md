@@ -1,5 +1,12 @@
 # Changelog
 
+## 2021-12-27
+
+- Finished rear exhaust and tagging pieces with IDs for the skirt.
+- Publishing 104-111 and reserving 112 and 113 for the display (to be done when back in office).
+- Fixed up the electronics undercarriage file with parts already designed.
+- Added PSU to the model and desgined a power supply mount, as well.
+
 ## 2021-12-26
 
 - Significant work done on skirts:
