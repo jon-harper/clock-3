@@ -1,5 +1,15 @@
 # Changelog
 
+## 2021-12-26
+
+- Significant work done on skirts:
+- Designed frame and section system. Front panels are modular and replaceable but fit together with screws.
+- Finished 92mm fan intake, right switch panel, two identical center grille pieces.
+- Work for screen and front communications ports can be done once back in office.
+- Rear panel has two grilles and two fan cutouts, plus an IEC panel mount spot.
+- Not entirely satisfied with fan cutouts, will work on them in the morning and push everything tomorrow.
+- Added #s 100-103, the caps to cover the exterior frame edges at the base and top.
+
 ## 2021-12-23
 
 - I needed to bring a buck converter with me, so added #85 for a 5A DROK.
