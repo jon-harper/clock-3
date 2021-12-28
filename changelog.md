@@ -1,5 +1,20 @@
 # Changelog
 
+## 2021-12-28
+
+- Fairly significant number of changes today.
+- Added a number of missing brackets in the model. I *believe* they are all present now, but will check WBIO (when back in office).
+- Fixed a few naming issues in the part codes list. Working on consistency and logical grouping. Re-numbering will come WBIO.
+- Iterating through the models and making sure all fasteners are present.
+- Added a TPU vibration damper between the AB stepper mounts and the frame. I will test TPU washers WBIO.
+- Fixed minor issues with tensioner assembly/disassembly.
+- Inset M3s on the tensioner top and added chamfers for screw head insertion/removal.
+- Removed #97 after integrating wire guide into the right top `XY Joint` piece (#8).
+- Entire XY axis assembly has fasteners but the hotend and X gantry.
+- Z axis now has all fasteners; fixed Z2 stepper mislocation.
+- Deleted #95 `Wire Guide` part ID entry, as the anchors are doing just fine.
+- Trying to modify the side panels for the new crossbars but running into Fusion issues.
+
 ## 2021-12-27
 
 - Finished rear exhaust and tagging pieces with IDs for the skirt.
@@ -19,7 +34,7 @@
 
 ## 2021-12-23
 
-- I needed to bring a buck converter with me, so added #85 for a 5A DROK.
+- I needed to bring a buck converter with me, so added #85 for a 5A DROK mount.
 
 ## 2021-12-22
 
