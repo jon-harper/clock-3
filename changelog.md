@@ -1,5 +1,22 @@
 # Changelog
 
+## 2021-12-30
+
+- Added some bracing to the electrical panel mounts to reduce flex and moved them further back.
+- Introduced the wiring panels to the master model.
+- Added lighting into the model for 3 x 12 pixel strips at 60px/m (16.6mm spacing).
+- Made a few fixes to the lighting strip so the zip tie does not cross over an LED.
+- Plenty of new renders.
+
+## 2021-12-29
+
+- Fixed ABL mount issues with belt attachment screws.
+- Also simplified mounting the hotend fan. Two screws mount into the fan shroud and two pass through to mount both. The fan shroud and fan then can come off with two screws instead of four.
+- Added motion joints.
+- Reviewed assemblies and added any missing fasteners.
+- Updated wiring anchors on the x gantry. BMG mount now has a groove and zip tie channels for wiring on the right side.
+- `Electrical T Slot Extension` now has a slot for inserting new roll-in tee nuts (or taking them out) without having to dismount the extrusion.
+
 ## 2021-12-28
 
 - Fairly significant number of changes today.
