@@ -66,6 +66,14 @@ Compilation of assembly and maintenance documentation will start in January of 2
 - Spring steel magnetic bed
 - Multiple ABL options, initially BLTouch
 
+## Status
+
+You can find the changelog in its entirety in the [changelog.md](changelog.md) file. This project is still under development, with a prototype in the final stages of completion (as of end of 2021).
+
+## Media
+
+Head to the [Media](/Media) folder for renders and photos of the prototype.
+
 # Organization
 
 ## Naming Scheme
@@ -84,6 +92,6 @@ You can find all of the printable files in the [STL](STL/) folder along with a l
 
 What one board labels as "THB" another may label as "TB". Likewise, endstop/limit switch connector abbreviations (and pin order!) are not standard, inasmuch as anything in 3D printing is standardized. To that end, a single nomenclature is adopted for part labels. Each connector has a two- or three-letter code for labeling panels and wiring. Your actual wiring may use a different system, but printed parts with labels follow this pattern. It is recommended for continuity with printed parts and documentation to use the same. The full part list may be found in the [`Docs`](Docs/) folder.
 
-## Tools
+## Misc.
 
-There are a number of tools to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. Stock exported STL files will come with default tolerances and may not fit as precisely.
+There are a number of tools (under development) to help determine parametric details, such as your ideal M5 screw hole size or the proper hole size for your brand of brass inserts. These can be found in the `Tools` folder and are meant to be printed. The results can be fed back in to the Fusion model and then exported for printing. Stock exported STL files will come with default tolerances and may not fit as precisely.
