@@ -70,6 +70,21 @@ Compilation of assembly and maintenance documentation will start in January of 2
 
 You can find the changelog in its entirety in the [changelog.md](changelog.md) file. This project is still under development, with a prototype in the final stages of completion (as of end of 2021).
 
+### TODO
+
+**Major**
+
+- Disassembly and reassembly for documentation
+- Full Bill of Materials
+- Look for COTS filtration supplier
+
+**Design**
+
+- Gantry lock bar
+- Floor paneling
+- Ceiling paneling
+- Air filtration
+
 ## Media
 
 Head to the [Media](/Media) folder for renders and photos of the prototype.
@@ -88,7 +103,7 @@ Example: `01 - XY - Pulleys - L Bottom.stl`
 
 You can find all of the printable files in the [STL](STL/) folder along with a list of [part codes](Docs/Part%20Codes.md).
 
-## Component Labeling
+### Component Labeling
 
 What one board labels as "THB" another may label as "TB". Likewise, endstop/limit switch connector abbreviations (and pin order!) are not standard, inasmuch as anything in 3D printing is standardized. To that end, a single nomenclature is adopted for part labels. Each connector has a two- or three-letter code for labeling panels and wiring. Your actual wiring may use a different system, but printed parts with labels follow this pattern. It is recommended for continuity with printed parts and documentation to use the same. The full part list may be found in the [`Docs`](Docs/) folder.
 
