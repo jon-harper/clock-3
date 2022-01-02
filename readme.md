@@ -35,10 +35,10 @@ Compilation of assembly and maintenance documentation will start in January of 2
 - Minimize the number of fastener types and sizes and keep components easily-sourced
   - Fasteners are all M3 or M5.
   - M5 fasteners are all button head cap screws (BHCS) and all M3 are socket head cap screws (SHCS).
-  - Early designs used all SHCS, even for M5, but this is being eliminated for button head.
-- Require a minimum of custom-fabricated components with minimal cutting.
+  - Early designs used all SHCS, even for M5, but this was eliminated for the lower profile of button head.
+- Require a minimum of custom-fabricated components with emphasis on reducing the number of cuts.
   - ABS panels are uniform in thickness and have as few cutouts are possible.
-  - Floor panels use cutouts for printed panels instead of direct panel mounts.
+  - Floor panels use cutouts for printed panels instead of individual panel mount cutouts.
   - Frame relies on perpendicular braces instead of tapped ends and either blind joints or counterbored and tapped holes.
 - Air filtration and temperature control
   - Active chamber temperature control (*to come*)

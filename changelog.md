@@ -1,5 +1,18 @@
 # Changelog
 
+## 2022-01-02
+
+- Tweaked frame caps so the screw holes are more printable
+- Re-exported X gantry's front plate.
+
+## 2022-01-01
+
+- Back in office. 31 parts to print until I'm caught up.
+- Strengthened PSU bracket
+- Switched to M4 screws for PSU bracket (oops)
+- Modified fan exhaust and intakes to print properly. Fan mount had impossible overhangs; this is fixed.
+- Tweaked tolerance for IEC plug
+
 ## 2021-12-30
 
 - Added some bracing to the electrical panel mounts to reduce flex and moved them further back.
