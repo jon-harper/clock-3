@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-01-03
+
+- Added tab with a screw hole for the skirt grille. It's a little flimsy in the center currently.
+- Modified power switch port to accept 15mm hex nut cutout. Should stabilize the power switch.
+- Skirt ends: moved M5 hole down to give easier access with plugs and switches and such installed.
+
 ## 2022-01-02
 
 - Tweaked frame caps so the screw holes are more printable
