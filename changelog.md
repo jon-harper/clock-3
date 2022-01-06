@@ -1,5 +1,31 @@
 # Changelog
 
+## 2022-01-06
+
+- More wire anchors, more wire routing.
+- Finishing front panel component printing.
+- Added through hole for a screw to the display slot so that the front panel will have two vertical fasteners.
+- Added a cutout for full size SD card slot with the rest of the panel mounts in front. Waiting on extension PCB to arrive in the mail, so no corresponding mount yet.
+- Moved USB, HDMI, and Ethernet panel mounts to left panel to avoid crowding the display area.
+- Modified left interior panel mount for chamber thermistor and chamber fan ports.
+
+
+## 2022-01-05
+
+- Working on wiring in general:
+- Raspberry Pi now has a dedicated power/IO cable that I've hot-glued in place. I can't figure another way to properly secure Dupont connectors, as they don't latch. Hot glue it is.
+- Created a harness to properly wire the SP901E and mounted it.
+- Checked light wiring connections and recrimped a few.
+- Added wire anchors in numerous locations.
+
+## 2022-01-04
+
+- Added JST SM connectors for the alpha and beta steppers. They now plug in to the back skirt end panels instead of being wired to the board directly. This modified #106 and #107.
+- Designed skirt slot for display and USB, HDMI, and Ethernet ports.
+- Started initial Raspberry Pi and Klipper setup.
+- Reorganized fan headers, added Supply Voltage column to `Connectors.xlsx`.
+- Finished the back skirt assembly, including today's modifications.
+
 ## 2022-01-03
 
 - Added tab with a screw hole for the skirt grille. It's a little flimsy in the center currently.
