@@ -8,7 +8,9 @@
 - Added a cutout for full size SD card slot with the rest of the panel mounts in front. Waiting on extension PCB to arrive in the mail, so no corresponding mount yet.
 - Moved USB, HDMI, and Ethernet panel mounts to left panel to avoid crowding the display area.
 - Modified left interior panel mount for chamber thermistor and chamber fan ports.
-
+- Shortened and recrimped much of the undercarriage.
+- Feeling more comfortable with the general state and layout of the undercarriage wiring.
+- Shortened tops of wiring panel mounts to leave space for flooring panel to inset.
 
 ## 2022-01-05
 
