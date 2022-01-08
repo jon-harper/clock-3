@@ -1,5 +1,14 @@
 # Changelog
 
+## 2022-01-07
+
+- Printing was delayed by layer shifting on the 92mm fan mount. 
+- Did a relayout on the left panel mount. The Fusion timeline is more manageable and the layout of the connectors more logical.
+- Front panel mounts all fit save for Ethernet and SD Card--expect those to arrive today.
+- Added zip tie anchors to the forward-facing side of the panel mount.
+- RJ-45 cutout is off by a bit, but it fit after some effort. Going on the TODO list.
+
+
 ## 2022-01-06
 
 - More wire anchors, more wire routing.
