@@ -1,5 +1,13 @@
 # Changelog
 
+## 2022-01-08
+
+- Added #110 (a different #110), which is a panel mount for an SD card extension PCB. Crack the extension case, slip the cable through the back and the PCB into the slot. Mounts with 2 brass inserts.
+- Finished prototype wiring, labeling, and front panel. Now working on Klipper.
+- Need to flip RPi mount to lay flat for cooling.
+- Started adding issues to Github.
+- Working on initial Klipper config.
+
 ## 2022-01-07
 
 - Printing was delayed by layer shifting on the 92mm fan mount. 
@@ -7,7 +15,6 @@
 - Front panel mounts all fit save for Ethernet and SD Card--expect those to arrive today.
 - Added zip tie anchors to the forward-facing side of the panel mount.
 - RJ-45 cutout is off by a bit, but it fit after some effort. Going on the TODO list.
-
 
 ## 2022-01-06
 
