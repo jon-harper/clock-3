@@ -1,5 +1,9 @@
 # Changelog
 
+## 2022-01-09
+
+- Created a Klipper config repository.
+
 ## 2022-01-08
 
 - Added #110 (a different #110), which is a panel mount for an SD card extension PCB. Crack the extension case, slip the cable through the back and the PCB into the slot. Mounts with 2 brass inserts.
