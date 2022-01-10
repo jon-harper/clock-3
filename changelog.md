@@ -1,8 +1,18 @@
 # Changelog
 
+## 2022-01-10
+
+- Hotend now locks in place with two screws into the mount itself, rather than passing through to the front plate. This allows preassembly of the hotend and fewer screws to remove the mount plate for belt access (4->2).
+- Between the above and changing the fan screws, the hotend cage, fan and all, can be removed with 4 total screws instead of 8.
+- Fixed an issue with the front mount plate's vent not passing all the way through.
+- Steadily adding 0.4mm chamfers to narrow holes (mostly screw holes) that touch the build surface in case of elephant's foot. Completed hotend and stepper mount modification so far.
+- Also moving ID # off the build surface if an alternate location is available, e.g. under the stepper on the BMG mount. This keeps the # from fusing closed.
+- Added Octopus pinout diagram to docs.
+
 ## 2022-01-09
 
 - Created a Klipper config repository.
+- Working on an Raspberry Pi camera mount.
 
 ## 2022-01-08
 
