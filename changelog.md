@@ -8,6 +8,8 @@
 - Steadily adding 0.4mm chamfers to narrow holes (mostly screw holes) that touch the build surface in case of elephant's foot. Completed hotend and stepper mount modification so far.
 - Also moving ID # off the build surface if an alternate location is available, e.g. under the stepper on the BMG mount. This keeps the # from fusing closed.
 - Added Octopus pinout diagram to docs.
+- Working to improve belt clamps with a 'U' shape.
+- Display works on prototype now. Note: Klipper docs use a reversed orientation for their board aliases from Marlin, so I skipped using aliases and directly inserted pins.
 
 ## 2022-01-09
 
