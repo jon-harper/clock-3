@@ -1,5 +1,19 @@
 # Changelog
 
+## 2022-01-11
+
+- Fixed mounting hole size for part cooling fan.
+- Created a skeleton FAQ.
+- Added a note in the `/Firmware/Klipper` folder where to find the `.cfg` files for Klipper.
+- Testing virgin coconut shell activated carbon for oxidation. Hopefully this is a good supplier.
+- Raised A/B steppers a few mm. Now use M5x45mm screws.
+- Lots of issues resolved on the X Gantry and hotend.
+- Changed mointing direction for part cooling fan. Heated insert no longer enters at an angle, which should help alignment issues.
+- BLTouch mount works.
+- Pretty much every component touched to update `Parameters` file. No changes due to new parameters yet.
+- Went through a number of iterations on the camera mount. Have settled on a location near the front left on top of the tensioner.
+- Steadily adding issues to the issue tracker. Working on setting some initial milestones.
+
 ## 2022-01-10
 
 - Hotend now locks in place with two screws into the mount itself, rather than passing through to the front plate. This allows preassembly of the hotend and fewer screws to remove the mount plate for belt access (4->2).
@@ -8,7 +22,7 @@
 - Steadily adding 0.4mm chamfers to narrow holes (mostly screw holes) that touch the build surface in case of elephant's foot. Completed hotend and stepper mount modification so far.
 - Also moving ID # off the build surface if an alternate location is available, e.g. under the stepper on the BMG mount. This keeps the # from fusing closed.
 - Added Octopus pinout diagram to docs.
-- Working to improve belt clamps with a 'U' shape.
+- Belt clamps now have a 'U' shape with much more grip.
 - Display works on prototype now. Note: Klipper docs use a reversed orientation for their board aliases from Marlin, so I skipped using aliases and directly inserted pins.
 
 ## 2022-01-09
