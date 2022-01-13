@@ -18,12 +18,12 @@ Compilation of assembly and maintenance documentation will start in January of 2
 
 - Maximize the number of off-the-shelf components
   - 400mm linear rails and 500mm lead screws were chosen for ready availability.
-  - JST-SM and JST-XH connectors are used for wide availability and compatibility
+  - JST-SM connectors are used for nearly all connections.
   - Limit switches are the Makerbot/Creality design rather than custom.
 - Design parametrically to allow for flexible build parameters
-  - The core Fusion 360 file can be adjusted for different material shrink tolerances.
+  - The core Fusion 360 file can be adjusted for different tolerances.
   - Build volume can be scaled up (cabability is maintained, but this is not actively developed yet).
-  - Different typed and depths of heated inserts can be used, though using the really cheap ones instead of knurled is not recommended.
+  - Different typed and depths of heated inserts *can* be used, though using the really cheap ones instead of knurled is not recommended.
 - Design for ease of assembly and simple cable management
   - Parts have printed ID numbers to keep tracking simple.
   - Left- and right-handed parts are notated with a printed 'L' or 'R', as well.
@@ -32,16 +32,17 @@ Compilation of assembly and maintenance documentation will start in January of 2
   - Disassembly of most components does not require other components to be disassembled first.
   - A gantry lock design is included to keep the gantry in place and square when working on belts.
   - Side and rear panels unscrew and take the insulation and inner panel with them.
+  - Components and cabling are almost entirely separated, i.e. electrical components can be unplugged from a harness.
 - Minimize the number of fastener types and sizes and keep components easily-sourced
   - Fasteners are all M3 or M5.
   - M5 fasteners are all button head cap screws (BHCS) and all M3 are socket head cap screws (SHCS).
   - Early designs used all SHCS, even for M5, but this was eliminated for the lower profile of button head.
 - Require a minimum of custom-fabricated components with emphasis on reducing the number of cuts.
-  - ABS panels are uniform in thickness and have as few cutouts are possible.
-  - Floor panels use cutouts for printed panels instead of individual panel mount cutouts.
+  - ABS panels are have as few cutouts are possible.
+  - Floor panels use holes to pass through wiring to printed panels underneath instead of individual cutouts.
   - Frame relies on perpendicular braces instead of tapped ends and either blind joints or counterbored and tapped holes.
 - Air filtration and temperature control
-  - Active chamber temperature control (*to come*)
+  - Active chamber temperature control (*in progress*)
   - Dual filters and fans for recirculated and vented air (*in progress*)
 - Documentation
   - Full [changelog](changelog.md)
@@ -62,7 +63,7 @@ Compilation of assembly and maintenance documentation will start in January of 2
   - Continuous interior filtration
   - Filtered ventilation
 - External steppers and electronics (exluding direct drive extruder)
-- 12V RGB LED lighting (WS2815 preferred, any SPI addressible strip will work)
+- 12V RGB LED lighting (WS2815 preferred, any 3- or 4-wire addressible strip will work)
 - Spring steel magnetic bed
 - Multiple ABL options, initially BLTouch
 
@@ -76,7 +77,7 @@ You can find the changelog in its entirety in the [changelog.md](changelog.md) f
 
 - Disassembly and reassembly for documentation
 - Full Bill of Materials
-- Look for COTS filtration supplier
+- Discuss paneling with plastics fabricator.
 
 **Design**
 

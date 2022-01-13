@@ -1,5 +1,17 @@
 # Changelog
 
+## 2022-01-13
+
+- Had some initial success using a French press filter to hold the activated carbon.
+- Testing a lid with another French press filter to act as a sealed container for activated carbon.
+- AC will either need to be pre-sieved or thoroughly shaken in the container to sieve the finer particles out.
+- Last export of bed corner bracket didn't have part code. This is fixed.
+- Modest edits to the readme.
+
+## 2022-01-12
+
+- Working on some concepts for filtration.
+
 ## 2022-01-11
 
 - Fixed mounting hole size for part cooling fan.
