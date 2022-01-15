@@ -1,5 +1,18 @@
 # Changelog
 
+## 2022-01-15
+
+- Activated carbon appears to be a good supplier. No sign of rust on any of the test items.
+- Updated the FAQ a bit.
+
+## 2022-01-14
+
+- Waiting on HEPA filters so working on polishing XY components for milestone print.
+- Added surface chamfers to XY Pulleys, XY Joint components.
+- Fixed #1 and #2 ID text to specify that they are Left side components.
+- Redid #8, R Top XY Joint. Center rib now stretches to the wire anchor, the anchor is slightly deeper, and there is now a lip around the rear edge.
+- Found a screw hole that somehow got lost on #10.
+
 ## 2022-01-13
 
 - Had some initial success using a French press filter to hold the activated carbon.
