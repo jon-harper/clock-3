@@ -1,5 +1,19 @@
 # Changelog
 
+## 2022-01-17
+
+- Filtration: Finished the latch, hinge, and carbon tank gasket.
+- Filtration: Added in all fasteners.
+- Started printing FPD of components.
+- Added renders.
+
+## 2022-01-16
+
+- Took a break yesterday; came up with some good ideas.
+- ~~Working on a relatively straightforward, 3-fan filtration setup, but need to dissect a fan first to get the diameter of the inner bearings.~~
+- Destroyed a fan; starting over.
+- Almost done with a different setup using just two 5015 or 7530 fans.
+
 ## 2022-01-15
 
 - Activated carbon appears to be a good supplier. No sign of rust on any of the test items.
