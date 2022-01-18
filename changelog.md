@@ -1,11 +1,19 @@
 # Changelog
 
+## 2022-01-18
+
+- Created a hole diameter test for heat pressing with variable tapers.
+
+
 ## 2022-01-17
 
 - Filtration: Finished the latch, hinge, and carbon tank gasket.
-- Filtration: Added in all fasteners.
+- Added in all fasteners to the filtration model.
 - Started printing FPD of components.
-- Added renders.
+- Added renders to GitHub.
+- Hinges work, latches align.
+- Remodeled backside of activated carbon duct to reduce weight by 50 grams, down from over 200 (2mm perimeters, 20% infill).
+- Generic ABS not happy with such a large solid volume (delaminating). Printing in PETG for now, will switch to modified ABS later.
 
 ## 2022-01-16
 
