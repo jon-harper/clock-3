@@ -3,7 +3,10 @@
 ## 2022-01-18
 
 - Created a hole diameter test for heat pressing with variable tapers.
-
+- Big change in standard heated inserts after testing. All inserts (both vertically and horizontally) will default to 4.5mm with a -4 degree taper.
+- Re-exported all affected STL files.
+- Created `heated_insert_test_block.md` in the `/Docs` folder to explain heated insert testing.
+- Air filter prototype is finished; waiting on new fans to test.
 
 ## 2022-01-17
 
