@@ -42,8 +42,8 @@ Compilation of assembly and maintenance documentation will start in January of 2
   - Floor panels use holes to pass through wiring to printed panels underneath instead of individual cutouts.
   - Frame relies on perpendicular braces instead of tapped ends and either blind joints or counterbored and tapped holes.
 - Air filtration and temperature control
-  - Active chamber temperature control (*in progress*)
-  - Dual filters and fans for recirculated and vented air (*in progress*)
+  - Active chamber temperature control (*in testing*)
+  - Dual filters and fans for recirculated and vented air (*in testing*)
 - Documentation
   - Full [changelog](changelog.md)
   - Component-by-component, step-by-step assembly instructions (*in progress*)

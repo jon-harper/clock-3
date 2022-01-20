@@ -1,5 +1,20 @@
 # Changelog
 
+## 2022-01-20
+
+- Will need TPU shims to leave room for tubing connectors.
+- Fixed fan holes to fit regardless of orientation.
+- Added foot to 75mm fan intake.
+- Added small front foot to use with 75mm fan intake
+- Modeled 75mm radial fan
+
+## 2022-01-19
+
+- Dual 50mm seem like they would work for a small chamber, particularly with one 50mm running continuously as exhaust.
+- Modeled and started a FPD for dual 75mm blowers.
+- Looking into flexible hosing, ordered 1/4" ID, 1/2" OD silicone tubing and push connectors.
+- Dual 75mm is front-heavy.
+
 ## 2022-01-18
 
 - Created a hole diameter test for heat pressing with variable tapers.
