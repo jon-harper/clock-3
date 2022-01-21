@@ -1,5 +1,20 @@
 # Changelog
 
+## 2022-01-21
+
+Clock 3
+- Renaming a lot of the components to group them by function.
+- Added a new #95: a panel mount piece. A 50 pack of M5 heated inserts is $14 and will cover any panel subdivisions I need to make, as well as possibly being useful elsewhere.
+
+Filtration:
+- Made shims/TPU gaskets for both 75mm and 50mm fans. They push the fans out 1.6mm to make room for a hose adapter (and dampen noise).
+- Both the 50mm and 75mm fan intakes work, though the right 50mm profile is incorrect.
+- Working on 75mm fan exhaust to tighten fit. Modeling is difficult as there is some variation between brands in wall thicknesses, etc.
+- Ordered 1" ID hose instead of 1/4". The 75mm fan is having difficulty providing pressure, so I'm going to try avoiding necking down. The 1/4" hosing may still be useful for 50mm fans.
+- 1/4" hose is ideal for 50mm fan.
+- 50mm fan intake is now front heavy with hose on, added hole for an insert and foot.
+- Started work on a fully vertical filter tower.
+
 ## 2022-01-20
 
 - Will need TPU shims to leave room for tubing connectors.
