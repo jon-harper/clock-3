@@ -33,6 +33,7 @@ Compilation of assembly and maintenance documentation will start in January of 2
   - A gantry lock design is included to keep the gantry in place and square when working on belts.
   - Side and rear panels unscrew and take the insulation and inner panel with them.
   - Components and cabling are almost entirely separated, i.e. electrical components can be unplugged from a harness.
+  - Easy, direct access to electronic through two individually removeable floor panels.
 - Minimize the number of fastener types and sizes and keep components easily-sourced
   - Fasteners are all M3 or M5.
   - M5 fasteners are all button head cap screws (BHCS) and all M3 are socket head cap screws (SHCS).
@@ -52,39 +53,30 @@ Compilation of assembly and maintenance documentation will start in January of 2
 ## Key Specifications
 
 - 300x300x350mm build volume
-- Dual independant Z with auto-leveling
+- Dual independant Z axes with auto-leveling
 - CoreXY kinematics
-- V6, 300C hotend
-- Direct drive or Bowden feed BMG
+- V6, 300C hotend with the ability to support others
+- Direct drive or Bowden feed (currently using only BMG)
 - Fully enclosed
   - Simple side and rear panel removal
   - Large, clear front door with inset frame
 - HEPA and activated carbon filtration
-  - Continuous interior filtration
+  - Continuous interior filtration through AC and HEPA
   - Filtered ventilation
+- Temperature controlled chamber
+  - Filtration exhaust speed is temperature-controlled
+  - Exhaust fan can be set to run at low speed continuously for negative internal pressure
 - External steppers and electronics (exluding direct drive extruder)
 - 12V RGB LED lighting (WS2815 preferred, any 3- or 4-wire addressible strip will work)
 - Spring steel magnetic bed
-- Multiple ABL options, initially BLTouch
+- Generic ABL mount point, initially with BLTouch support
+- Panel mounted connectors for Raspberry Pi (USB, Ethernet, HDMI) and SD card
 
 ## Status
 
-You can find the changelog in its entirety in the [changelog.md](changelog.md) file. This project is still under development, with a prototype in the final stages of completion (as of end of 2021).
+This project is still under development, with a prototype in the final stages of completion (as of early 2022).
 
-### TODO
-
-**Major**
-
-- Disassembly and reassembly for documentation
-- Full Bill of Materials
-- Discuss paneling with plastics fabricator.
-
-**Design**
-
-- Gantry lock bar
-- Floor paneling
-- Ceiling paneling
-- Air filtration
+You can find the changelog in its entirety in the [changelog.md](changelog.md) file, while the [Issues](/issues) page is a good place to see what's in progress.
 
 ## Media
 

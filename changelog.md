@@ -1,12 +1,28 @@
 # Changelog
 
+## 2022-01-22
+
+Filtration
+
+- Added a small hole to the center of the 75mm tank to add more perimeters for sturdiness. The center pillar is pretty weak.
+- AC -> HEPA duct is done for the vertical filtration assembly.
+
+GitHub
+
+- Added a number of issues to GitHub and pinned an issue containing a list of what needs closing before disassembly.
+- Removed Marlin firmware folder. It's not maintained or even finished, nor do I intend to move away from Klipper now.
+- Reworded some of the readme.md and slimmed it down. Moved the TODO entirely to Issues.
+- Moved orientation-specific STLs for filtration to subfolders.
+
 ## 2022-01-21
 
 Clock 3
+
 - Renaming a lot of the components to group them by function.
 - Added a new #95: a panel mount piece. A 50 pack of M5 heated inserts is $14 and will cover any panel subdivisions I need to make, as well as possibly being useful elsewhere.
 
-Filtration:
+Filtration
+
 - Made shims/TPU gaskets for both 75mm and 50mm fans. They push the fans out 1.6mm to make room for a hose adapter (and dampen noise).
 - Both the 50mm and 75mm fan intakes work, though the right 50mm profile is incorrect.
 - Working on 75mm fan exhaust to tighten fit. Modeling is difficult as there is some variation between brands in wall thicknesses, etc.
