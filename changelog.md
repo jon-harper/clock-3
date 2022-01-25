@@ -1,11 +1,26 @@
 # Changelog
 
+## 2022-01-24
+
+- Tested filtration with 75mm fans; much improved.
+- Fit tested model with shroud--may need some minor adjustments to maintain tension around the HEPA filter.
+- Current cold temperatures are making it diffiult to maintain chamber temps, so having more warp than usual and therefore more reprints.
+
+## 2022-01-23
+
+- Tested the filtration; seems to work slowly but efficiently. Likely will rely on 75mm fan solution.
+- Iterated through some changes to the base and fan intake for the vertical stand.
+- Added a shroud to help keep the HEPA cartridge in place
+- Modified the TPU latch to print on its back.
+- Found two Raspberry Pis.
+
 ## 2022-01-22
 
 Filtration
 
 - Added a small hole to the center of the 75mm tank to add more perimeters for sturdiness. The center pillar is pretty weak.
 - AC -> HEPA duct is done for the vertical filtration assembly.
+- Testing dual 50mm fan setup in an enclosure today.
 
 GitHub
 
