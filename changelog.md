@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-01-25 - 2022-01-28
+
+Focused at the moment on finding a plastics fabricator to answer some basic questions about material and panels.
+
+Meanwhile, since I can't enclose the prototype yet, I've setup Klipper on the ABS printer and am getting that ironed out. This way I can test the chamber exhaust in an real-world environment.
+
 ## 2022-01-24
 
 - Tested filtration with 75mm fans; much improved.
