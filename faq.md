@@ -14,7 +14,7 @@ That would be super cool, but not at the moment.
 
 ### Can you build one for me?
 
-No, but a Bill of Materials is coming soon (as of January 2022).
+No, but a Bill of Materials is coming soon (as of February 2022).
 
 ### Will you come work for my company?
 
@@ -27,6 +27,8 @@ Hey, that's a cool idea. Reach out and we'll find out.
 ### Why so many lock washers?
 
 A bag of 500 lock washers costs not much more than 100. A builder will need more than 100 lock washers no matter what I do, so I standardized on M5x12mm + lock washer + nut for most printed parts where it is reasonable to do so. There are a few exceptions to the rule that neither need nor have lock washers, like the outside corner pieces on the frame.
+
+Also, Loctite eats ABS if it's not completely dry. I'm not that patient.
 
 ### Why a V6 hotend instead of [x]?
 

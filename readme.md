@@ -12,7 +12,7 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders and quite a few photos will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
 
-Compilation of assembly and maintenance documentation will start in January of 2022 after a full Bill of Materials is available (i.e. the initial prototype is finished).
+Compilation of assembly and maintenance documentation will start in February of 2022 after a full Bill of Materials is available (i.e. panels are available for the prototype).
 
 ## Development Goals
 
