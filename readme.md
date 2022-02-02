@@ -22,7 +22,7 @@ Compilation of assembly and maintenance documentation will start in February of 
   - Limit switches are the Makerbot/Creality design rather than custom.
 - Design parametrically to allow for flexible build parameters
   - The core Fusion 360 file can be adjusted for different tolerances.
-  - Build volume can be scaled up (cabability is maintained, but this is not actively developed yet).
+  - Build volume can be scaled up (capability is maintained, but this is not actively developed yet).
   - Different typed and depths of heated inserts *can* be used, though using the really cheap ones instead of knurled is not recommended.
 - Design for ease of assembly and simple cable management
   - Parts have printed ID numbers to keep tracking simple.

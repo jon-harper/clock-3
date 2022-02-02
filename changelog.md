@@ -1,12 +1,20 @@
 # Changelog
 
-## 2022-01-25 - 2022-01-28
+## 2022-02-02
+
+- Modified exhaust adapter for ~20mm OD hose.
+- Continuing to work on enclosure/Klipper/filtration integration
+- Widened HEPA filter latch for vertical filter.
+- Added a render of the finished filter assembly.
+- Added pinout diagram for the SKR 2.
+
+## 2022-01-25 - 2022-02-01
 
 Focused at the moment on finding a plastics fabricator to answer some basic questions about material and panels.
 
 Meanwhile, since I can't enclose the prototype yet, I've setup Klipper on the ABS printer and am getting that ironed out. This way I can test the chamber exhaust in an real-world environment.
 
-## 2022-01-24
+## 2022-01-24*
 
 - Tested filtration with 75mm fans; much improved.
 - Fit tested model with shroud--may need some minor adjustments to maintain tension around the HEPA filter.
