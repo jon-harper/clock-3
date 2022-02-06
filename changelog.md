@@ -1,5 +1,20 @@
 # Changelog
 
+## 2022-02-05
+
+- Closed #11 regarding air filtration, as a working vertical prototype is completed.
+- Will proceed with 0.2" plywood for panels due to cost.
+- FPD of a new gantry lock bar.
+
+## 2022-02-04
+
+- Enclosure maintains 3C above target at 45C.
+- A 2/3 full 75mm tank is currently doing the job. Printed off two 50mm tanks.
+
+## 2022-02-03
+
+- Working on testing Klipper, lights, and the exhaust in an enclosure.
+
 ## 2022-02-02
 
 - Modified exhaust adapter for ~20mm OD hose.
