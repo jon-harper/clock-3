@@ -1,10 +1,26 @@
 # Changelog
 
+## 2022-02-07
+
+- Visual display of chamber temperatures is critical, so I'm quickly adjusting the default display for Klipper.
+- I also plan to change the menu layout, so I'm laying the groundwork for that, as well.
+- Created a repository for [Clock Face](https://github.com/jon-harper/clock-face), as I'm calling the display screen.
+- Removed the OctoPrint menu and changed "SD Card" to read "Virtual SD"
+- It works and I've sketched up a new menu layout, so stopping on that for now.
+
+## 2022-02-06
+
+- Updating issues.
+- Going with a very simple, conservative, notched-edged panel approach for the floor.
+- Working on auto-generating a BOM
+
 ## 2022-02-05
 
 - Closed #11 regarding air filtration, as a working vertical prototype is completed.
 - Will proceed with 0.2" plywood for panels due to cost.
 - FPD of a new gantry lock bar.
+- All project files now up to date with parametric heated insert holes.
+- Enclosure maintaining at 45C with 48C target
 
 ## 2022-02-04
 

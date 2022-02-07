@@ -8,11 +8,12 @@ Clock 1 was a thought experiment to enclose an Ender 5-like Cartesian printer. C
 
 Clock 3 is a complete redesign incorporating most of the common, off-the-shelf components from Clock 2. It incorporates lessons from repeated assembly/disassembly of Clock 2, successful concepts from other projects, and a lot of experimentation with ABS in an enclosure. Clock 3 is a working name for this project and is not final.
 
-## First, a Note
+## First, Some Notes
 
-This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders and quite a few photos will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
-
-Compilation of assembly and maintenance documentation will start in February of 2022 after a full Bill of Materials is available (i.e. panels are available for the prototype).
+- This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders and quite a few photos will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
+- Compilation of assembly and maintenance documentation will start in February of 2022 after a full Bill of Materials is completed.
+- The firmware to run Klipper with Clock 3 is available [here](../clock3-klipper).
+- An additional project to revise the Klipper display and menu system is [here](../clock-face).
 
 ## Development Goals
 
