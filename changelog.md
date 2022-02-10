@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-02-10
+
+- Continuing fresh reprints. May have discovered an issue with the tensioner.
+- Adding reference links to the BOM.
+- Most parts are now in the BOM--looking to address issues like zip ties and other oddments
+- Considering using placeholder (empty) bodies with part numbers to trigger the script when scraping for BOM.
+
 ## 2022-02-09
 
 - Moving through components to add part numbers and locate model inconsistencies.
