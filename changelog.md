@@ -1,5 +1,22 @@
 # Changelog
 
+## 2022-02-09
+
+- Moving through components to add part numbers and locate model inconsistencies.
+- Resolved some very old model components that didn't get updated against the prototype.
+- `Printer Pard Codes.xlsx` has a significant update with tabs for each BOM category.
+- Fusion model now is largely updated with internal part codes for auto-generating a BOM.
+- Python script for scraping part numbers and instances is initially done.
+- Removed a lot of unused and outdated files from the Fusion project.
+- Removed PN080 and PN081, the freestanding 80mm fan mount and grille, along with some other stale entries.
+- Exported XY Pulleys and XY Joints again for final reprint before disassembly.
+
+## 2022-02-08
+
+- Lots of progress auto-generating a BOM, though I will need to individually tag each part that needs to be included.
+- Each part is tagged with a part number starting in "PN". These match up with the printed IDs, but are extended to any BOM part.
+- This should massively speed up generating the BOM, as there are fewer parts added to the list (the script doesn't add anything without a "PN" part number).
+
 ## 2022-02-07
 
 - Visual display of chamber temperatures is critical, so I'm quickly adjusting the default display for Klipper.
