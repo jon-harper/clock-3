@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-02-12
+
+- Exported parametric tools for heated inserts.
+- Changed a few part categories and added a "Type" column for parts.
+- Modified the 80mm fan grill for better printing.
+- I believe all but some very odds-and-ends parts have numbers, so closing issue #20.
+
 ## 2022-02-11
 
 - Tensioner definitely needs rework.
