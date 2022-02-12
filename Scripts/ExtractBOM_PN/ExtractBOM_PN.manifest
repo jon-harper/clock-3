@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Jonathan Harper",
+	"description":	{
+		"":	"Extracts all part numbers beginning with \"PN\"."
+	},
+	"supportedOS":	"windows",
+	"editEnabled":	true
+}

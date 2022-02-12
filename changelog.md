@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-02-11
+
+- Tensioner definitely needs rework.
+- Removed PN100-PN103, the frame caps. With wood paneling, they are unnecessary.
+- Pushing the `ExtractBOM_PN` Fusion script.
+- Re-exporting files and continuing reprints before disassembly.
+- Added a lot of entries that are not modeled, like heat shrink and zip ties.
+- Most entries in the parts list now have links to reference suppliers
+- New 80mm fan mounts for front and rear panels, with PNs 102 and 103
+
 ## 2022-02-10
 
 - Continuing fresh reprints. May have discovered an issue with the tensioner.
