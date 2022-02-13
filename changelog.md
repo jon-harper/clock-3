@@ -6,6 +6,10 @@
 - Renamed `Printer Part Codes.xlsx` to `Part Codes.xlsx` and shifted it to the `/BOM` folder.
 - Replaced stock nuts with anti-backlash in the model, fixed some missing screws in the `Z Master`
 - Adjusted RPi panel mount connector profiles. The skirt is now fully modeled and should be correct in the BOM. Also tested and working.
+- Made exhaust adapter fully parametric and exported to `/CAD/Templates` folder.
+- Ditto LED Guide Channel.
+- Exhaust adapter now has a larger fan exhaust duct coverage area to help keep it in place.
+- Mass renamed filtration parts with appropriate names and updated `Part Codes`.
 
 ## 2022-02-12
 
