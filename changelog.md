@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-02-13
+
+- Temporarily removed the part codes Markdown file, as it is not current. Too many changes are taking place with the BOM to keep up.
+- Renamed `Printer Part Codes.xlsx` to `Part Codes.xlsx` and shifted it to the `/BOM` folder.
+- Replaced stock nuts with anti-backlash in the model, fixed some missing screws in the `Z Master`
+- Adjusted RPi panel mount connector profiles. The skirt is now fully modeled and should be correct in the BOM. Also tested and working.
+
 ## 2022-02-12
 
 - Exported parametric tools for heated inserts.

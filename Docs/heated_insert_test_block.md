@@ -2,7 +2,7 @@
 
 ## What to Print
 
-You will need to do the test process twice, once printed flat and once vertically. The file needed is `Heated Insert Parameter Testing Tool.stl` file in the `/STL/Tools` subdirectory.
+You will need to do the test process twice, once printed flat and once vertically. The file needed is `M3 Het Set Insert Parameter Block.stl` file in the `/STL/Tools` subdirectory.
 
 ## Hole Sizes
 
