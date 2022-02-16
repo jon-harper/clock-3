@@ -1,5 +1,23 @@
 # Changelog
 
+## 2022-02-15
+
+- Fixed a ton of minor issues with brackets in the model.
+- All brackets are now properly positioned and should be propogated.
+- Removed brackets from the bed frame; will rely solely on printed parts.
+- Bracket assemblies still used SHCS instead of button head; fixed and propagated.
+- Filtration is in the model.
+- Finished renaming printed part numbers.
+- SP901E has a placeholder body with fasteners in the model, temporarily addressing #21.
+
+## 2022-02-14
+
+- Fixed outer frame for part ID purposes.
+- Added invisible SP901E assembly to the model to get it and the appropriate fasteners inventoried.
+- Updated base foot and LED strips for part numbers.
+- Too many minor changes to count.
+- Lots of work on the prototype to reassemble the fixed skirt panels.
+
 ## 2022-02-13
 
 - Temporarily removed the part codes Markdown file, as it is not current. Too many changes are taking place with the BOM to keep up.
@@ -10,6 +28,7 @@
 - Ditto LED Guide Channel.
 - Exhaust adapter now has a larger fan exhaust duct coverage area to help keep it in place.
 - Mass renamed filtration parts with appropriate names and updated `Part Codes`.
+- Finalized Vertical Filter model.
 
 ## 2022-02-12
 
