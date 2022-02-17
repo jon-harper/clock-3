@@ -1,8 +1,13 @@
 # Changelog
 
+## 2022-02-17
+
+- One year since this all really started in earnest.
+- Uploaded parametric t-slot extension for the electrical undercarriage, closing #14
+
 ## 2022-02-16
 
-- Raspberry Pi board mounts (PN083, PN084) are now horizontal to allow better airflow.
+- Raspberry Pi board mounts (PN083, PN084) are now horizontal to allow better airflow, fixing #15
 - Part numbers are now broken out into "General Part List" and "Printed Part List"
 - All part numbers are now three digit.
 - Created wire anchor assembly.
