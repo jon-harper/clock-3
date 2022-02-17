@@ -1,5 +1,14 @@
 # Changelog
 
+## 2022-02-16
+
+- Raspberry Pi board mounts (PN083, PN084) are now horizontal to allow better airflow.
+- Part numbers are now broken out into "General Part List" and "Printed Part List"
+- All part numbers are now three digit.
+- Created wire anchor assembly.
+- Door frame assembly is modeled, minus the hinges.
+- Concerned hinge gap is too small for door frame, or may leave too large a gap on the handle side. May need to design printable hinges to properly align.
+
 ## 2022-02-15
 
 - Fixed a ton of minor issues with brackets in the model.
