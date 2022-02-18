@@ -3,7 +3,10 @@
 ## 2022-02-17
 
 - One year since this all really started in earnest.
-- Uploaded parametric t-slot extension for the electrical undercarriage, closing #14
+- Uploaded parametric t-slot extension for the electrical undercarriage, closing #14.
+- Installed thermistor for the electronics (`TE`).
+- Updated `Connectors.xlsx` to reflect minor changes.
+- PN013, Tensioner Cap: fixed issue with impossible to print features. M5x25 instead of M5x16 screws are needed. They're already needed for the tensioner bolt iself, so no new fasteners are introduced.
 
 ## 2022-02-16
 
