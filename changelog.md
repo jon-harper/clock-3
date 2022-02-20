@@ -1,5 +1,17 @@
 # Changelog
 
+## 2022-02-19
+
+- Focusing on wiring today.
+- `Connectors.xlsx` has a new tab for "Upper Level Wiring". This is wiring from the lower level patch panel up, e.g. to the hotend fans. Every connector has a pin count, recommended wire gauge, and approximate length needed. More will be filled in during disassembly.
+- Added PN100, a PTFE tube guide to keep it from snagging the belts. The tube will now exit out of the back right, passing near the rear belts on the way. This will keep it out of the way and anchor it while the hotend moves.
+- Top panel and hatch are modeled with a piano hinge.
+
+## 2022-02-18
+
+- Added twin cutouts to the side panels. Right side cutout is for PTFE conduit, the left side is for exhaust.
+- Still considering approachs to wiring for the hotend.
+
 ## 2022-02-17
 
 - One year since this all really started in earnest.
