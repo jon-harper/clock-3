@@ -1,5 +1,17 @@
 # Changelog
 
+## 2022-02-21
+
+- PN100 is finished. PTFE tube stays neatly out of the way and has a shorter feed path.
+- Adding new milestones and issues to help sort short- and long-term goals.
+
+## 2022-02-20
+
+- Iterating through PN100 to get a satisfactory design.
+- Nearly all internal connector wires have a prespecified length now. I will leave the undercarriage unspecified as it's short enough it can be left to the end user. Plus no two people are going to want to arrange it the same way.
+- Not a lot of model progress today; focused on wiring.
+- Now using a PTFE tube to stiffen the hotend wiring loom. No filament is in it--it just adds rigidity.
+
 ## 2022-02-19
 
 - Focusing on wiring today.
