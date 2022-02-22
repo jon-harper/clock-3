@@ -1,9 +1,22 @@
 # Changelog
 
+## 2022-02-22
+
+- Adjusted PN083/PN084 clearances around the extrusion.
+- Tweaking master part list entries a bit, adding "Supplies" category that includes items of indeterminate quantity (e.g. lubricant) or that may be on hand as a tool (e.g. screwdrivers) and generally don't go on a BOM but will be needed.
+- Removed old PN082 file.
+- Rebalanced screws on the Z Gantries. There are now three M5 on top, three under.
+- Finished insulation and fasteners for all of the panels but the flooring.
+- Updated the master model and removed old paneling.
+- Added in feet to the `Outer Frame` model.
+
 ## 2022-02-21
 
 - PN100 is finished. PTFE tube stays neatly out of the way and has a shorter feed path.
 - Adding new milestones and issues to help sort short- and long-term goals.
+- Turns out PN083 and PN084's issues are not thickness underneath the insert but severe ringing by the printer. Removed the issue. Will fix belt tension on printer later.
+- Adding insulation and joints to the new panel models in the Outer Frame file.
+- Finishing out the connector list based on the wire harnesses.
 
 ## 2022-02-20
 
