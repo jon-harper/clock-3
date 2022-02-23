@@ -1,5 +1,14 @@
 # Changelog
 
+## 2022-02-23
+
+- Modified AB stepper mounts and TPU shim to sit on top panel.
+- Extended AB stepper mount height, now uses M5 x 60mm BHCS.
+- Added PN089, a stepper alignment slider. It's a TPU plug for where the linear rods from the AB steppers enter the top panel. A ball bearing sits in it and plugs the bottom to keep it airtight, but the top has room for the bearing to slide sideways to get it precisely positioned.
+- Added some lateral clearance for the stepper mounting holes, as well.
+- Removed `AB Stepper Modules` from the `XY Master` and pulled it into the `Master` file because it mounts above the enclosure.
+- BOM tweaks.
+
 ## 2022-02-22
 
 - Adjusted PN083/PN084 clearances around the extrusion.
