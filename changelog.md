@@ -1,5 +1,21 @@
 # Changelog
 
+## 2022-02-25
+
+- Lots of part corrections in the model.
+- Modeled and added the 3mm spring steel build plate.
+- Finished the front door and related components in the model. Added M5x14 FHCS to the BOM.
+- Cleaned up the frame components to be external references instead of internal. Will fix the XY and rest of Z axis tomorrow.
+- PTFE coupler and hose exhaust work well--will need TPU guide between the pneumatic couplers to align the PTFE tubes.
+
+## 2022-02-24
+
+- Assembled and measured door. Approximate clearance with MISUMI hinges is 4-5mm on the handle side.
+- FPD of hose exhaust and PTFE coupler for side panels. Adding PN120 and PN121.
+- Testing stability of door. I've mocked up spacers that are as thick as the paneling, but I believe they are allowing the door to sag.
+- Modified PN092, the frame base foot, to work with BHCS.
+- Corrected a few file names against the master log.
+
 ## 2022-02-23
 
 - Modified AB stepper mounts and TPU shim to sit on top panel.
