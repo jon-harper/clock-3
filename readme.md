@@ -26,23 +26,23 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
   - Build volume can be scaled up (capability is maintained, but this is not actively developed yet).
   - Different typed and depths of heated inserts *can* be used, though using the really cheap ones instead of knurled is not recommended.
 - Design for ease of assembly and simple cable management
-  - Parts have printed ID numbers to keep tracking simple.
+  - Parts have printed ID numbers to help identification.
   - Left- and right-handed parts are notated with a printed 'L' or 'R', as well.
-  - Printed components have zip tie anchors and cable guides.
+  - Many printed components have zip tie anchors and cable guides.
 - Components are made to be serviceable and accessible
   - Disassembly of most components does not require other components to be disassembled first.
   - A gantry lock design is included to keep the gantry in place and square when working on belts.
-  - Side and rear panels unscrew and take the insulation and inner panel with them.
+  - Side and rear panels unscrew and take the insulation with them.
   - Components and cabling are almost entirely separated, i.e. electrical components can be unplugged from a harness.
-  - Easy, direct access to electronic through two individually removeable floor panels.
+  - Easy, direct access to electronics through two individually-removeable floor panels.
 - Minimize the number of fastener types and sizes and keep components easily-sourced
-  - Fasteners are all M3 or M5.
-  - M5 fasteners are all button head cap screws (BHCS) and all M3 are socket head cap screws (SHCS).
-  - Early designs used all SHCS, even for M5, but this was eliminated for the lower profile of button head.
+  - Fasteners are M3 button head or M5 socket head cap screws.
+  - Minor exceptions are all readily available and small in number.
+  - Care is taken to avoid adding new fastener lengths or types.
 - Require a minimum of custom-fabricated components with emphasis on reducing the number of cuts.
-  - ABS panels are have as few cutouts are possible.
+  - Panels are have as few cutouts are possible.
   - Floor panels use holes to pass through wiring to printed panels underneath instead of individual cutouts.
-  - Frame relies on perpendicular braces instead of tapped ends and either blind joints or counterbored and tapped holes.
+  - Frame relies on perpendicular braces, largely avoiding instead tapped ends. Blind joints or counterbored and tapped holes are completely unused.
 - Air filtration and temperature control
   - Active chamber temperature control (*in testing*)
   - Dual filters and fans for recirculated and vented air (*in testing*)
