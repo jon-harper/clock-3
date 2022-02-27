@@ -1,5 +1,24 @@
 # Changelog
 
+## 2022-02-27
+
+- Removing PN095 and 097, as the panels are done and no M5 inserts were needed.
+- Renumbered PN089 to PN095. It's now circular and is used on all A/B and Z steppers for a near-airtight seal.
+- Added PN123 and PN124, the bearing slider mounts for the Z axis (left and right).
+- All printed part file names have three-digit numbers now, e.g. `090 - Misc - Frame - Corner Bracket Cover.stl`. This will help sorting on every platform other than Windows.
+- `Printed Part List.xlsx` is updated to reflect three-digit file names, as well.
+
+## 2022-02-26
+
+- Set panel thickness to 7/32" or ~5.56mm for front panel.
+- Side panels and top are now 5/16".
+- Rear panel and flooring is 7/16".
+Updating model positions and sketches.
+- Deleted STL files for SKR board mount, as the board itself is currently unsupported.
+- Running hard against physical memory limits with Fusion when loading the master model. Pagefiles are still on spinning disks on my machine, not flash, so pagefile thrashing hurts and is possibly causing crashes.
+- Fixed the alignment of a few brackets.
+- Floor panel dimensions are in. Still finishing adding insulation and fasteners.
+
 ## 2022-02-25
 
 - Lots of part corrections in the model.
@@ -7,6 +26,8 @@
 - Finished the front door and related components in the model. Added M5x14 FHCS to the BOM.
 - Cleaned up the frame components to be external references instead of internal. Will fix the XY and rest of Z axis tomorrow.
 - PTFE coupler and hose exhaust work well--will need TPU guide between the pneumatic couplers to align the PTFE tubes.
+- Readme edits.
+- Two new renders added.
 
 ## 2022-02-24
 
