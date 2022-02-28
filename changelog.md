@@ -7,6 +7,12 @@
 - Added PN123 and PN124, the bearing slider mounts for the Z axis (left and right).
 - All printed part file names have three-digit numbers now, e.g. `090 - Misc - Frame - Corner Bracket Cover.stl`. This will help sorting on every platform other than Windows.
 - `Printed Part List.xlsx` is updated to reflect three-digit file names, as well.
+- Added PN122, a PTFE tube guide for between the pneumatic connectors for PN120
+- Fixed outside panel coupler dimensions for new panel widths.
+- Moved some brackets slightly to work with thicker floor panel.
+- Modeled all remaining insulation and added relevant parts.
+- Finished adding fasteners to the floor panels.
+- Working on ensuring the air filtration both fits and can exhaust easily. This may require work, but is doable.
 
 ## 2022-02-26
 
