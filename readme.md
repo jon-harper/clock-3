@@ -2,7 +2,7 @@
 
 ![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg)
 
-This is the evolution of the concept of an enclosed 3D printer with externally mounted steppers. The idea of building my own 3D printer to suit my needs came out of excess free time during the 2021 Winter Storm.
+This is the evolution of the concept of a fully-enclosed 3D printer with externally mounted steppers. The idea of building a 3D printer to suit my specific needs came out of excess free time during the 2021 Winter Storm.
 
 Clock 1 was a thought experiment to enclose an Ender 5-like Cartesian printer. Clock 2 was a from-scratch CoreXY printer that I largely built before acquiring the ability to safely print ABS.
 
@@ -10,10 +10,12 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## First, Some Notes
 
-- This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg). All renders and quite a few photos will be stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
-- Compilation of assembly and maintenance documentation will start in February of 2022 after a full Bill of Materials is completed.
+- This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg).
+- The Bill of Materials for the initial release will be available in March. Construction of the BOM is automated therafter.
 - The firmware to run Klipper with Clock 3 is available [here](../clock3-klipper).
 - An additional project to revise the Klipper display and menu system is [here](../clock-face).
+- All renders and quite a few photos are stored here, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
+- A heat set insert press (or a steady hand with a soldering iron) is strongly recommended.
 
 ## Development Goals
 
@@ -21,6 +23,7 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
   - 400mm linear rails and 500mm lead screws were chosen for ready availability.
   - JST-SM connectors are used for nearly all connections.
   - Limit switches are the Makerbot/Creality design rather than custom.
+  - Heated bed is a stock replacement Creality CR-10 bed (310x310mm).
 - Design parametrically to allow for flexible build parameters
   - The core Fusion 360 file can be adjusted for different tolerances.
   - Build volume can be scaled up (capability is maintained, but this is not actively developed yet).
@@ -44,11 +47,11 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
   - Floor panels use holes to pass through wiring to printed panels underneath instead of individual cutouts.
   - Frame relies on perpendicular braces, largely avoiding instead tapped ends. Blind joints or counterbored and tapped holes are completely unused.
 - Air filtration and temperature control
-  - Active chamber temperature control (*in testing*)
-  - Dual filters and fans for recirculated and vented air (*in testing*)
+  - Active chamber temperature control (completed February 2022)
+  - Dual fans for recirculated and vented air via both activated carbon and HEPA (completed February 2022)
 - Documentation
   - Full [changelog](changelog.md)
-  - Component-by-component, step-by-step assembly instructions (*in progress*)
+  - Component-by-component, step-by-step assembly instructions (*in progress March 2022*)
   - Open development on Github
 
 ## Key Specifications

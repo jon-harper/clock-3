@@ -1,5 +1,16 @@
 # Changelog
 
+## 2022-02-28
+
+- Massive number of small edits to filenames, `Printed Part List.xlsx` and model to ensure consistency.
+- Updated Raspberry Pi in the model, adding heatsink, HDMI adapter, and SD card.
+- Removed even more stale STL files.
+- Added PN111, a fan finger guard with about the right amount of spacing for a M3x35mm screw.
+- Added SD cards, thumb screws, and other small details to the models.
+- Updated the Readme file with my spare time while Fusion saves.
+- Designed two styles of pull handles: one is narrow to fit the V-slot door, the other is 25mm wide for everywhere else. PN126 and 126
+- Started work on wire pass-thrus for the flooring.
+
 ## 2022-02-27
 
 - Removing PN095 and 097, as the panels are done and no M5 inserts were needed.
