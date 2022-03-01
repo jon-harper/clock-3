@@ -4,11 +4,13 @@
 
 - Moved exhaust hose and PTFE coupler exits. Panels are no longer identical but this is much simpler to work around.
 - FPD of wire conduit for the paneling. Since there is no physical paneling yet, the conduit will definitely need revision later. This is mostly to ensure it's doable, counted in the BOM, and have *something* to test when the paneling is fabricated.
-- Model is now missing only: wire anchors, lock collars for the F688 alignment bearings.
+- Model is now missing only lock collars for the F688 alignment bearings.
 - Only remaining design necessary for a complete prototype are TPU gaskets for the front door. Changes definitely need to be made around the hotend and (later) the Z axis, but an enclosed prototype is almost here.
-- BOM is accurately generated for all **printed** parts but the missing ones mentioned above.
-- Added the aluminum facing for PIR foam.
+- BOM is accurately generated for all **printed** parts but lock collars and some extra zip tie anchors.
+- Added the aluminum facing for PIR foam, fixed numerous issues.
 - Several new renders.
+- Added quite a few zip tie anchors to the model, as well.
+- Added foam weather stripping to the sides of the floor panels.
 
 ## 2022-02-28
 
