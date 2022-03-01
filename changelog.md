@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-03-01
+
+- Moved exhaust hose and PTFE coupler exits. Panels are no longer identical but this is much simpler to work around.
+- FPD of wire conduit for the paneling. Since there is no physical paneling yet, the conduit will definitely need revision later. This is mostly to ensure it's doable, counted in the BOM, and have *something* to test when the paneling is fabricated.
+- Model is now missing only: wire anchors, lock collars for the F688 alignment bearings.
+- Only remaining design necessary for a complete prototype are TPU gaskets for the front door. Changes definitely need to be made around the hotend and (later) the Z axis, but an enclosed prototype is almost here.
+- BOM is accurately generated for all **printed** parts but the missing ones mentioned above.
+- Added the aluminum facing for PIR foam.
+- Several new renders.
+
 ## 2022-02-28
 
 - Massive number of small edits to filenames, `Printed Part List.xlsx` and model to ensure consistency.
@@ -8,7 +18,7 @@
 - Added PN111, a fan finger guard with about the right amount of spacing for a M3x35mm screw.
 - Added SD cards, thumb screws, and other small details to the models.
 - Updated the Readme file with my spare time while Fusion saves.
-- Designed two styles of pull handles: one is narrow to fit the V-slot door, the other is 25mm wide for everywhere else. PN126 and 126
+- Designed two styles of pull handles: one is narrow to fit the V-slot door, the other is 25mm wide for everywhere else. PN125 and 126
 - Started work on wire pass-thrus for the flooring.
 
 ## 2022-02-27
