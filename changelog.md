@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-03-02
+
+- Began verification of BOM and model.
+- Replaced M5x12 SHCS for the doors with M5x16.
+- Shortened air filter base stand top 2mm.
+
 ## 2022-03-01
 
 - Moved exhaust hose and PTFE coupler exits. Panels are no longer identical but this is much simpler to work around.
