@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-03-03
+
+- Continued model/BOM verification.
+- Lots of fastener adjustments, but no major surprises
+- The electrical panel mount will definitely need redesign, and the PSU mount is dubious.
+- Also need a mount for the new RPi buck converter.
+
 ## 2022-03-02
 
 - Began verification of BOM and model.
