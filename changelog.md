@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-03-04
+
+- Continuing model and BOM verification. Working on kinematic components today.
+- Restored PN088, the camera base.
+- Added a linear rail plug that can be printed in TPU in case they are lost (I need them right now; figured they can't hurt).
+- Lot of corrections to fastener sizes.
+
 ## 2022-03-03
 
 - Continued model/BOM verification.
