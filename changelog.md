@@ -1,5 +1,18 @@
 # Changelog
 
+## 2022-03-06
+
+- Finished disassembling frame.
+- Modified base foot design to accomodate roll-in tee nuts.
+- Now verifying total on hand count against the model.
+- Aside from count verification, BOM just needs connector count and cable lengths.
+- Closed disassembly milestone.
+
+## 2022-03-05
+
+- Re-exported PN099. File somehow got lost without being replaced.
+- More fastener length fixes.
+
 ## 2022-03-04
 
 - Continuing model and BOM verification. Working on kinematic components today.
