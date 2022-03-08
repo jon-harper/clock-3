@@ -1,5 +1,9 @@
 # Changelog
 
+## 2022-03-08
+
+- Exported initial designs for panels and a mockup of panels/frame to discuss with fabricator.
+
 ## 2022-03-06
 
 - Finished disassembling frame.
