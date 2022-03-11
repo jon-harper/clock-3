@@ -60,7 +60,7 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 - Dual independant Z axes with auto-leveling
 - CoreXY kinematics
 - V6, 300C hotend with the ability to support others
-- Direct drive or Bowden feed (currently using only BMG)
+- Direct drive or Bowden feed (currently only configured for direct drive with a BMG)
 - Fully enclosed
   - Simple side and rear panel removal
   - Large, clear front door with inset frame

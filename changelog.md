@@ -1,8 +1,22 @@
 # Changelog
 
+## 2022-03-10
+
+- Learned a few lessons and laid out the panels as derived objects in a separate file, then created the drawings from that.
+- Waiting on a piano hinge to draw up the top panel and hatch.
+- All other fabricated pieces have drawings now.
+- Exported the initial sketches (minus the top) to the `/BOM` folder.
+
+## 2022-03-09
+
+- Top hatch is now 300mm deep instead of 390. This leaves room for a spool holder on top of the printer.
+- Continuing to work on drawings.
+- Multiple new renders to illustrate paneling.
+
 ## 2022-03-08
 
 - Exported initial designs for panels and a mockup of panels/frame to discuss with fabricator.
+- Began engineering drawings for panels.
 
 ## 2022-03-06
 
