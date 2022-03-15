@@ -1,5 +1,31 @@
 # Changelog
 
+## 2022-03-15
+
+- Modeled piano hinge
+- Attempted to update the the `Outside Frame` file and on to finish the drawings, but Fusion is crashing constantly.
+- Will need to merge printed part list in to `General Part List.xlsx` for proper export as a CSV.
+- Exported first completed set of panel sketches.
+
+## 2022-03-14
+
+- Cleanup and tweaking to the readme file.
+- Lots of issue and milestone cleanups.
+- Preparing `General Part List.xlsx` to be exported as a `.csv` file instead of tab-delimited.
+- Will need to merge printed part list into the general file.
+- Added a value column and merged the default values.
+- The Fusion Python script now reads in the CSV file and optionally includes default values, then scrapes the model for part numbers, and exports to a specified file.
+- The UI does not work correctly. It appears, but events do not fire properly.
+
+## 2022-03-12
+
+- Added printed part numbers to PN123 and PN124
+- Minor edits and updates to the `General Parts List`.
+
+## 2022-03-11
+
+- Picked up on learning Fusion's UI API. It's built on Qt, so very familiar.
+
 ## 2022-03-10
 
 - Learned a few lessons and laid out the panels as derived objects in a separate file, then created the drawings from that.
