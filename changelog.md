@@ -1,5 +1,16 @@
 # Changelog
 
+## 2022-03-17
+
+- Finished draft of engineering sketches.
+- Several more renders of the panels for the fabricator to see.
+
+## 2022-03-16
+
+- Completely remodeled the outside frame and panels, as the timeline was already in bad shape. It finally got corrupted and I threw it out and started over. The results are much cleaner.
+- AB stepper mounts are 5mm shorter (again).
+- Restarting engineering sketches again due to frame and panel problems. Should go much more quickly.
+
 ## 2022-03-15
 
 - Modeled piano hinge
