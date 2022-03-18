@@ -1,9 +1,15 @@
 # Changelog
 
+## 2022-03-18
+
+- Laid out panels for laser cutting on 4'x5' sheets.
+- Now have both engineering sketches and laser cut paths in the `BOM` folder; closing #33
+
 ## 2022-03-17
 
 - Finished draft of engineering sketches.
 - Several more renders of the panels for the fabricator to see.
+- Re-export PN016, the stepper mounts, as I forgot on the 16th.
 
 ## 2022-03-16
 
