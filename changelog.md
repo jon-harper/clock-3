@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-03-19
+
+- Adjusted dimensions to be uniform 6 or 12mm for panels due to material availability.
+- Updated model and laser cut sketches.
+- Working on a new panel mount design.
+
 ## 2022-03-18
 
 - Laid out panels for laser cutting on 4'x5' sheets.
