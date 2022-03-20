@@ -8,6 +8,8 @@
 - IDs not involving the PSU are tailed with a letter code indicating distance from MCU, e.g. HE-A is MCU->chamber panel mount, HE-B is from the right chamber panel to the tooldhead panel.
 - There are a few third level connectors with a -C. The modified BLTouch wire is ABL-C and connects to ABL-B. Likewise, I included a -C for LED strips. Even though they are soldered on, they still have to be made by the builder. 
 - Added initial drawings for foam insulation to the `/BOM` folder
+- Tallied and labeled all wires, connectors, and pins.
+- Updated ExtractBOM_PN. File location is currently hardcoded and it lacks a UI, but those are already on the radar.
 
 ## 2022-03-19
 

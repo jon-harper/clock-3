@@ -1,64 +1,45 @@
 #Author: Jonathan Harper, 2022
-#Description: Fusion 360 script. Extracts basic BOM data from active components containing "PN" in the part number field. Returns the results tab delimited.
+#Description: Fusion 360 script. Extracts basic BOM data from active components containing "PN" in the part number field.
 #Original Author: Autodesk Inc.
 
 import adsk.core, adsk.fusion, traceback
 
-part_number_prefix = 'PN'
+from . import data_parser
+from . import bom
 
-def generate_bom(occurences):
-    bom = []
-    for occ in occurences:
-        comp = occ.component
-        if not comp.partNumber.startswith(part_number_prefix):
-            continue
-        jj = 0
-        for bomI in bom:
-            if bomI['component'] == comp:
-                # Increment the instance count of the existing row.
-                bomI['instances'] += 1
-                break
-            jj += 1
+source_path = 'C:/Users/jon/Documents/3D Print/Clockmaker/source.csv'
+destination_path = 'C:/Users/jon/Documents/3D Print/Clockmaker/out.csv'
 
-        if jj == len(bom):
-            # Add this component to the BOM
-            bom.append({
-                'component': comp,
-                'name': comp.description,
-                'instances': 1,
-                'part_num': comp.partNumber
-            })
-    return bom
-
-def format_bom(bom):
-    # Display the BOM
-    ret = 'Part Number\tInstances\tName\n'
-    raw = "{}\t{}\t{}\n"
-    for item in bom:
-        ret += raw.format(item['part_num'], str(item['instances']), item['name'])  
-    return ret        
+def get_occurences(design: adsk.fusion.Design) -> adsk.fusion.OccurrenceList:
+    return design.rootComponent.allOccurrences
 
 def run(context):
+    app = None
     ui = None
     try:
         app = adsk.core.Application.get()
         ui  = app.userInterface
 
         design = adsk.fusion.Design.cast(app.activeProduct)
-        title = 'Extract BOM'
         if not design:
-            ui.messageBox('No active design', title)
+            ui.messageBox('No active design', 'Extract BOM')    
             return
 
         # Get all occurrences in the root component of the active design
-        occurences = design.rootComponent.allOccurrences
+        # occurences = get_occurences(design)
+        occurences = get_occurences(design)
 
         # Gather information about each unique component
-        bom = generate_bom(occurences)
-        msg = format_bom(bom)
-
-        ui.messageBox(msg, 'Bill Of Materials')
+        model_parts = bom.generate_bom(occurences)
+        
+        (parts, problems) = bom.merge_source_data(model_parts, data_parser.import_source_data(source_path))
+        # if len(problems) != 0:
+        #     pass
+        # msg = format_bom(parts)
+        # ui.messageBox(msg, 'Bill of Materials')
+        ui.messageBox(str(problems), 'Parts not found in source file')
+        data_parser.export_data(destination_path, parts)
 
     except:
         if ui:
-            ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
+            ui.messageBox('Failed:\n{}'.format(traceback.format_exc()), 'Extract BOM')
