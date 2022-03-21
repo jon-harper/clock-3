@@ -7,8 +7,12 @@
 - New PN070-073 (electrical panel mounts).
 - Removed panel mount frames, PN074 and PN075.
 - Renamed STL files to match new naming scheme.
-- Inserted panel mounts into the model
-- Added PIR foam cutouts for panel mounts, which were previously missing.
+- Inserted panel mounts into the model.
+- Added PIR foam cutouts for panel mounts, which were previously missing. Have not updated drawings yet.
+- Updated each component in the model with new Description fields and checked for issues.
+- Fixed #31. PSU now uses M4x8mm BHCS.
+- Uploading an initial, mostly verified, bill of materials.
+- Fixed depth of external couplers on the side panels.
 
 ## 2022-03-20
 
