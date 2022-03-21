@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-03-21
+
+- Integrating printed parts to general part list.
+- Parts have new, simpler name scheme and .stl filenames are auto-generated. Now to update the model...
+- New PN070-073 (electrical panel mounts).
+- Removed panel mount frames, PN074 and PN075.
+- Renamed STL files to match new naming scheme.
+- Inserted panel mounts into the model
+- Added PIR foam cutouts for panel mounts, which were previously missing.
+
 ## 2022-03-20
 
 - Working on issue #28 fairly steadily.
