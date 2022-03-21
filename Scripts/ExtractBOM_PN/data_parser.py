@@ -29,7 +29,7 @@ def import_source_data(filepath: str = None) -> dict:
                     'RefMfgrPN': row['RefMfgrPN'],
                     'Notes': row['Notes']
                 }
-                if row['DefaultValue'] is not None and row['DefaultValue'].isalnum():
+                if row['DefaultValue'] is not None and row['DefaultValue'].isnumeric():
                     result[row['ID']]['Value'] = int(row['DefaultValue'])
     except Exception as e:
         raise ImportError('Failed to process source file') from e
