@@ -1,5 +1,24 @@
 # Changelog
 
+## 2022-03-23
+- Fixed #39 in the model.
+- Fixed #35. Reprinting.
+- Added more wire anchors to the model.
+- Added a subfolder in `/CAD` called `Font`. Inside is Hack, the monospace font used for labeling part numbers. A readme and links to the project page are included.
+- Fixed #41 by modeling the USB C buck converter.
+- Started a Fusion plugin to collect scripts.
+- Fixed #38.
+
+## 2022-03-22
+
+- Opened a lot of issues and a new milestone.
+- New render.
+- Nearly all components are counted from the BOM.
+- Set side panel depth to 6mm to fit all panels on 1x 4'x5'x12mm sheet and 1x 4'x5'x6mm sheet.
+- Will need to rework acrylic to 3mm. 6mm total with an air gap is sufficient. This was pointed out by the fabricator (thank you, Michael).
+- Finalized laser cut layout and submitted for fabrication.
+- Started modeling PTFE filament guide.
+
 ## 2022-03-21
 
 - Integrating printed parts to general part list.
