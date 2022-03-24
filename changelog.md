@@ -1,5 +1,10 @@
 # Changelog
 
+## 2022-03-24
+
+- Created a set of drawings to identify and label frame components
+- Spent most of the day locating and counting M5 roll in tee nuts.
+
 ## 2022-03-23
 - Fixed #39 in the model.
 - Fixed #35. Reprinting.
