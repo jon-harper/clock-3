@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-03-25
+
+- `Frame Identification.pdf` now has handy arrows to the front, top left corner of each piece and an explanation of the labeling system.
+- Switched hotend wiring to 20awg and connector to Micro Fit Jr.
+- Fixed #42 (A/B steppers have pigtailed connectors now)
+- Chasing a phantom tee nut.
+
 ## 2022-03-24
 
 - Created a set of drawings to identify and label frame components
