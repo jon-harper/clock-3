@@ -1,9 +1,22 @@
 # Changelog
 
+## 2022-03-27
+
+- Added a printed number to PN033, the front mount plate.
+- Two new renders of the model with final panels.
+- Verified all printed part counts and heat set inserts against BOM.
+- Tested LED mount length.
+- I believe the BOM is correct with respect to Micro Fit 3.0 connectors, although the panel mount parts are not here yet.
+
+## 2022-03-26
+
+- There is a literal, phantom tee nut in the model. I have counted component by component three different ways. The's an extra tee nut hidden in the model. =(
+- In the process of counting, `Connectors.xlsx` is taking on new responsibilities, i.e. it's now named `ID Lists.xlsx` and contains information on parts that require fabrication or assembly: frame + tee nuts, printed parts + heat set inserts, and all of the cables.
+
 ## 2022-03-25
 
 - `Frame Identification.pdf` now has handy arrows to the front, top left corner of each piece and an explanation of the labeling system.
-- Switched hotend wiring to 20awg and connector to Micro Fit Jr.
+- Switched hotend wiring to 20awg and connector to Micro Fit 3.
 - Fixed #42 (A/B steppers have pigtailed connectors now)
 - Chasing a phantom tee nut.
 
