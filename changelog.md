@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-03-29
+
+- Fixed #37 (PN727 has two instance types and is miscounted)
+
+## 2022-03-28
+
+- Added a new repository for the Fusion scripts: Clock3Scripts.
+- Migrated old scripting issues to Clock3Scripts.
+- Added new linear rail alignment tools for during assembly.
+
 ## 2022-03-27
 
 - Added a printed number to PN033, the front mount plate.
