@@ -2,7 +2,8 @@
 
 ## 2022-03-29
 
-- Fixed #37 (PN727 has two instance types and is miscounted)
+- Export BOM dialog works. Pushed an update to Clock3Scripts
+- Exported a working, automated, bill of materials.
 
 ## 2022-03-28
 
