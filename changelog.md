@@ -2,8 +2,9 @@
 
 ## 2022-03-29
 
-- Export BOM dialog works. Pushed an update to Clock3Scripts
-- Exported a working, automated, bill of materials.
+- Export BOM dialog works (mostly). Pushed an update to Clock3Scripts.
+- Exported a working, auto-exported bill of materials.
+- Removed old scripts folder and put in placeholder.
 
 ## 2022-03-28
 
