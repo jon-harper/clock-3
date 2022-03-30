@@ -5,6 +5,7 @@
 - Export BOM dialog works (mostly). Pushed an update to Clock3Scripts.
 - Exported a working, auto-exported bill of materials.
 - Removed old scripts folder and put in placeholder.
+- Firmware folder is now just a `readme.md` with information on where to find the Klipper config and such.
 
 ## 2022-03-28
 
