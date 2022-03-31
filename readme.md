@@ -12,14 +12,15 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 You can find the changelog in its entirety in the [changelog.md](changelog.md) file, while the [Issues](/issues) page is a good place to see what's in progress.
 
-### 2022-03-14
+### 2022-03-31
 
-The delay in issuing a preliminary BOM is in developing a Python script to scrape the model for part counts. The basic script works, but I'm working on expanding it to draw in a source file and append the counts to it. This will make issuing new BOMs take seconds, but time up front is needed.
+The preliminary [Bill of Materials](/BOM/bill_of_materials.xlsx) is done. This will eventually be a Markdown file and a CSV file, but the frequency of edits makes an Excel document easier at present. Documentation is in progress and will be published here as it progresses.
 
 ## Notes
 
 - Klipper firmware for Clock 3 is available [here](../clock3-klipper).
 - The Clock Face project is [here](../clock-face), which revises the physical display and menu system for Klipper.
+- The Fusion 360 model is not published yet, but you can find the project's Python scripts [here](../Clock3Scripts)
 - This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg).
 - All renders and quite a few photos are stored in this repository, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
 - A heat set insert press (or a steady hand with a soldering iron) is strongly recommended.
