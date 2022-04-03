@@ -1,5 +1,32 @@
 # Changelog
 
+## 2022-04-03
+
+- Apparently never exported PN127 and 128, the TPU wire conduits. This is fixed.
+
+## 2022-04-02
+
+- Setup `clock3-docs` repository and MkDocs.
+- Started work on a new script to re-format the `BomDialog` output CSV file into Markdown. This will possibly make its way directly into Clock3Scripts, but it's useful enough to leave it in the `/Scripts` folder.
+- Spent much of the morning setting up to seal the panels in polyurethane. 
+
+## 2022-04-01
+
+- Assembled exterior frame, planned assembly order.
+- Checked panels for fit.
+- Removed extrusion channel guide from frame feet. This should greatly speed up the print time and reduce supports.
+- Re-ordered Micro-Fit 3.0 panel mount connectors. USPS mis-delivered my package.
+- Will likely use Jekyll for docs.
+- Found the missing tee nut. BOM and model are now fully in sync and verified.
+- Relabeled all extrusions with cleaner labeling
+
+## 2022-03-30
+
+- Added more layout files for exporting STLs
+- Exploring documentation formats
+- Picked up completed panels (YES!)
+- Began "pre-assembly" of frame
+
 ## 2022-03-29
 
 - Export BOM dialog works (mostly). Pushed an update to Clock3Scripts.
