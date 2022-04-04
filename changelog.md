@@ -1,8 +1,19 @@
 # Changelog
 
+## 2022-04-04
+
+- BomDialog now exports both CSV and Markdown formats.
+- Panels are sanded and ready for better weather to apply PUR.
+- Pushed first working BOM exporter with Markdown support.
+- Documentation framework is progressing steadily.
+- Created a panel mount profile for the MicroFit 3.0 dual row, two pin connector.
+- Earth wire is now 16awg.
+
 ## 2022-04-03
 
 - Apparently never exported PN127 and 128, the TPU wire conduits. This is fixed.
+- Continued prepping panels for sanding and sealing
+- Significant progress on BOM export as a Markdown file.
 
 ## 2022-04-02
 

@@ -1,21 +1,19 @@
 ﻿ID,Type,Description,UOM,DefaultValue,RefSupplier,RefUrl,RefMfgr,RefMfgrPN,Notes
-MN001,Materials,"Activated Carbon, Virgin Coconut, 4-8mm",lb,1,Amazon,https://www.amazon.com/gp/product/B00XIIH43W,EnviroSupply,,0.5lb to start
+MN001,Materials,"Activated Carbon, Virgin Coconut, 4-8mm",lb,1,Amazon,https://www.amazon.com/gp/product/B00XIIH43W,EnviroSupply,,0.5lb to start; have heard negative things about this supplier recently
 MN002,Materials,Thermal Glue,ea,1,Amazon,https://www.amazon.com/gp/product/B07TSH6MNT,GENNEL,,
-MN003,Materials,"Zip ties, 3""",pk,1,Locally Sourced,,Generic,,Varies based on need
-MN004,Materials,"Zip ties, 4""",pk,1,Locally Sourced,,Generic,,Varies based on need
-MN005,Materials,"Zip ties, 6""",pk,1,Locally Sourced,,Generic,,Optional
+MN004,Materials,"Zip ties, 4""",pk,1,Amazon,https://www.amazon.com/AmazonBasics-Multi-Purpose-Cable-Ties-200-Piece/dp/B087MKMSDY,Generic,,Qty varies based on cofiguration and personal preference
 MN100,Materials,"Polyisocyanurate Foam, 1/2"", 4'x8' sheet",ea,1,Home Depot,https://www.homedepot.com/p/RMAX-Pro-Select-R-Matte-Plus-3-1-2-in-x-4-ft-x-8-ft-R-3-2-Foam-Insulation-Board-637902/313501506,RMAX,R-Matte Plus-3,"Can substitute 3/4"" and 1"" in places for better insulation"
 MN101,Materials,"Plywood sheet, 12mm thickness, 4'x5'",ea,2,Locally Sourced,,,,For paneling
-MN102,Materials,"Acrylic sheet, 5mm, 4'x5'",ea,1,Locally Sourced,,,,For door windows
+MN102,Materials,"Acrylic sheet, 3mm thickness, 4'x5'",ea,1,Locally Sourced,,,,For door windows
 MN103,Materials,"Plywood sheet, 6mm thickness, 4'x5'",ea,1,Locally Sourced,,,,For front panels
 MN104,Materials,"Wire loom, PET, 1/4""",cm,260,Amazon,https://www.amazon.com/gp/product/B08D3RXL7T,Generic,,Minimum quantity. More cables can be wrapped.
 MN105,Materials,"Wire loom, PET, 1/2""",cm,120,Amazon,https://www.amazon.com/gp/product/B08D3RXL7T,Generic,,
 MN107,Materials,"Heat shrink tubing, various sizes",pk,1,Amazon,https://www.amazon.com/gp/product/B07WWWPR2X,Generic,,"2.5mm - 4mm, mostly"
 MN108,Materials,"Heat shrink tubing, 13mm",cm,45,Amazon,https://www.amazon.com/XHF-Inch-13mm-Waterproof-Insulation/dp/B07FPDBGYH,Generic,,For PET loom ends
-MN110,Materials,"Hookup Wire, Silicone, 16 AWG",cm,565,Amazon,https://www.amazon.com/Electrical-Gauge-Silicone-Cable-Black/dp/B0746HRVZP,Generic,,Red and black
-MN111,Materials,"Hookup Wire, Silicone, 20 AWG",cm,580,Amazon,https://www.amazon.com/gp/product/B07T4SYVYG,Generic,,"Red, black and green/yellow"
+MN110,Materials,"Hookup Wire, Silicone, 16 AWG",cm,625,Amazon,https://www.amazon.com/Electrical-Gauge-Silicone-Cable-Black/dp/B0746HRVZP,Generic,,"Red, black and optionally green or yellow"
+MN111,Materials,"Hookup Wire, Silicone, 20 AWG",cm,520,Amazon,https://www.amazon.com/gp/product/B07T4SYVYG,Generic,,"Red, black"
 MN112,Materials,"Hookup Wire, Silicone, 24 AWG",cm,8820,Amazon,https://www.amazon.com/gp/product/B087TJNJZS/,Generic,,OR 26 awg
-MN113,Materials,"Hookup Wire, Silicone, 12 AWG",cm,60,,,Generic,,OR 13 awg; red and black
+MN113,Materials,"Hookup Wire, Silicone, 12 AWG",cm,60,Amazon,https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B01AQU3ST8,Generic,,OR 13 awg; red and black
 MN201,Materials,JST SM Contact Pin,ea,88,Digikey,https://www.digikey.com/en/products/detail/jst-sales-america-inc/SYM-001T-P0-6-N/1465026,JST,SYM-001T-P0.6(N),
 MN201,Materials,JST SM Pin Socket,ea,88,Digikey,https://www.digikey.com/en/products/detail/jst-sales-america-inc/SYF-001T-P0-6-LF-SN/2027280,JST,SYF-001T-P0.6(LF)(SN),
 MN202,Materials,"JST SM Connector, 2.54mm, Male, 2 Pin",ea,12,Digikey,https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMR-02V-B/764265,JST,SMR-02V-B,
@@ -32,112 +30,112 @@ MN222,Materials,"JST XH Connector, 2.5mm, Female, 3 Pin",ea,9,Digikey,https://ww
 MN223,Materials,"JST XH Connector, 2.5mm, Female, 4 Pin",ea,3,Digikey,https://www.digikey.com/en/products/detail/jst-sales-america-inc/XHP-4/683353,JST,XHP-4,
 MN240,Materials,"JST PH Connector, 2.0mm, Female, 6 Pin",ea,3,Digikey,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4422/11497499,JST,(D)PHR-6(L),Only needed if steppers have integrated connectors
 MN241,Materials,JST PH Pin Socket,ea,12,Digikey,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4422/11497499,JST,SPH-004T-P0.5S,Only needed if steppers have integrated connectors
-MN242,Materials,"XT 60 Connector Set, 12 awg 150mm pigtails",pk,1,Amazon,,Generic,,
+MN242,Materials,"XT 60 Connector Set, 12 awg 150mm pigtails",pk,1,Amazon,https://www.amazon.com/gp/product/B073QJWVVK/,Generic,,Optional
 MN250,Materials,"Ring Connector, 18-24 awg",ea,3,,,Generic,,Number varies based on configuration
 MN251,Materials,"Ring Connector, 14-18 awg",ea,9,,,Generic,,Number varies based on configuration
 MN252,Materials,"Spade Connector, 14-18 awg",ea,5,,,Generic,,
-MN253,Materials,"Butt Splice, 12-14 awg",ea,4,,,Generic,,
+MN253,Materials,"Butt Splice, 12-14 awg",ea,4,,,Generic,,"Without XT60, only two needed."
 MN260,Materials,Micro Fit 3 Connector Pin,ea,4,Digikey,https://www.digikey.com/en/products/detail/molex/0430310009/252485,Molex,430310009,
 MN261,Materials,Micro Fit 3 Connector Socket,ea,4,Digikey,https://www.digikey.com/en/products/detail/molex/0430300009/252481,Molex,430300009,
 MN262,Materials,"Micro Fit 3 Connector, 2 pin, 2 Row, Male",ea,2,Digikey,https://www.digikey.com/en/products/detail/molex/0430250200/252496,Molex,430250200,
 MN263,Materials,"Micro Fit 3 Connector, 2 pin, 2 Row, Panel Mount",ea,2,Digikey,https://www.digikey.com/en/products/detail/molex/0430200200/252490,Molex,430200200,
-PN001,Printed,"XY Pulleys, L Bottom",ea,,,"001 - XY Pulleys, L Bottom.stl",,001,
-PN002,Printed,"XY Pulleys, L Top",ea,,,"002 - XY Pulleys, L Top.stl",,002,
-PN003,Printed,"XY Pulleys, R Bottom",ea,,,"003 - XY Pulleys, R Bottom.stl",,003,
-PN004,Printed,"XY Pulleys, R Top",ea,,,"004 - XY Pulleys, R Top.stl",,004,
-PN005,Printed,"XY Joint, L Top",ea,,,"005 - XY Joint, L Top.stl",,005,
-PN006,Printed,"XY Joint, L Mid",ea,,,"006 - XY Joint, L Mid.stl",,006,
-PN007,Printed,"XY Joint, L Bottom",ea,,,"007 - XY Joint, L Bottom.stl",,007,
-PN008,Printed,"XY Joint, R Top",ea,,,"008 - XY Joint, R Top.stl",,008,
-PN009,Printed,"XY Joint, R Mid",ea,,,"009 - XY Joint, R Mid.stl",,009,
-PN010,Printed,"XY Joint, R Bottom",ea,,,"010 - XY Joint, R Bottom.stl",,010,
-PN011,Printed,"XY Tensioner, Bolt Receiver",ea,,,"011 - XY Tensioner, Bolt Receiver.stl",,011,
-PN012,Printed,"XY Tensioner, Idler Seat",ea,,,"012 - XY Tensioner, Idler Seat.stl",,012,
-PN013,Printed,"XY Tensioner, Tensioner Cap",ea,,,"013 - XY Tensioner, Tensioner Cap.stl",,013,
-PN014,Printed,"XY Tensioner, Guide Frame",ea,,,"014 - XY Tensioner, Guide Frame.stl",,014,
-PN015,Printed,"XY Steppers, Vibration Damper, TPU",ea,,,"015 - XY Steppers, Vibration Damper, TPU.stl",,015,No ID tag
-PN016,Printed,"XY Steppers, Stepper Mount",ea,,,"016 - XY Steppers, Stepper Mount.stl",,016,
-PN017,Printed,"XY Motion, L Y Rail Guide",ea,,,"017 - XY Motion, L Y Rail Guide.stl",,017,
-PN018,Printed,"XY Motion, R Y Rail Guide",ea,,,"018 - XY Motion, R Y Rail Guide.stl",,018,Also acts as limit switch mount
-PN019,Printed,"Z Motion, Lower Rail Bracket",ea,,,"019 - Z Motion, Lower Rail Bracket.stl",,019,
-PN020,Printed,"Z Axis, Bed Corner Bracket",ea,,,"020 - Z Axis, Bed Corner Bracket.stl",,020,
-PN021,Printed,"Z Axis, L Gantry",ea,,,"021 - Z Axis, L Gantry.stl",,021,
-PN022,Printed,"Z Axis, R Gantry",ea,,,"022 - Z Axis, R Gantry.stl",,022,
-PN023,Printed,"Z Axis, L Stepper Mount",ea,,,"023 - Z Axis, L Stepper Mount.stl",,023,
-PN024,Printed,"Z Axis, R Stepper Mount",ea,,,"024 - Z Axis, R Stepper Mount.stl",,024,
-PN025,Printed,"Z Motion, L Limit Switch Mount",ea,,,"025 - Z Motion, L Limit Switch Mount.stl",,025,
-PN026,Printed,"Z Motion, R Limit Switch Mount",ea,,,"026 - Z Motion, R Limit Switch Mount.stl",,026,
-PN027,Printed,"Z Axis, L Lead Screw Plate",ea,,,"027 - Z Axis, L Lead Screw Plate.stl",,027,
-PN028,Printed,"Z Axis, R Lead Screw Plate",ea,,,"028 - Z Axis, R Lead Screw Plate.stl",,028,
-PN029,Printed,"Z Axis, Bed Wire Support",ea,,,"029 - Z Axis, Bed Wire Support.stl",,029,
-PN030,Printed,"X Gantry, Carriage Mount",ea,,,"030 - X Gantry, Carriage Mount.stl",,030,
-PN031,Printed,"X Gantry, Top Mount",ea,,,"031 - X Gantry, Top Mount.stl",,031,
-PN032,Printed,"X Gantry, Back Mount",ea,,,"032 - X Gantry, Back Mount.stl",,032,
-PN033,Printed,"X Gantry, Front Mount",ea,,,"033 - X Gantry, Front Mount.stl",,033,
-PN034,Printed,"X Gantry, L Belt Clamp",ea,,,"034 - X Gantry, L Belt Clamp.stl",,034,No ID tag
-PN035,Printed,"X Gantry, R Belt Clamp",ea,,,"035 - X Gantry, R Belt Clamp.stl",,035,No ID tag
-PN040,Printed,"Toolhead, Hotend Mounting Bracket",ea,,,"040 - Toolhead, Hotend Mounting Bracket.stl",,040,No ID tag
-PN041,Printed,"Toolhead, Hotend Locking Collar",ea,,,"041 - Toolhead, Hotend Locking Collar.stl",,041,No ID tag
-PN042,Printed,"Toolhead, Cooling Fan Intake",ea,,,"042 - Toolhead, Cooling Fan Intake.stl",,042,No ID tag
-PN043,Printed,"Toolhead, PTFE Collar, TPU",ea,,,"043 - Toolhead, PTFE Collar, TPU.stl",,043,No ID tag
-PN044,Printed,"Toolhead, EVA Fan Duct",ea,,,"044 - Toolhead, EVA Fan Duct.stl",,044,No ID tag
-PN045,Printed,"Toolhead, Part Fan Mount",ea,,,"045 - Toolhead, Part Fan Mount.stl",,045,No ID tag
-PN051,Printed,"Toolhead, BLTouch Mount",ea,,,"051 - Toolhead, BLTouch Mount.stl",,051,No ID tag
-PN061,Printed,"Toolhead, BMG Mount",ea,,,"061 - Toolhead, BMG Mount.stl",,061,
-PN070,Printed,"Electrical, R Panel",ea,,,"070 - Electrical, R Panel.stl",,070,JST-SM connector panel
-PN071,Printed,"Electrical, L Panel",ea,,,"071 - Electrical, L Panel.stl",,071,JST-SM connector panel
-PN072,Printed,"Electrical, R Panel Back Plate",ea,,,"072 - Electrical, R Panel Back Plate.stl",,072,
-PN073,Printed,"Electrical, L Panel Back Plate",ea,,,"073 - Electrical, L Panel Back Plate.stl",,073,
-PN076,Printed,"Electrical, L Octopus Board Mount",ea,,,"076 - Electrical, L Octopus Board Mount.stl",,076,
-PN077,Printed,"Electrical, R Octopus Board Mount",ea,,,"077 - Electrical, R Octopus Board Mount.stl",,077,
-PN082,Printed,"Lighting, LED Guide, 12mm",ea,,,"082 - Lighting, LED Guide, 12mm.stl",,082,60 LEDs/m
-PN083,Printed,"Electrical, L RPi Board Mount",ea,,,"083 - Electrical, L RPi Board Mount.stl",,083,
-PN084,Printed,"Electrical, R RPi Board Mount",ea,,,"084 - Electrical, R RPi Board Mount.stl",,084,
-PN085,Printed,"Electrical, Buck Mount, DROK 5A",ea,,,"085 - Electrical, Buck Mount, DROK 5A.stl",,085,
-PN086,Printed,"Electrical, PSU Mount",ea,,,"086 - Electrical, PSU Mount.stl",,086,
-PN087,Printed,"Electrical, Camera Mount",ea,,,"087 - Electrical, Camera Mount.stl",,087,No ID tag
-PN088,Printed,"Electrical, Camera Stand",ea,,,"088 - Electrical, Camera Stand.stl",,088,
-PN090,Printed,"Misc, Corner Bracket Cover",ea,,,"090 - Misc, Corner Bracket Cover.stl",,090,Count not final
-PN091,Printed,"Misc, Limit Switch Cap",ea,,,"091 - Misc, Limit Switch Cap.stl",,091,No ID tag
-PN092,Printed,"Misc, Printer Base Foot, TPU",ea,,,"092 - Misc, Printer Base Foot, TPU.stl",,092,No ID tag
-PN093,Printed,"XY Motion, X Limit Switch Mount",ea,,,"093 - XY Motion, X Limit Switch Mount.stl",,093,
-PN094,Printed,"Misc, X Gantry Service Bar",ea,,,"094 - Misc, X Gantry Service Bar.stl",,094,No ID tag
-PN095,Printed,"Frame, Bearing Alignment Slider, TPU",ea,,,"095 - Frame, Bearing Alignment Slider, TPU.stl",,095,
-PN096,Printed,"Misc, T Slot Wire Anchor",ea,,,"096 - Misc, T Slot Wire Anchor.stl",,096,
-PN098,Printed,"Misc, PTFE Tube Coupler",ea,,,"098 - Misc, PTFE Tube Coupler.stl",,098,
-PN099,Printed,"XY Motion, Y Axis Front Rail Guide",ea,,,"099 - XY Motion, Y Axis Front Rail Guide.stl",,099,
-PN100,Printed,"Misc, Rear PTFE Tube Guide",ea,,,"100 - Misc, Rear PTFE Tube Guide.stl",,100,
-PN102,Printed,"Skirt, 80mm Fan Mount",ea,,,"102 - Skirt, 80mm Fan Mount.stl",,102,
-PN103,Printed,"Skirt, 80mm Fan Exterior Grill",ea,,,"103 - Skirt, 80mm Fan Exterior Grill.stl",,103,
-PN104,Printed,"Skirt, L Front End",ea,,,"104 - Skirt, L Front End.stl",,104,"HDMI, USB, Ethernet plugs"
-PN105,Printed,"Skirt, R Front End",ea,,,"105 - Skirt, R Front End.stl",,105,Power switch
-PN106,Printed,"Skirt, L Rear End",ea,,,"106 - Skirt, L Rear End.stl",,106,A stepper plug
-PN107,Printed,"Skirt, R Rear End",ea,,,"107 - Skirt, R Rear End.stl",,107,"IEC (power), B stepper plugs"
-PN108,Printed,"Skirt, Hexagon Grill",ea,,,"108 - Skirt, Hexagon Grill.stl",,108,
-PN110,Printed,"Skirt, SD Card Reader Mount",ea,,,"110 - Skirt, SD Card Reader Mount.stl",,110,
-PN111,Printed,"Skirt, 80mm Fan Finger Guard",ea,,,"111 - Skirt, 80mm Fan Finger Guard.stl",,111,
-PN112,Printed,"Skirt, Display Mount",ea,,,"112 - Skirt, Display Mount.stl",,112,
-PN113,Printed,"Skirt, Display Slot",ea,,,"113 - Skirt, Display Slot.stl",,113,
-PN120,Printed,"Frame, PTFE Coupler",ea,,,"120 - Frame, PTFE Coupler.stl",,120,
-PN121,Printed,"Frame, Exhaust Coupler",ea,,,"121 - Frame, Exhaust Coupler.stl",,121,
-PN122,Printed,"Frame, PTFE Coupling Guide, TPU",ea,,,"122 - Frame, PTFE Coupling Guide, TPU.stl",,122,
-PN123,Printed,"Z Axis, L Z Slider Mount",ea,,,"123 - Z Axis, L Z Slider Mount.stl",,123,
-PN124,Printed,"Z Axis, R Z Slider Mount",ea,,,"124 - Z Axis, R Z Slider Mount.stl",,124,
-PN125,Printed,"Frame, Pull Handle",ea,,,"125 - Frame, Pull Handle.stl",,125,
-PN126,Printed,"Frame, Pull Handle, T Slot",ea,,,"126 - Frame, Pull Handle, T Slot.stl",,126,V Slot Door Handle
-PN127,Printed,"Frame, Wire Conduit, Top, TPU",ea,,,"127 - Frame, Wire Conduit, Top, TPU.stl",,127,
-PN128,Printed,"Frame, Wire Conduit, Bottom, TPU",ea,,,"128 - Frame, Wire Conduit, Bottom, TPU.stl",,128,
-PN200,Printed,"Filtration, Exhaust Adapter, TPU",ea,,,"200 - Filtration, Exhaust Adapter, TPU.stl",,200,TPU/PETG
-PN201,Printed,"Filtration, Fan Intake Gasket, TPU",ea,,,"201 - Filtration, Fan Intake Gasket, TPU.stl",,201,TPU/PETG
-PN202,Printed,"Filtration, Fan Intake Duct",ea,,,"202 - Filtration, Fan Intake Duct.stl",,202,PETG/ABS
-PN203,Printed,"Filtration, HEPA Filter Sleeve",ea,,,"203 - Filtration, HEPA Filter Sleeve.stl",,203,PETG/ABS
-PN204,Printed,"Filtration, HEPA Intake Duct",ea,,,"204 - Filtration, HEPA Intake Duct.stl",,204,PETG/ABS
-PN205,Printed,"Filtration, HEPA Latch, TPU",ea,,,"205 - Filtration, HEPA Latch, TPU.stl",,205,TPU/PETG
-PN206,Printed,"Filtration, AC Tank Gasket, TPU",ea,,,"206 - Filtration, AC Tank Gasket, TPU.stl",,206,TPU/PETG
-PN207,Printed,"Filtration, Base Stand",ea,,,"207 - Filtration, Base Stand.stl",,207,PETG/ABS
-PN210,Printed,"Filtration, AC Tank Lid",ea,,,"210 - Filtration, AC Tank Lid.stl",,210,PETG/ABS
-PN211,Printed,"Filtration, AC Tank Filter Ring",ea,,,"211 - Filtration, AC Tank Filter Ring.stl",,211,PETG/ABS
-PN212,Printed,"Filtration, AC Tank, 50mm",ea,,,"212 - Filtration, AC Tank, 50mm.stl",,212,PETG/ABS
+PN001,Printed,"XY Pulleys, L Bottom",ea,,Printed,"001 - XY Pulleys, L Bottom.stl",,001,
+PN002,Printed,"XY Pulleys, L Top",ea,,Printed,"002 - XY Pulleys, L Top.stl",,002,
+PN003,Printed,"XY Pulleys, R Bottom",ea,,Printed,"003 - XY Pulleys, R Bottom.stl",,003,
+PN004,Printed,"XY Pulleys, R Top",ea,,Printed,"004 - XY Pulleys, R Top.stl",,004,
+PN005,Printed,"XY Joint, L Top",ea,,Printed,"005 - XY Joint, L Top.stl",,005,
+PN006,Printed,"XY Joint, L Mid",ea,,Printed,"006 - XY Joint, L Mid.stl",,006,
+PN007,Printed,"XY Joint, L Bottom",ea,,Printed,"007 - XY Joint, L Bottom.stl",,007,
+PN008,Printed,"XY Joint, R Top",ea,,Printed,"008 - XY Joint, R Top.stl",,008,
+PN009,Printed,"XY Joint, R Mid",ea,,Printed,"009 - XY Joint, R Mid.stl",,009,
+PN010,Printed,"XY Joint, R Bottom",ea,,Printed,"010 - XY Joint, R Bottom.stl",,010,
+PN011,Printed,"XY Tensioner, Bolt Receiver",ea,,Printed,"011 - XY Tensioner, Bolt Receiver.stl",,011,
+PN012,Printed,"XY Tensioner, Idler Seat",ea,,Printed,"012 - XY Tensioner, Idler Seat.stl",,012,
+PN013,Printed,"XY Tensioner, Tensioner Cap",ea,,Printed,"013 - XY Tensioner, Tensioner Cap.stl",,013,
+PN014,Printed,"XY Tensioner, Guide Frame",ea,,Printed,"014 - XY Tensioner, Guide Frame.stl",,014,
+PN015,Printed,"XY Steppers, Vibration Damper, TPU",ea,,Printed,"015 - XY Steppers, Vibration Damper, TPU.stl",,015,No ID tag
+PN016,Printed,"XY Steppers, Stepper Mount",ea,,Printed,"016 - XY Steppers, Stepper Mount.stl",,016,
+PN017,Printed,"XY Motion, L Y Rail Guide",ea,,Printed,"017 - XY Motion, L Y Rail Guide.stl",,017,
+PN018,Printed,"XY Motion, R Y Rail Guide",ea,,Printed,"018 - XY Motion, R Y Rail Guide.stl",,018,Also acts as limit switch mount
+PN019,Printed,"Z Motion, Lower Rail Bracket",ea,,Printed,"019 - Z Motion, Lower Rail Bracket.stl",,019,
+PN020,Printed,"Z Axis, Bed Corner Bracket",ea,,Printed,"020 - Z Axis, Bed Corner Bracket.stl",,020,
+PN021,Printed,"Z Axis, L Gantry",ea,,Printed,"021 - Z Axis, L Gantry.stl",,021,
+PN022,Printed,"Z Axis, R Gantry",ea,,Printed,"022 - Z Axis, R Gantry.stl",,022,
+PN023,Printed,"Z Axis, L Stepper Mount",ea,,Printed,"023 - Z Axis, L Stepper Mount.stl",,023,
+PN024,Printed,"Z Axis, R Stepper Mount",ea,,Printed,"024 - Z Axis, R Stepper Mount.stl",,024,
+PN025,Printed,"Z Motion, L Limit Switch Mount",ea,,Printed,"025 - Z Motion, L Limit Switch Mount.stl",,025,
+PN026,Printed,"Z Motion, R Limit Switch Mount",ea,,Printed,"026 - Z Motion, R Limit Switch Mount.stl",,026,
+PN027,Printed,"Z Axis, L Lead Screw Plate",ea,,Printed,"027 - Z Axis, L Lead Screw Plate.stl",,027,
+PN028,Printed,"Z Axis, R Lead Screw Plate",ea,,Printed,"028 - Z Axis, R Lead Screw Plate.stl",,028,
+PN029,Printed,"Z Axis, Bed Wire Support",ea,,Printed,"029 - Z Axis, Bed Wire Support.stl",,029,
+PN030,Printed,"X Gantry, Carriage Mount",ea,,Printed,"030 - X Gantry, Carriage Mount.stl",,030,
+PN031,Printed,"X Gantry, Top Mount",ea,,Printed,"031 - X Gantry, Top Mount.stl",,031,
+PN032,Printed,"X Gantry, Back Mount",ea,,Printed,"032 - X Gantry, Back Mount.stl",,032,
+PN033,Printed,"X Gantry, Front Mount",ea,,Printed,"033 - X Gantry, Front Mount.stl",,033,
+PN034,Printed,"X Gantry, L Belt Clamp",ea,,Printed,"034 - X Gantry, L Belt Clamp.stl",,034,No ID tag
+PN035,Printed,"X Gantry, R Belt Clamp",ea,,Printed,"035 - X Gantry, R Belt Clamp.stl",,035,No ID tag
+PN040,Printed,"Toolhead, Hotend Mounting Bracket",ea,,Printed,"040 - Toolhead, Hotend Mounting Bracket.stl",,040,No ID tag
+PN041,Printed,"Toolhead, Hotend Locking Collar",ea,,Printed,"041 - Toolhead, Hotend Locking Collar.stl",,041,No ID tag
+PN042,Printed,"Toolhead, Cooling Fan Intake",ea,,Printed,"042 - Toolhead, Cooling Fan Intake.stl",,042,No ID tag
+PN043,Printed,"Toolhead, PTFE Collar, TPU",ea,,Printed,"043 - Toolhead, PTFE Collar, TPU.stl",,043,No ID tag
+PN044,Printed,"Toolhead, EVA Fan Duct",ea,,Printed,"044 - Toolhead, EVA Fan Duct.stl",,044,No ID tag
+PN045,Printed,"Toolhead, Part Fan Mount",ea,,Printed,"045 - Toolhead, Part Fan Mount.stl",,045,No ID tag
+PN051,Printed,"Toolhead, BLTouch Mount",ea,,Printed,"051 - Toolhead, BLTouch Mount.stl",,051,No ID tag
+PN061,Printed,"Toolhead, BMG Mount",ea,,Printed,"061 - Toolhead, BMG Mount.stl",,061,
+PN070,Printed,"Electrical, R Panel",ea,,Printed,"070 - Electrical, R Panel.stl",,070,JST-SM connector panel
+PN071,Printed,"Electrical, L Panel",ea,,Printed,"071 - Electrical, L Panel.stl",,071,JST-SM connector panel
+PN072,Printed,"Electrical, R Panel Back Plate",ea,,Printed,"072 - Electrical, R Panel Back Plate.stl",,072,
+PN073,Printed,"Electrical, L Panel Back Plate",ea,,Printed,"073 - Electrical, L Panel Back Plate.stl",,073,
+PN076,Printed,"Electrical, L Octopus Board Mount",ea,,Printed,"076 - Electrical, L Octopus Board Mount.stl",,076,
+PN077,Printed,"Electrical, R Octopus Board Mount",ea,,Printed,"077 - Electrical, R Octopus Board Mount.stl",,077,
+PN082,Printed,"Lighting, LED Guide, 12mm",ea,,Printed,"082 - Lighting, LED Guide, 12mm.stl",,082,60 LEDs/m
+PN083,Printed,"Electrical, L RPi Board Mount",ea,,Printed,"083 - Electrical, L RPi Board Mount.stl",,083,
+PN084,Printed,"Electrical, R RPi Board Mount",ea,,Printed,"084 - Electrical, R RPi Board Mount.stl",,084,
+PN085,Printed,"Electrical, Buck Mount, DROK 5A",ea,,Printed,"085 - Electrical, Buck Mount, DROK 5A.stl",,085,
+PN086,Printed,"Electrical, PSU Mount",ea,,Printed,"086 - Electrical, PSU Mount.stl",,086,
+PN087,Printed,"Electrical, Camera Mount",ea,,Printed,"087 - Electrical, Camera Mount.stl",,087,No ID tag
+PN088,Printed,"Electrical, Camera Stand",ea,,Printed,"088 - Electrical, Camera Stand.stl",,088,
+PN090,Printed,"Misc, Corner Bracket Cover",ea,,Printed,"090 - Misc, Corner Bracket Cover.stl",,090,Count not final
+PN091,Printed,"Misc, Limit Switch Cap",ea,,Printed,"091 - Misc, Limit Switch Cap.stl",,091,No ID tag
+PN092,Printed,"Misc, Printer Base Foot, TPU",ea,,Printed,"092 - Misc, Printer Base Foot, TPU.stl",,092,No ID tag
+PN093,Printed,"XY Motion, X Limit Switch Mount",ea,,Printed,"093 - XY Motion, X Limit Switch Mount.stl",,093,
+PN094,Printed,"Misc, X Gantry Service Bar",ea,,Printed,"094 - Misc, X Gantry Service Bar.stl",,094,No ID tag
+PN095,Printed,"Frame, Bearing Alignment Slider, TPU",ea,,Printed,"095 - Frame, Bearing Alignment Slider, TPU.stl",,095,
+PN096,Printed,"Misc, T Slot Wire Anchor",ea,,Printed,"096 - Misc, T Slot Wire Anchor.stl",,096,
+PN098,Printed,"Misc, PTFE Tube Coupler",ea,,Printed,"098 - Misc, PTFE Tube Coupler.stl",,098,
+PN099,Printed,"XY Motion, Y Axis Front Rail Guide",ea,,Printed,"099 - XY Motion, Y Axis Front Rail Guide.stl",,099,
+PN100,Printed,"Misc, Rear PTFE Tube Guide",ea,,Printed,"100 - Misc, Rear PTFE Tube Guide.stl",,100,
+PN102,Printed,"Skirt, 80mm Fan Mount",ea,,Printed,"102 - Skirt, 80mm Fan Mount.stl",,102,
+PN103,Printed,"Skirt, 80mm Fan Exterior Grill",ea,,Printed,"103 - Skirt, 80mm Fan Exterior Grill.stl",,103,
+PN104,Printed,"Skirt, L Front End",ea,,Printed,"104 - Skirt, L Front End.stl",,104,"HDMI, USB, Ethernet plugs"
+PN105,Printed,"Skirt, R Front End",ea,,Printed,"105 - Skirt, R Front End.stl",,105,Power switch
+PN106,Printed,"Skirt, L Rear End",ea,,Printed,"106 - Skirt, L Rear End.stl",,106,A stepper plug
+PN107,Printed,"Skirt, R Rear End",ea,,Printed,"107 - Skirt, R Rear End.stl",,107,"IEC (power), B stepper plugs"
+PN108,Printed,"Skirt, Hexagon Grill",ea,,Printed,"108 - Skirt, Hexagon Grill.stl",,108,
+PN110,Printed,"Skirt, SD Card Reader Mount",ea,,Printed,"110 - Skirt, SD Card Reader Mount.stl",,110,
+PN111,Printed,"Skirt, 80mm Fan Finger Guard",ea,,Printed,"111 - Skirt, 80mm Fan Finger Guard.stl",,111,
+PN112,Printed,"Skirt, Display Mount",ea,,Printed,"112 - Skirt, Display Mount.stl",,112,
+PN113,Printed,"Skirt, Display Slot",ea,,Printed,"113 - Skirt, Display Slot.stl",,113,
+PN120,Printed,"Frame, PTFE Coupler",ea,,Printed,"120 - Frame, PTFE Coupler.stl",,120,
+PN121,Printed,"Frame, Exhaust Coupler",ea,,Printed,"121 - Frame, Exhaust Coupler.stl",,121,
+PN122,Printed,"Frame, PTFE Coupling Guide, TPU",ea,,Printed,"122 - Frame, PTFE Coupling Guide, TPU.stl",,122,
+PN123,Printed,"Z Axis, L Z Slider Mount",ea,,Printed,"123 - Z Axis, L Z Slider Mount.stl",,123,
+PN124,Printed,"Z Axis, R Z Slider Mount",ea,,Printed,"124 - Z Axis, R Z Slider Mount.stl",,124,
+PN125,Printed,"Frame, Pull Handle",ea,,Printed,"125 - Frame, Pull Handle.stl",,125,
+PN126,Printed,"Frame, Pull Handle, T Slot",ea,,Printed,"126 - Frame, Pull Handle, T Slot.stl",,126,V Slot Door Handle
+PN127,Printed,"Frame, Wire Conduit, Top, TPU",ea,,Printed,"127 - Frame, Wire Conduit, Top, TPU.stl",,127,
+PN128,Printed,"Frame, Wire Conduit, Bottom, TPU",ea,,Printed,"128 - Frame, Wire Conduit, Bottom, TPU.stl",,128,
+PN200,Printed,"Filtration, Exhaust Adapter, TPU",ea,,Printed,"200 - Filtration, Exhaust Adapter, TPU.stl",,200,TPU/PETG
+PN201,Printed,"Filtration, Fan Intake Gasket, TPU",ea,,Printed,"201 - Filtration, Fan Intake Gasket, TPU.stl",,201,TPU/PETG
+PN202,Printed,"Filtration, Fan Intake Duct",ea,,Printed,"202 - Filtration, Fan Intake Duct.stl",,202,PETG/ABS
+PN203,Printed,"Filtration, HEPA Filter Sleeve",ea,,Printed,"203 - Filtration, HEPA Filter Sleeve.stl",,203,PETG/ABS
+PN204,Printed,"Filtration, HEPA Intake Duct",ea,,Printed,"204 - Filtration, HEPA Intake Duct.stl",,204,PETG/ABS
+PN205,Printed,"Filtration, HEPA Latch, TPU",ea,,Printed,"205 - Filtration, HEPA Latch, TPU.stl",,205,TPU/PETG
+PN206,Printed,"Filtration, AC Tank Gasket, TPU",ea,,Printed,"206 - Filtration, AC Tank Gasket, TPU.stl",,206,TPU/PETG
+PN207,Printed,"Filtration, Base Stand",ea,,Printed,"207 - Filtration, Base Stand.stl",,207,PETG/ABS
+PN210,Printed,"Filtration, AC Tank Lid",ea,,Printed,"210 - Filtration, AC Tank Lid.stl",,210,PETG/ABS
+PN211,Printed,"Filtration, AC Tank Filter Ring",ea,,Printed,"211 - Filtration, AC Tank Filter Ring.stl",,211,PETG/ABS
+PN212,Printed,"Filtration, AC Tank, 50mm",ea,,Printed,"212 - Filtration, AC Tank, 50mm.stl",,212,PETG/ABS
 PN400,Toolhead,E3D V6 Hotend (Direct Drive),ea,,Amazon,https://www.amazon.com/Genuine-E3D-All-Metal-Universal-V6-175-MO/dp/B074DHD751,E3D,V6-175-MO,Or compatible clone; GCR uses incompatible thermistor
 PN450,Toolhead,Bondtech BMG Extruder,ea,,Amazon,https://www.amazon.com/Genuine-Bondtech-BMG-Extruder-EXT-BMG/dp/B07DGL43SQ,Bondtech,EXT-BMG,Or compatible clone
 PN451,Toolhead,Bondtech BMG-M Extruder,ea,,Amazon,https://www.amazon.com/Genuine-Bondtech-Extruder-Lefthand-EXT-BMG-LH/dp/B07DGL4GQN,Bondtech,EXT-BMG-LH,Or compatible clone
@@ -151,22 +149,21 @@ PN505,Fastener,"Screw, M3-0.5 x 25mm SHCS",ea,,Amazon,https://www.amazon.com/10-
 PN506,Fastener,"Screw, M3-0.5 x 30mm SHCS",ea,,Amazon,https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078KZXP5P,MonsterBolts,"	SHCS - Stain M3.30.10",Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)
 PN507,Fastener,"Screw, M3-0.5 x 35mm SCHS",ea,,Amazon,https://www.amazon.com/gp/product/B078L42CXS/,MonsterBolts,SHCS - Stain M3.35.20,Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)
 PN508,Fastener,"Screw, M3-0.5 x 40mm SHCS",ea,,Amazon,https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B07JHB1G85,MonsterBolts,SHCS - Stain M3.40.10,Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)
-PN509,Fastener,"Screw, M3-0.5 x 45mm SHCS",ea,,MISUMI,https://us.misumi-ec.com/vona2/detail/221000551310/?ProductCode=CSHZ-SUS-M3-45,Sunco,CSHZ-SUS-M3-45,Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)
-PN530,Fastener,"Screw, M5-0.8 x 8mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLXQWG,MonsterBolts,SHCS - Stain M5.8.10,
-PN532,Fastener,"Screw, M5-0.8 x 12mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B078CQLGKX,MonsterBolts,SHCS - Stain M5.12.10,200pc: https://www.amazon.com/M5-0-8-Button-Available-Stainless-Machine/dp/B07VRZYMP6
-PN533,Fastener,"Screw, M5-0.8 x 16mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLQ1LZ,MonsterBolts,SHCS - Stain M5.16.10,
-PN534,Fastener,"Screw, M5-0.8 x 25mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WCYJB9,MonsterBolts,SHCS - Stain M5.25.10,
-PN535,Fastener,"Screw, M5-0.8 x 60mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-8-Socket-Button-Stainless-Machine/dp/B08HLVRRRT,Generic,,"May be hard to find in BH, SHCS also works."
-PN536,Fastener,"Screw, M5-0.8 x 20mm BHCS",ea,,,,,,
-PN537,Fastener,"Screw, M5-0.8 x 50mm BHCS",ea,,,,,,"May be hard to find in BH, SHCS also works."
+PN509,Fastener,"Screw, M3-0.5 x 45mm SHCS",ea,,MISUMI USA,https://us.misumi-ec.com/vona2/detail/221000551310/?ProductCode=CSHZ-SUS-M3-45,Sunco,CSHZ-SUS-M3-45,Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)
+PN530,Fastener,"Screw, M5-0.8 x 8mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLXQWG,MonsterBolts,‎BHCS-M-A2-M5x8.0010,
+PN532,Fastener,"Screw, M5-0.8 x 12mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B078CQLGKX,MonsterBolts,‎BHCS-M-A2-M5x12.0010,200pc: https://www.amazon.com/M5-0-8-Button-Available-Stainless-Machine/dp/B07VRZYMP6
+PN533,Fastener,"Screw, M5-0.8 x 16mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLQ1LZ,MonsterBolts,‎BHCS-M-A2-M5x16.0010,
+PN534,Fastener,"Screw, M5-0.8 x 25mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WCYJB9,MonsterBolts,‎BHCS-M-A2-M5x25.0010,
+PN535,Fastener,"Screw, M5-0.8 x 60mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-8-Button-Available-Stainless-Machine/dp/B08FJCS884,Generic,,"May be hard to find in BH, SHCS also works."
+PN536,Fastener,"Screw, M5-0.8 x 20mm BHCS",ea,,Amazon,https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WKWHXC?th=1,MonsterBolts,BHCS-M-A2-M5x20.0010,
+PN537,Fastener,"Screw, M5-0.8 x 50mm BHCS",ea,,Amazon,https://www.amazon.com/gp/product/B08HLW8LW6,RoyceMart,‎GB-AA0402-50,"May be hard to find in BH, SHCS also works."
 PN550,Fastener,"Screw, M4-0.7 x 35mm FHCS",ea,,Amazon,https://www.amazon.com/gp/product/B07SDFX766,Befenybay,BE022-fba,Included with bed leveling nuts
 PN551,Fastener,"Set Screw, M4-0.7 x 4mm",ea,,Amazon,https://www.amazon.com/gp/product/B07PK8ZJTV,KOOTANS,,Included with hidden corner brackets
 PN552,Fastener,"Screw, M4-0.7 x 16mm SHCS",ea,,Amazon,https://www.amazon.com/gp/product/B07RMZCLZ3,Befenybay,,Included with spider couplers
 PN553,Fastener,"Screw, M5-0.8 x 16mm SHCS",ea,,Amazon,https://www.amazon.com/20-M5-0-80-35mm-Stainless-MonsterBolts/dp/B078L3YNS3,MonsterBolts,‎SHCS - Stain M5x16.10,Door corners only. MISUMI corners ships with screws.
-PN554,Fastener,"Screw, Wood, #6 x 5/8""",ea,,Home Depot,https://www.homedepot.com/p/6-x-5-8-in-Phillips-Flat-Head-Zinc-Plated-Wood-Screw-12-Pack-807011/204275569,Everbilt,,Metric: 3mm x 16mm
 PN555,Fastener,"Screw, M5-0.8 x 14mm FHCS",ea,,Amazon,https://www.amazon.com/Countersunk-Socket-Screws-20-piece-Stainless/dp/B07CNTZMNV,Generic,,M5-0.8 x 15mm will also work. 16mm is too long.
-PN556,Fastener,"Set Screw, M4-0.7 x 4mm",ea,,,,Generic,,Included with 8mm Lock Collars
-PN557,Fastener,"Screw, M4-0.7 x 8mm BHCS",ea,,,https://www.amazon.com/10-M4-0-70-12mm-Stainless-MonsterBolts/dp/B078YDH3LY,Generic,,For PSU only
+PN556,Fastener,"Set Screw, M4-0.7 x 4mm",ea,,Amazon,https://www.amazon.com/Befenybay-Collar-Shaft-Screw-Printer/dp/B07V41FRZS,Generic,,Included with 8mm Lock Collars
+PN557,Fastener,"Screw, M4-0.7 x 8mm BHCS",ea,,Amazon,https://www.amazon.com/10-M4-0-70-12mm-Stainless-MonsterBolts/dp/B078YDH3LY,Generic,,For PSU only
 PN558,Fastener,"Screw, #8 x 3/4"", Truss Head, Sharp Point",ea,,Home Depot,https://www.homedepot.com/p/Everbilt-8-x-3-4-in-Phillips-Drive-Truss-Head-Lath-Sharp-Point-Screw-1-lb-Box-215-Pack-116102/205142852,Generic,,Metric: M4 x 20mm
 PN570,Fastener,"Hex Nut, M3",ea,,Amazon,https://www.amazon.com/dp/B087R22HM2,Generic,,
 PN571,Fastener,"Hex Nut, M4",ea,,Amazon,https://www.amazon.com/dp/B087R22HM2,Generic,,
@@ -217,8 +214,8 @@ PN742,Framing,"2040 Extrusion, 540mm",ea,,MISUMI USA,https://us.misumi-ec.com/vo
 PN750,Framing,"404020 Extrusion, 620mm",ea,,MISUMI USA,https://us.misumi-ec.com/vona2/detail/110302685320/?ProductCode=HFS5-404020-620,MISUMI,HFS5-404020-620,"External top bar, front and rear"
 PN751,Framing,"2020 Door Extrusion, 564mm",ea,,MISUMI USA,https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFTF5-2020-564-TPW,MISUMI,HFTF5-2020-564-TPW,Horizontal door frame
 PN752,Framing,"2020 Door Extrusion, 646mm",ea,,MISUMI USA,https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFTF5-2020-646-TPW,MISUMI,HFTF5-2020-646-TPW,Vertical door frame
-PN760,Framing,"Acrylic Sheet, 577x659x5mm",ea,,Locally Sourced,,Locally Sourced,,Inner door window
-PN761,Framing,"Acrylic Sheet, 613x694x5mm",ea,,Locally Sourced,,Locally Sourced,,Outer door window
+PN760,Framing,"Acrylic Sheet, 577x659x3mm",ea,,Locally Sourced,,Locally Sourced,,Inner door window
+PN761,Framing,"Acrylic Sheet, 613x694x3mm",ea,,Locally Sourced,,Locally Sourced,,Outer door window
 PN769,Framing,"Wood Panel, Outside Rear",ea,,Locally Sourced,,Locally Sourced,,
 PN770,Framing,"Wood Panel, Outside Right",ea,,Locally Sourced,,Locally Sourced,,
 PN771,Framing,"Wood Panel, Outside Left",ea,,Locally Sourced,,Locally Sourced,,
@@ -232,22 +229,22 @@ PN778,Framing,"Wood Panel, Front Left",ea,,Locally Sourced,,Locally Sourced,,
 PN779,Framing,"Wood Panel, Front Right",ea,,Locally Sourced,,Locally Sourced,,
 PN780,Framing,"Wood Panel, Front Center",ea,,Locally Sourced,,Locally Sourced,,
 PN782,Framing,"Wood Strip, Hinge Anchor",ea,,Locally Sourced,,Locally Sourced,,"1/2"" or 12mm will do."
-PN785,Framing,"PIR Foam, 1/2"", Rear Panel",ea,,,,,,"3/4"" will also work"
-PN786,Framing,"PIR Foam, 1/2"", Left Side with Cutout",ea,,,,,,"3/4"" will also work"
-PN787,Framing,"PIR Foam, 1/2"", Right Side with Cutout",ea,,,,,,"3/4"" will also work"
-PN788,Framing,"PIR Foam, 1/2"", Top Hatch",ea,,,,,,"Up to 1"" will work"
-PN789,Framing,"PIR Foam, 1/2"", Top Outer",ea,,,,,,"Up to 1"" will work"
-PN790,Framing,"PIR Foam, 1/2"", Floor Access Panel, Rear",ea,,,,,,"Up to 1"" will work"
-PN791,Framing,"PIR Foam, 1/2"", Floor Access Panel, Front",ea,,,,,,"Up to 1"" will work with some adjustments"
-PN792,Framing,"PIR Foam, 1/2"", Side Floor Cover, Rear",ea,,,,,,"Up to 1"" will work"
-PN793,Framing,"PIR Foam, 1/2"", Side Floor Cover, Front",ea,,,,,,"Up to 1"" will work"
-PN794,Framing,"PIR Foam, 1/2"", Generic Side",ea,,,,,,"3/8"" thickness, at least 1/2"" width."
+PN785,Framing,"PIR Foam, 1/2"", Rear Panel",ea,,Locally Sourced,,Fabricated,,"3/4"" will also work"
+PN786,Framing,"PIR Foam, 1/2"", Left Side with Cutout",ea,,Locally Sourced,,Fabricated,,"3/4"" will also work"
+PN787,Framing,"PIR Foam, 1/2"", Right Side with Cutout",ea,,Locally Sourced,,Fabricated,,"3/4"" will also work"
+PN788,Framing,"PIR Foam, 1/2"", Top Hatch",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work"
+PN789,Framing,"PIR Foam, 1/2"", Top Outer",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work"
+PN790,Framing,"PIR Foam, 1/2"", Floor Access Panel, Rear",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work"
+PN791,Framing,"PIR Foam, 1/2"", Floor Access Panel, Front",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work with some adjustments"
+PN792,Framing,"PIR Foam, 1/2"", Side Floor Cover, Rear",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work"
+PN793,Framing,"PIR Foam, 1/2"", Side Floor Cover, Front",ea,,Locally Sourced,,Fabricated,,"Up to 1"" will work"
+PN794,Framing,"PIR Foam, 1/2"", Generic Side",ea,,Locally Sourced,,Fabricated,,"3/8"" thickness, at least 1/2"" width."
 PN795,Framing,"Wood Panel, Floor Cover, Left Rear",ea,,Locally Sourced,,Locally Sourced,,
 PN796,Framing,"Wood Panel, Floor Cover, Right Rear",ea,,Locally Sourced,,Locally Sourced,,
 PN797,Framing,"Foam Weatherstrip, 3/4"" x 3/8"", 580mm",ea,,Home Depot,https://www.homedepot.com/p/M-D-Building-Products-3-8-in-x-10-ft-Black-Sponge-Rubber-Foam-Weatherstrip-Tape-06635/100353487,Generic,,
 PN800,Misc,"Vibration Damper, NEMA 17",ea,,Amazon,https://www.amazon.com/BIGTREETECH-Direct-Vibration-Creality-Printers/dp/B083JTC6JJ,BIGTREETECH,,
 PN801,Misc,"Heatsink, 42x42x12mm",ea,,Amazon,https://www.amazon.com/BIGTREETECH-Direct-Vibration-Creality-Printers/dp/B083JTC6JJ,BIGTREETECH,,Z heatsinks optional
-PN802,Misc,"Heatsink, 14x14x6mm",ea,,Amazon,,Generic,,"For RPi, optional"
+PN802,Misc,"Heatsink, 14x14x6mm",ea,,Amazon,https://www.amazon.com/ZZHXSM-Heatsink-Aluminum-Radiator-Conductive/dp/B092LW4K9L,Generic,,"For RPi, optional"
 PN810,Misc,Bed Spring,ea,,Amazon,https://www.amazon.com/gp/product/B07SDFX766,Befenybay,BE022-fba,Creality clone
 PN811,Misc,"Bed Leveling Nut, 60mm",ea,,Amazon,https://www.amazon.com/gp/product/B07SDFX766,Befenybay,BE022-fba,Creality clone
 PN812,Misc,"Heated Bed, 310x310mm",ea,,Amazon,https://www.amazon.com/Creality-CR-10S-Aluminum-Heated-Replacement/dp/B07TVMGFRZ,Creality,ZT931264ZTHL272,Creality CR-10 Stock
@@ -262,10 +259,10 @@ PN821,Misc,"Coupler, Pneumatic, PC4-M10",ea,,Amazon,https://www.amazon.com/AiTri
 PN822,Misc,"Bed Leveling Column, Silicone",ea,,Amazon,https://www.amazon.com/gp/product/B08FJ6ZVH8,Generic,,(Optional) Replaces PN 810
 PN823,Misc,"Micro SD Card, Class A1",ea,,Amazon,https://www.amazon.com/SanDisk-Extreme-microSDHC-UHS-3-SDSQXAF-032G-GN6MA,SanDisk,SDSQXAF-032G-GN6MA,"Class A1, 32GB"
 PN824,Misc,SD Card,ea,,Amazon,https://www.amazon.com/Verbatim-Premium-Memory-UHS-I-Class/dp/B000RLBWJK,Generic,,Any size works; solely for flashing MCU.
-PN900,Electrical,"Stepper, NEMA 17, 48mm, 0.9 Degree, 2A",ea,,stepperonline.com,https://www.omc-stepperonline.com/nema-17-bipolar-0-9deg-46ncm-65-1oz-in-2a-2-9v-42x42x48mm-4-wires.html,STEPPERONLINE,17HM19-2004S,A/B
+PN900,Electrical,"Stepper, NEMA 17, 48mm, 0.9 Degree, 2A",ea,,stepperonline.com,https://www.omc-stepperonline.com/nema-17-bipolar-0-9deg-46ncm-65-1oz-in-2a-2-9v-42x42x48mm-4-wires.html,STEPPERONLINE,17HM19-2004S,A & B
 PN901,Electrical,"Stepper, NEMA 17, 39mm, 1.8 Degree, 1.5A",ea,,stepperonline.com,https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-6374ozin-15a-42x42x39mm-4-wires-w--1m-pin-connector.html,STEPPERONLINE,17HS15-1504S-X1,Z1 & Z2
 PN902,Electrical,"Stepper, NEMA 17, 25mm, 1.8 Degree, 0.7A",ea,,stepperonline.com,https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-13ncm-18-4oz-in-0-7a-2-9v-42x42x25mm-4-wires.html,STEPPERONLINE,17HS10-0704S,Extruder
-PN910,Electrical,Limit Switch,ea,,Amazon,https://www.amazon.com/Creality-3D-Printer-Separate-Package/dp/B09NLVDK1J/,Creality,AMUS-LD-3D-AC-Limit switch,Usually 3pcs. Generic in 4pc and 5pc for less.
+PN910,Electrical,"Limit Switch, Makerbot/Creality Form",ea,,Amazon,https://www.amazon.com/Creality-3D-Printer-Separate-Package/dp/B09NLVDK1J/,Creality,AMUS-LD-3D-AC-Limit switch,Usually 3pcs. Generic in 4pc and 5pc for less.
 PN911,Electrical,"Switch, Panel Mount, >5A VAC",ea,,Digikey,https://www.digikey.com/en/products/detail/nkk-switches/S1F/1006965,NKK Switches,S1F,"12-12.5mm circular cutout, either SPST or DPST"
 PN912,Electrical,"Power Supply, 24V, 450W",ea,,Digikey,https://www.digikey.com/en/products/detail/mean-well-usa-inc/SE-450-24/7706608,Meanwell,SE-450-24,
 PN913,Electrical,"Fuse, 5x20mm, Glass, Fast Blow, 5A",ea,,Digikey,https://www.digikey.com/en/products/detail/bel-fuse-inc/5ET-5-R/1009940,Bel Fuse,5ET 5-R,
@@ -294,18 +291,20 @@ PN985,Electrical,Raspberry Pi Camera,ea,,Amazon,https://www.amazon.com/gp/produc
 PN986,Electrical,"Signal Amplifier, SP901E",ea,,Amazon,https://www.amazon.com/BTF-LIGHTING-Amplifier-Repeater-Addressable-Programmable/dp/B07RDKRW5T,BTF-Lighting,SP901E,
 PN987,Electrical,"Buck Converter, 3A, USB C Out",ea,,Amazon,https://www.amazon.com/gp/product/B07ZQB6S3L,Generic,,Must accept up 24VDC in.
 UN001,Supplies,Synthetic Lubricant with PTFE,ea,1,Amazon,https://www.amazon.com/gp/product/B0081JE0OO,Synco/Super Lube,92003,
-UN002,Supplies,Isopropyl rubbing alcohol,ea,1,Locally Sourced,,Generic,,90%+
+UN002,Supplies,Isopropyl rubbing alcohol,ea,1,Wal-Mart,https://www.walmart.com/ip/Equate-91-Isopropyl-Alcohol-Antiseptic-32-fl-oz/276040459,Generic,,90%+
 UN003,Supplies,Lint free towels,pk,1,Amazon,https://www.amazon.com/AIDEA-Microfiber-Cleaning-Absorbent-Lint-Free/dp/B07ZDRVRPP,Generic,,
 UN004,Supplies,Right Angle Clamps,ea,1,Amazon,https://www.amazon.com/gp/product/B09KLN6T5B,Generic,,
-UN005,Supplies,PTFE Tube Cutter,ea,1,,,Generic,,Usually included with PTFE tube
-UN006,Supplies,Soldering iron,ea,1,,,Generic,,
+UN005,Supplies,PTFE Tube Cutter,ea,1,Amazon,https://www.amazon.com/dp/B0756D2T73,Generic,,Often found included with PTFE tube kits
+UN006,Supplies,Soldering iron,ea,1,Amazon,https://www.amazon.com/dp/B000AS28UC,Generic,,
 UN007,Supplies,"Soldering Iron Heat Set Insert Tip, M3",ea,1,Amazon,https://www.amazon.com/gp/product/B07VR4LBZ7,Generic,,"Usually comes with M3, M4, and M5 as a pack."
-UN008,Supplies,Electrical Tweezers,ea,1,,,,,
+UN008,Supplies,Electrical Tweezers,ea,1,Amazon,https://www.amazon.com/Precision-Anti-Static-Electronics-Sodlering%EF%BC%8CJewelry-Laboratory/dp/B07ZBZ7MSF,Generic,,
 UN009,Supplies,"Needle-nosed Pliers, 6""",ea,1,Amazon,https://www.amazon.com/gp/product/B000A0OW2M,Irwin,2078216,
-UN010,Supplies,Wire Strippers,ea,1,,,,,
+UN010,Supplies,Wire Strippers,ea,1,Amazon,https://www.amazon.com/DOWELL-Stripper-Multi-Function-Tool%EF%BC%8CProfessional-Craftsmanship/dp/B06X9875Z7,Generc,,
 UN011,Supplies,"Wire Crimper, Open Barrel",ea,1,Amazon,https://www.amazon.com/gp/product/B078WNZ9FW,IWISS,IWS-2820M,
-UN012,Supplies,Electrical Screw Driver Set,ea,1,,,,,Philips and flathead for terminal connectors
+UN012,Supplies,Electrical Screw Driver Set,ea,1,Amazon,https://www.amazon.com/Klein-Tools-32614-Screwdriver-Electronics/dp/B07PNC5MPB,Klein Tools,32614,Philips and flathead for terminal connectors
 UN016,Supplies,"Lily White Lubricating Oil, 4 fl. oz.",ea,1,Amazon,https://www.amazon.com/Zoom-SPOUT-Sewing-Machine-Oiler-118ml/dp/B00BYCKTW2,AlbaChem,3014 Zoom Lubricant,"Can substitute with NLGI 1 grease w/ low viscosity, no PTFE"
-UN020,Supplies,"Allen wrences, Metric",pk,1,,,,,
-UN031,Supplies,Fine Tip Marker,ea,1,Locally Sourced,,Generic,,For labeling part bags and wires
-UN032,Supplies,Plastic Bags,pk,1,,,,,For organizing parts before assembly
+UN020,Supplies,"Allen wrences, Metric",pk,1,Wal-Mart,9 in 1 Folding Hex Key Set Metric Aluminum Allen Wrench Multi-Purposes Hex Key Tool Non-Slip for Construction Home Decoration - Walmart.com,Generic,,
+UN031,Supplies,Fine Tip Marker,ea,1,Wal-Mart,https://www.walmart.com/ip/Sharpie-Permanent-Markers-Fine-Point-Black-2-Count/17617453,Sharpie,1905368,For labeling part bags and wires
+UN032,Supplies,"Plastic Bags, 4""x6""",pk,1,Wal-Mart,https://www.walmart.com/ip/100-Baggies-W-4-X6-H-Small-Reclosable-Seal-Clear-Plastic-Poly-Bag/401047000,Generic,,For organizing parts before assembly
+UN033,Supplies,"Plastic Bags, 3""x4""",pk,1,Wal-Mart,https://www.walmart.com/ip/100-Baggies-W-3-X4-H-Small-Reclosable-Seal-Clear-Plastic-Poly-Bag/326515524,Generic,,For organizing parts before assembly
+UN013,Supplies,Heat Gun,ea,1,Amazon,https://www.amazon.com/SEEKONE-Heat-Gun-Hot-Air/dp/B078S5QMFG,Generic,,For heat shrink and butt splices
