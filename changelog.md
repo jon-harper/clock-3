@@ -1,5 +1,10 @@
 # Changelog
 
+## 2022-04-05
+
+- Filling out docs in earnest now.
+- Rigid coupler link in the part list/BOM is now correct
+- Documentation changes are now tracked in the documentation repository.
 ## 2022-04-04
 
 - BomDialog now exports both CSV and Markdown formats.
@@ -8,6 +13,8 @@
 - Documentation framework is progressing steadily.
 - Created a panel mount profile for the MicroFit 3.0 dual row, two pin connector.
 - Earth wire is now 16awg.
+- Lots of added links and corrections in the part list.
+- Updated `/Scripts` readme text.
 
 ## 2022-04-03
 
