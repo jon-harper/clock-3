@@ -1,5 +1,14 @@
 # Changelog
 
+## 2022-04-07
+
+- Today is yesterday on repeat, but with more progress.
+- [jon-harper.github.io/clock3-docs/](https://jon-harper.github.io/clock3-docs/) is live, if incomplete.
+
+## 2022-04-06
+- Continuing to flesh out the documentation basics
+- Started sealing the panels with polyurethane.
+
 ## 2022-04-05
 
 - Filling out docs in earnest now.
