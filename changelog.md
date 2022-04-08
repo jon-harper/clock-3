@@ -1,5 +1,13 @@
 # Changelog
 
+## 2022-04-08
+
+- Made some milestone changes. See below.
+- Adjusted due date for 0.4.5 (pre-assembly testing).
+  - Although the Micro Fit 3 profile is done, it's not tested.
+  - The BOM needs to be broken out into the Sales BOM and the Manufacturing/Assembly BOM. This (kinda) exists with the Materials/Parts sections, but they are different things and need to be broken out.
+- Documentation is progressing steadily in parallel, but can't progress while the BOM is changing (i.e. reference points might change).
+
 ## 2022-04-07
 
 - Today is yesterday on repeat, but with more progress.
