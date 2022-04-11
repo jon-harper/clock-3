@@ -1,5 +1,9 @@
 # Changelog
 
+## 2022-04-11
+
+- Finished testing Micro Fit 3 profile, updated PN070
+- Fixed #45
 ## 2022-04-08
 
 - Made some milestone changes. See below.

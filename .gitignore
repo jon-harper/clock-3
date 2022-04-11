@@ -1,3 +1,4 @@
 ~$*.xlsx
 /STL/Testing/*.stl
 /BOM/output.csv
+/Test
