@@ -10,7 +10,7 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-You can find the changelog in its entirety in the [changelog.md](changelog.md) file, while the [Issues](/issues) page is a good place to see what's in progress.
+You can find the changelog in its entirety in the [changelog.md](changelog.md) file. Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock3-docs/)
 
 ### 2022-03-31
 
@@ -24,66 +24,6 @@ The preliminary [Bill of Materials](/BOM/bill_of_materials.xlsx) is done. This w
 - This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg).
 - All renders and quite a few photos are stored in this repository, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
 - A heat set insert press (or a steady hand with a soldering iron) is strongly recommended.
-
-## Development Goals
-
-- Maximize the number of off-the-shelf components
-  - 400mm linear rails and 500mm lead screws were chosen for ready availability.
-  - JST-SM connectors are used for nearly all connections.
-  - Limit switches are the Makerbot/Creality style.
-  - Heated bed is a stock replacement Creality CR-10 bed (310x310mm).
-- Design parametrically to allow for flexible build parameters
-  - The core Fusion 360 file can be adjusted for different tolerances.
-  - Build volume can be scaled up (capability is maintained, but this is not actively developed yet).
-  - Different typed and depths of heated inserts can be used; likewise, adjustments can be made for different print tolerances.
-- Design for ease of assembly and simple cable management
-  - Parts have printed ID numbers to help identification.
-  - Left- and right-handed parts are notated with a printed 'L' or 'R', as well.
-  - Many printed components have zip tie anchors and cable guides.
-- Components are made to be serviceable and accessible
-  - Disassembly of most components does not require other components to be disassembled first.
-  - A gantry lock design is included to keep the gantry in place and square when working on belts.
-  - Side and rear panels unscrew and take the insulation with them.
-  - Components and cabling are almost entirely separated, i.e. electrical components can be unplugged from a harness.
-  - Easy, direct access to electronics through two individually-removeable floor panels.
-- Minimize the number of fastener types and sizes and keep components easily-sourced
-  - Fasteners are (with minimal exception) M3 button head or M5 socket head cap screws.
-  - Minor exceptions are all readily available and small in number.
-  - Care is taken to avoid adding new fastener lengths or types.
-- Require a minimum of custom-fabricated components with emphasis on reducing the number of cuts.
-  - Panels are have as few cutouts are possible.
-  - Floor panels use holes to pass through wiring to printed panels underneath instead of individual cutouts.
-  - Frame relies on perpendicular braces, largely avoiding instead tapped ends. Blind joints or counterbored and tapped holes are completely unused.
-- Air filtration and temperature control
-  - Active chamber temperature control
-  - Dual fans for recirculated and vented air, fed through both activated carbon and HEPA (completed February 2022)
-- Documentation
-  - Full [changelog](changelog.md)
-  - Full bill of materials (*verification in progress*)
-  - Component-by-component, step-by-step assembly instructions (*in progress*)
-  - Open development on Github
-
-## Key Specifications
-
-- 300x300x350mm build volume
-- Dual independant Z axes with auto-leveling
-- CoreXY kinematics
-- V6, 300C hotend with the ability to support others
-- Direct drive or Bowden feed (currently only configured for direct drive with a BMG)
-- Fully enclosed
-  - Simple side and rear panel removal
-  - Large, clear front door with inset frame
-- HEPA and activated carbon filtration
-  - Continuous interior filtration through AC and HEPA
-  - Filtered ventilation
-- Temperature controlled chamber
-  - Filtration exhaust speed is temperature-controlled
-  - Exhaust fan can be set to run at low speed continuously for negative internal pressure
-- External steppers and electronics (exluding direct drive extruder)
-- 12V RGB LED lighting (WS2815 preferred, any 3- or 4-wire addressible strip will work)
-- Spring steel magnetic bed
-- Generic ABL mount point, initially with BLTouch support
-- Panel mounted connectors for Raspberry Pi (USB, Ethernet, HDMI) and SD card port for flashing the MCU.
 
 ## Media
 
