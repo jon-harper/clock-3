@@ -3,7 +3,7 @@
 
 | First Print | Completed Panels |
 |---|---|
-| [![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg](/Media/Photos/2021-12/20211223_cover.jpg)) | [![Cover photo with door open](/Media/Photos/2022-04-15_door_open.jpg)](/Media/Photos/2022-04-15_door_open.jpg) |
+| [![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg)](/Media/Photos/2021-12/20211223_cover.jpg) | [![Cover photo with door open](/Media/Photos/2022-04-15_door_open.jpg)](/Media/Photos/2022-04/2022-04-15_door_open.jpg) |
 
 This is the evolution of the concept of a fully-enclosed 3D printer with externally mounted steppers. The idea of building an enclosed 3D printer to suit my specific needs came out of excess free time during the 2021 Winter Storm.
 
