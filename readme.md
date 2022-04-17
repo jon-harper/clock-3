@@ -1,6 +1,9 @@
 # Clock 3
 
-![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg)
+
+| First Print | Completed Panels |
+|---|---|
+| [![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg](/Media/Photos/2021-12/20211223_cover.jpg)) | [![Cover photo with door open](/Media/Photos/2022-04-15_door_open.jpg)](/Media/Photos/2022-04-15_door_open.jpg) |
 
 This is the evolution of the concept of a fully-enclosed 3D printer with externally mounted steppers. The idea of building an enclosed 3D printer to suit my specific needs came out of excess free time during the 2021 Winter Storm.
 
@@ -10,7 +13,11 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-You can find the changelog in its entirety in the [changelog.md](changelog.md) file. Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock3-docs/)
+You can find the changelog in its entirety in the [changelog.md](changelog.md) file. Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock3-docs/).
+
+### 2022-04-15
+
+The finished wooden and acrylic paneling is in place and fits. Continued testing of the prototype is is centered around documenting assembly currently, with concurrent testing of the hotend assembly on a modified Ender 5.
 
 ### 2022-03-31
 

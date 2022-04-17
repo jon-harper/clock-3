@@ -1,5 +1,10 @@
 # Changelog
 
+## 2022-04-17
+
+- Doing a lot of experimentation and testing right now, as well as catching up on maintenance.
+- Focus ATM is testing the hotend & related assemblies on an Ender 5, including a new wiring panel mount. Will adapt for Clock 3 afteward.
+
 ## 2022-04-14
 
 - Making heavy progress documenting assembly.
