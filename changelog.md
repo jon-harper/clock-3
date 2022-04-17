@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-04-14
+
+- Making heavy progress documenting assembly.
+- Panels are finished, insulation is 80% done.
+- Made a number of model fixes based on assembly experience, all related to fasteners.
+
 ## 2022-04-11
 
 - Finished testing Micro Fit 3 profile, updated PN070
