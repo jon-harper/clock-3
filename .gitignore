@@ -2,3 +2,6 @@
 /STL/Testing/*.stl
 /BOM/output.csv
 /Test
+/Site
+*.htm
+*.html
