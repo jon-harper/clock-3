@@ -1,0 +1,66 @@
+site_name: Clock 3 Documentation
+site_description: Documentation and assembly instructions for the Clock 3 enclosed, CoreXY 3D printer.
+site_author: Jon Harper
+site_url: https://jon-harper.github.io/clock-3
+repo_url: https://github.com/jon-harper/clock-3
+
+theme:
+  name: material
+  # name: bootstrap4
+
+markdown_extensions:
+  - admonition
+
+nav:
+  - overview.md
+  - todo.md
+  - About:
+    - about/features.md
+    - about/goals.md
+    - about/faq.md
+    - about/roadmap.md
+    - about/releases.md
+  - Bill of Materials: 
+    - bom/index.md
+    - bom/printing.md
+    - bom/guide.md
+    - bom/bill_of_materials.md
+    - BOM Source Repository: "https://github.com/jon-harper/clock-3/tree/main/BOM"
+  - Assembly Guide: 
+    - assembly/index.md
+    - Preparation:
+      - assembly/prep/index.md
+      - assembly/prep/fabrication.md
+      - assembly/prep/frame_labels.md
+      - assembly/prep/inserts.md
+      - assembly/prep/linear_rail_1.md
+      - assembly/prep/tee_nuts.md
+      - assembly/prep/linear_rail_2.md
+    - Frame Assembly:
+      - assembly/frame/index.md
+      - assembly/frame/sides.md
+      - assembly/frame/center.md
+      - assembly/frame/z.md
+      - assembly/frame/insulation.md
+      - assembly/frame/xy.md
+      - assembly/frame/finishing.md
+    - Z Axis:
+      - assembly/z_axis/index.md
+      - assembly/z_axis/steppers.md
+      - assembly/z_axis/bed.md
+      - assembly/z_axis/gantries.md
+      - assembly/z_axis/finishing.md
+    - X and Y Axes:
+      - assembly/xy_axes/index.md
+    - Electronics, Part 1:
+      - assembly/toys/index.md
+      # Skirt
+      # AB Steppers & top panel
+    - Wiring Fabrication:
+      - assembly/wiring/index.md
+    - Electronics, Part 2:
+      - assembly/hookup/index.md
+    - Finishing Up:
+      - assembly/finishing/index.md
+  - Configuration: 
+    - config/index.md
