@@ -13,15 +13,11 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-You can find the changelog in its entirety in the [changelog.md](changelog.md) file. Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock3-docs/).
+Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock-3/) and is the current focus of the project. Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
 
-### 2022-04-15
+Markdown pages in this repository may undergo significant changes as content is moved to MkDocs.
 
-The finished wooden and acrylic paneling is in place and fits. Continued testing of the prototype is is centered around documenting assembly currently, with concurrent testing of the hotend assembly on a modified Ender 5.
-
-### 2022-03-31
-
-The preliminary [Bill of Materials](/BOM/bill_of_materials.xlsx) is done. This will eventually be a Markdown file and a CSV file, but the frequency of edits makes an Excel document easier at present. Documentation is in progress and will be published here as it progresses.
+There is a [changelog](changelog.md) for detailed modifications.
 
 ## Notes
 

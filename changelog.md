@@ -1,5 +1,10 @@
 # Changelog
 
+## 2022-04-27
+
+- Still working on documentation. I took a week off to solve some long-term issues and test out a few things.
+- Documentation is now merged into the clock-3 repo instead of being its own repo. This will simplify a lot of things.
+
 ## 2022-04-17
 
 - Doing a lot of experimentation and testing right now, as well as catching up on maintenance.
