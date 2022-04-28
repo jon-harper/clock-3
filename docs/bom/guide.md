@@ -83,3 +83,10 @@ The front-to-back Z crossbars are ideal mounting positions for lever nuts. In th
 
 These have not been tested. Mounting the raceways might require additional parts beyond the raceways themselves.
 
+### Ribbon Cables
+
+This is currently being tested and checked for quality sources of silicone ribbon cable, particularly brands that are marked in pairs or rainbow.
+
+### Multi-core Cables
+
+These technically should work but are costly (particularly IGUS's 10+ core cables). Bundling in shielded multi-core cables may be particularly helpful for signal wires, e.g. ABL and endstops, as an alternative to twisting wires.

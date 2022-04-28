@@ -12,8 +12,8 @@ markdown_extensions:
   - admonition
 
 nav:
-  - overview.md
   - todo.md
+  - overview.md
   - About:
     - about/features.md
     - about/goals.md

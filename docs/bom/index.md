@@ -49,6 +49,6 @@ There are several kinds of these:
 - Cables and wiring harnesses
 - Cut extrusions and panels
 
-With the exception of cables, all of these have part numbers in the form `PN`. Cables *do* still have an ID, but are tracked based on the component that they power. There's more on that later in the assembly guide.
+With the exception of cables, all of these have part numbers in the form `PN`. Cables also have an ID, but it is tracked based on the component that the cable powers. There's more on that later in the assembly guide.
 
-All of these fabricated parts require materials (`MN`). Consequently, some parts in the BOM are made entirely from materials.
+All of these fabricated parts require materials (parts starting with `MN`). Consequently, some parts in the BOM are made entirely from materials.
