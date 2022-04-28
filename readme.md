@@ -13,7 +13,7 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-Documentation is ongoing and active at [jon-harper.github.io/clock3-docs](https://jon-harper.github.io/clock-3/) and is the current focus of the project. Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
+Documentation is ongoing and active at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/) and is the current focus of the project. Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
 
 Markdown pages in this repository may undergo significant changes as content is moved to MkDocs.
 
