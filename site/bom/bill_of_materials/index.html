@@ -1,0 +1,3649 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation and assembly instructions for the Clock 3 enclosed, CoreXY 3D printer.">
+      
+      
+        <meta name="author" content="Jon Harper">
+      
+      
+        <link rel="canonical" href="https://jon-harper.github.io/clock-3/bom/bill_of_materials/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Bill of Materials - Clock 3 Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bill-of-materials" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Clock 3 Documentation" class="md-header__button md-logo" aria-label="Clock 3 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Clock 3 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bill of Materials
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jon-harper/clock-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Clock 3 Documentation" class="md-nav__button md-logo" aria-label="Clock 3 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Clock 3 Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jon-harper/clock-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../todo/" class="md-nav__link">
+        Editing/Reviewing/TODO
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/features/" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/goals/" class="md-nav__link">
+        Development Goals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/releases/" class="md-nav__link">
+        Release Log
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Bill of Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bill of Materials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Bill of Materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Bill of Materials Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing/" class="md-nav__link">
+        Printed Parts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/" class="md-nav__link">
+        Decision Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Bill of Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Bill of Materials
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#printed" class="md-nav__link">
+    Printed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toolhead" class="md-nav__link">
+    Toolhead
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastener" class="md-nav__link">
+    Fastener
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transmission" class="md-nav__link">
+    Transmission
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framing" class="md-nav__link">
+    Framing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    Misc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrical" class="md-nav__link">
+    Electrical
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supplies" class="md-nav__link">
+    Supplies
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/jon-harper/clock-3/tree/main/BOM" class="md-nav__link">
+        BOM Source Repository
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Assembly Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Assembly Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Assembly Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/" class="md-nav__link">
+        Assembly Guide Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Preparation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Preparation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Preparation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/" class="md-nav__link">
+        Getting Ready & Organized
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/fabrication/" class="md-nav__link">
+        Fabrication Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/frame_labels/" class="md-nav__link">
+        Frame Labels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/inserts/" class="md-nav__link">
+        Heat Set Inserts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/linear_rail_1/" class="md-nav__link">
+        Linear Rail Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/tee_nuts/" class="md-nav__link">
+        Roll-In Tee Nut Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/linear_rail_2/" class="md-nav__link">
+        Z Axis Linear Rail Alignment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Frame Assembly
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Frame Assembly" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Frame Assembly
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/" class="md-nav__link">
+        Overview and Instructions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/sides/" class="md-nav__link">
+        Side Frames
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/center/" class="md-nav__link">
+        Joining the Halves
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/z/" class="md-nav__link">
+        Z Framing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/insulation/" class="md-nav__link">
+        Prepare Insulation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/xy/" class="md-nav__link">
+        XY Framing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/finishing/" class="md-nav__link">
+        Finishing Touches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          Z Axis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Z Axis" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Z Axis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/" class="md-nav__link">
+        Z Axis Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/steppers/" class="md-nav__link">
+        Stepper Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/bed/" class="md-nav__link">
+        Bed Assembly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/gantries/" class="md-nav__link">
+        Z Gantries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/finishing/" class="md-nav__link">
+        Finishing the Z Axis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          X and Y Axes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X and Y Axes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          X and Y Axes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/" class="md-nav__link">
+        XY Axes Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Electronics, Part 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Electronics, Part 1" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Electronics, Part 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/" class="md-nav__link">
+        Initial Electronics Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_7">
+          Wiring Fabrication
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wiring Fabrication" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Wiring Fabrication
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/wiring/" class="md-nav__link">
+        Wiring Fabrication Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_8">
+          Electronics, Part 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Electronics, Part 2" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Electronics, Part 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hookup/" class="md-nav__link">
+        Running Wiring Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_9">
+          Finishing Up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Finishing Up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Finishing Up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/finishing/" class="md-nav__link">
+        Last Steps
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Configuration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Configuration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Configuration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/" class="md-nav__link">
+        Configuration Introduction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#printed" class="md-nav__link">
+    Printed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toolhead" class="md-nav__link">
+    Toolhead
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastener" class="md-nav__link">
+    Fastener
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transmission" class="md-nav__link">
+    Transmission
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framing" class="md-nav__link">
+    Framing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    Misc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#electrical" class="md-nav__link">
+    Electrical
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supplies" class="md-nav__link">
+    Supplies
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/jon-harper/clock-3/edit/master/docs/bom/bill_of_materials.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="bill-of-materials">Bill of Materials</h1>
+<p>The columns of this list are abbreviated for readability and reference. The
+<a href="https://github.com/jon-harper/clock-3/blob/main/BOM/bill_of_materials.xlsx">Excel spreadsheet</a>
+version contains additional columns that are helpful in sourcing.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The script that auto-generates this list does not read decimal values. Anything measured in length
+is measured in centimeters (cm) instead of meters (m) to work around this.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>Materials are used in fabricating parts found later in the Bill of Materials or cable
+  list. Some parts, particularly the acrylic and wood panels, will likely require outside
+  fabrication.</li>
+<li>All reference URLs and suppliers are purely for assistance in sourcing materials and are
+  not endorsed.</li>
+<li>The "Supplies" category includes a large number of components that are often already in the
+  hands of experienced makers. As such, the list is primarily for reference and is not formally
+  part of the Bill of Materials.</li>
+</ul>
+</div>
+<h2 id="materials">Materials</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">MN001</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B00XIIH43W">Activated Carbon, Virgin Coconut, 4-8mm</a></td>
+<td align="right">1</td>
+<td align="right">lb</td>
+<td align="left">0.5lb to start; have heard negative things about this supplier recently</td>
+</tr>
+<tr>
+<td align="left">MN002</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07TSH6MNT">Thermal Glue</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN004</td>
+<td align="left"><a href="https://www.amazon.com/AmazonBasics-Multi-Purpose-Cable-Ties-200-Piece/dp/B087MKMSDY">Zip ties, 4"</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left">Qty varies based on cofiguration and personal preference</td>
+</tr>
+<tr>
+<td align="left">MN100</td>
+<td align="left"><a href="https://www.homedepot.com/p/RMAX-Pro-Select-R-Matte-Plus-3-1-2-in-x-4-ft-x-8-ft-R-3-2-Foam-Insulation-Board-637902/313501506">Polyisocyanurate Foam, 1/2", 4'x8' sheet</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Can substitute 3/4" and 1" in places for better insulation</td>
+</tr>
+<tr>
+<td align="left">MN101</td>
+<td align="left">Plywood sheet, 12mm thickness, 4'x5'</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">For paneling</td>
+</tr>
+<tr>
+<td align="left">MN102</td>
+<td align="left">Acrylic sheet, 3mm thickness, 4'x5'</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">For door windows</td>
+</tr>
+<tr>
+<td align="left">MN103</td>
+<td align="left">Plywood sheet, 6mm thickness, 4'x5'</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">For front panels</td>
+</tr>
+<tr>
+<td align="left">MN104</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08D3RXL7T">Wire loom, PET, 1/4"</a></td>
+<td align="right">260</td>
+<td align="right">cm</td>
+<td align="left">Minimum quantity. More cables can be wrapped.</td>
+</tr>
+<tr>
+<td align="left">MN105</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08D3RXL7T">Wire loom, PET, 1/2"</a></td>
+<td align="right">120</td>
+<td align="right">cm</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN107</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07WWWPR2X">Heat shrink tubing, various sizes</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left">2.5mm - 4mm, mostly</td>
+</tr>
+<tr>
+<td align="left">MN108</td>
+<td align="left"><a href="https://www.amazon.com/XHF-Inch-13mm-Waterproof-Insulation/dp/B07FPDBGYH">Heat shrink tubing, 13mm</a></td>
+<td align="right">45</td>
+<td align="right">cm</td>
+<td align="left">For PET loom ends</td>
+</tr>
+<tr>
+<td align="left">MN110</td>
+<td align="left"><a href="https://www.amazon.com/Electrical-Gauge-Silicone-Cable-Black/dp/B0746HRVZP">Hookup Wire, Silicone, 16 AWG</a></td>
+<td align="right">625</td>
+<td align="right">cm</td>
+<td align="left">Red, black and optionally green or yellow</td>
+</tr>
+<tr>
+<td align="left">MN111</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07T4SYVYG">Hookup Wire, Silicone, 20 AWG</a></td>
+<td align="right">520</td>
+<td align="right">cm</td>
+<td align="left">Red, black</td>
+</tr>
+<tr>
+<td align="left">MN112</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B087TJNJZS/">Hookup Wire, Silicone, 24 AWG</a></td>
+<td align="right">8820</td>
+<td align="right">cm</td>
+<td align="left">OR 26 awg</td>
+</tr>
+<tr>
+<td align="left">MN113</td>
+<td align="left"><a href="https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B01AQU3ST8">Hookup Wire, Silicone, 12 AWG</a></td>
+<td align="right">60</td>
+<td align="right">cm</td>
+<td align="left">OR 13 awg; red and black</td>
+</tr>
+<tr>
+<td align="left">MN201</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SYF-001T-P0-6-LF-SN/2027280">JST SM Pin Socket</a></td>
+<td align="right">88</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN202</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMR-02V-B/764265">JST SM Connector, 2.54mm, Male, 2 Pin</a></td>
+<td align="right">12</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN203</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMR-03V-B/5702345">JST SM Connector, 2.54mm, Male, 3 Pin</a></td>
+<td align="right">10</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN204</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMR-04V-B/2137107">JST SM Connector, 2.54mm, Male, 4 Pin</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN205</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/smr-05v-b/3622430">JST SM Connector, 2.54mm, Male, 5 Pin</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN210</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMP-02V-BC/1835574">JST SM Connector, 2.54mm, Female, 2 Pin</a></td>
+<td align="right">12</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN211</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMP-03V-BC/2514249">JST SM Connector, 2.54mm, Female, 3 Pin</a></td>
+<td align="right">10</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN212</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMP-04V-BC/7230521">JST SM Connector, 2.54mm, Female, 4 Pin</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN213</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/222000498388/?HissuCode=SMP-05V-BC">JST SM Connector, 2.54mm, Female, 5 Pin</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Digikey doesn't carry this, for some reason</td>
+</tr>
+<tr>
+<td align="left">MN220</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/SXH-002T-P0-6/1651063">JST XH Pin Socket</a></td>
+<td align="right">55</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN221</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/XHP-2/555485">JST XH Connector, 2.5mm, Female, 2 Pin</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN222</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/XHP-3/1651017">JST XH Connector, 2.5mm, Female, 3 Pin</a></td>
+<td align="right">9</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN223</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/jst-sales-america-inc/XHP-4/683353">JST XH Connector, 2.5mm, Female, 4 Pin</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN240</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4422/11497499">JST PH Connector, 2.0mm, Female, 6 Pin</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left">Only needed if steppers have integrated connectors</td>
+</tr>
+<tr>
+<td align="left">MN241</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4422/11497499">JST PH Pin Socket</a></td>
+<td align="right">12</td>
+<td align="right">ea</td>
+<td align="left">Only needed if steppers have integrated connectors</td>
+</tr>
+<tr>
+<td align="left">MN242</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B073QJWVVK/">XT 60 Connector Set, 12 awg 150mm pigtails</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left">Optional</td>
+</tr>
+<tr>
+<td align="left">MN250</td>
+<td align="left">Ring Connector, 18-24 awg</td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left">Number varies based on configuration</td>
+</tr>
+<tr>
+<td align="left">MN251</td>
+<td align="left">Ring Connector, 14-18 awg</td>
+<td align="right">9</td>
+<td align="right">ea</td>
+<td align="left">Number varies based on configuration</td>
+</tr>
+<tr>
+<td align="left">MN252</td>
+<td align="left">Spade Connector, 14-18 awg</td>
+<td align="right">5</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN253</td>
+<td align="left">Butt Splice, 12-14 awg</td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Without XT60, only two needed.</td>
+</tr>
+<tr>
+<td align="left">MN260</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/molex/0430310009/252485">Micro Fit 3 Connector Pin</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN261</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/molex/0430300009/252481">Micro Fit 3 Connector Socket</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN262</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/molex/0430250200/252496">Micro Fit 3 Connector, 2 pin, 2 Row, Male</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">MN263</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/molex/0430200200/252490">Micro Fit 3 Connector, 2 pin, 2 Row, Panel Mount</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="printed">Printed</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN001</td>
+<td align="left"><a href="001 - XY Pulleys, L Bottom.stl">XY Pulleys, L Bottom</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN002</td>
+<td align="left"><a href="002 - XY Pulleys, L Top.stl">XY Pulleys, L Top</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN003</td>
+<td align="left"><a href="003 - XY Pulleys, R Bottom.stl">XY Pulleys, R Bottom</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN004</td>
+<td align="left"><a href="004 - XY Pulleys, R Top.stl">XY Pulleys, R Top</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN005</td>
+<td align="left"><a href="005 - XY Joint, L Top.stl">XY Joint, L Top</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN006</td>
+<td align="left"><a href="006 - XY Joint, L Mid.stl">XY Joint, L Mid</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN007</td>
+<td align="left"><a href="007 - XY Joint, L Bottom.stl">XY Joint, L Bottom</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN008</td>
+<td align="left"><a href="008 - XY Joint, R Top.stl">XY Joint, R Top</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN009</td>
+<td align="left"><a href="009 - XY Joint, R Mid.stl">XY Joint, R Mid</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN010</td>
+<td align="left"><a href="010 - XY Joint, R Bottom.stl">XY Joint, R Bottom</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN011</td>
+<td align="left"><a href="011 - XY Tensioner, Bolt Receiver.stl">XY Tensioner, Bolt Receiver</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN012</td>
+<td align="left"><a href="012 - XY Tensioner, Idler Seat.stl">XY Tensioner, Idler Seat</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN013</td>
+<td align="left"><a href="013 - XY Tensioner, Tensioner Cap.stl">XY Tensioner, Tensioner Cap</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN014</td>
+<td align="left"><a href="014 - XY Tensioner, Guide Frame.stl">XY Tensioner, Guide Frame</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN015</td>
+<td align="left"><a href="015 - XY Steppers, Vibration Damper, TPU.stl">XY Steppers, Vibration Damper, TPU</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN016</td>
+<td align="left"><a href="016 - XY Steppers, Stepper Mount.stl">XY Steppers, Stepper Mount</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN017</td>
+<td align="left"><a href="017 - XY Motion, L Y Rail Guide.stl">XY Motion, L Y Rail Guide</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN018</td>
+<td align="left"><a href="018 - XY Motion, R Y Rail Guide.stl">XY Motion, R Y Rail Guide</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Also acts as limit switch mount</td>
+</tr>
+<tr>
+<td align="left">PN019</td>
+<td align="left"><a href="019 - Z Motion, Lower Rail Bracket.stl">Z Motion, Lower Rail Bracket</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN020</td>
+<td align="left"><a href="020 - Z Axis, Bed Corner Bracket.stl">Z Axis, Bed Corner Bracket</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN021</td>
+<td align="left"><a href="021 - Z Axis, L Gantry.stl">Z Axis, L Gantry</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN022</td>
+<td align="left"><a href="022 - Z Axis, R Gantry.stl">Z Axis, R Gantry</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN023</td>
+<td align="left"><a href="023 - Z Axis, L Stepper Mount.stl">Z Axis, L Stepper Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN024</td>
+<td align="left"><a href="024 - Z Axis, R Stepper Mount.stl">Z Axis, R Stepper Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN025</td>
+<td align="left"><a href="025 - Z Motion, L Limit Switch Mount.stl">Z Motion, L Limit Switch Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN026</td>
+<td align="left"><a href="026 - Z Motion, R Limit Switch Mount.stl">Z Motion, R Limit Switch Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN027</td>
+<td align="left"><a href="027 - Z Axis, L Lead Screw Plate.stl">Z Axis, L Lead Screw Plate</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN028</td>
+<td align="left"><a href="028 - Z Axis, R Lead Screw Plate.stl">Z Axis, R Lead Screw Plate</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN029</td>
+<td align="left"><a href="029 - Z Axis, Bed Wire Support.stl">Z Axis, Bed Wire Support</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN030</td>
+<td align="left"><a href="030 - X Gantry, Carriage Mount.stl">X Gantry, Carriage Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN031</td>
+<td align="left"><a href="031 - X Gantry, Top Mount.stl">X Gantry, Top Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN032</td>
+<td align="left"><a href="032 - X Gantry, Back Mount.stl">X Gantry, Back Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN033</td>
+<td align="left"><a href="033 - X Gantry, Front Mount.stl">X Gantry, Front Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN034</td>
+<td align="left"><a href="034 - X Gantry, L Belt Clamp.stl">X Gantry, L Belt Clamp</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN035</td>
+<td align="left"><a href="035 - X Gantry, R Belt Clamp.stl">X Gantry, R Belt Clamp</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN040</td>
+<td align="left"><a href="040 - Toolhead, Hotend Mounting Bracket.stl">Toolhead, Hotend Mounting Bracket</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN041</td>
+<td align="left"><a href="041 - Toolhead, Hotend Locking Collar.stl">Toolhead, Hotend Locking Collar</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN042</td>
+<td align="left"><a href="042 - Toolhead, Cooling Fan Intake.stl">Toolhead, Cooling Fan Intake</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN043</td>
+<td align="left"><a href="043 - Toolhead, PTFE Collar, TPU.stl">Toolhead, PTFE Collar, TPU</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN044</td>
+<td align="left"><a href="044 - Toolhead, EVA Fan Duct.stl">Toolhead, EVA Fan Duct</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN045</td>
+<td align="left"><a href="045 - Toolhead, Part Fan Mount.stl">Toolhead, Part Fan Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN051</td>
+<td align="left"><a href="051 - Toolhead, BLTouch Mount.stl">Toolhead, BLTouch Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN061</td>
+<td align="left"><a href="061 - Toolhead, BMG Mount.stl">Toolhead, BMG Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN070</td>
+<td align="left"><a href="070 - Electrical, R Panel.stl">Electrical, R Panel</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">JST-SM connector panel</td>
+</tr>
+<tr>
+<td align="left">PN071</td>
+<td align="left"><a href="071 - Electrical, L Panel.stl">Electrical, L Panel</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">JST-SM connector panel</td>
+</tr>
+<tr>
+<td align="left">PN072</td>
+<td align="left"><a href="072 - Electrical, R Panel Back Plate.stl">Electrical, R Panel Back Plate</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN073</td>
+<td align="left"><a href="073 - Electrical, L Panel Back Plate.stl">Electrical, L Panel Back Plate</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN076</td>
+<td align="left"><a href="076 - Electrical, L Octopus Board Mount.stl">Electrical, L Octopus Board Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN077</td>
+<td align="left"><a href="077 - Electrical, R Octopus Board Mount.stl">Electrical, R Octopus Board Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN082</td>
+<td align="left"><a href="082 - Lighting, LED Guide, 12mm.stl">Lighting, LED Guide, 12mm</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left">60 LEDs/m</td>
+</tr>
+<tr>
+<td align="left">PN083</td>
+<td align="left"><a href="083 - Electrical, L RPi Board Mount.stl">Electrical, L RPi Board Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN084</td>
+<td align="left"><a href="084 - Electrical, R RPi Board Mount.stl">Electrical, R RPi Board Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN086</td>
+<td align="left"><a href="086 - Electrical, PSU Mount.stl">Electrical, PSU Mount</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN087</td>
+<td align="left"><a href="087 - Electrical, Camera Mount.stl">Electrical, Camera Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN088</td>
+<td align="left"><a href="088 - Electrical, Camera Stand.stl">Electrical, Camera Stand</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN090</td>
+<td align="left"><a href="090 - Misc, Corner Bracket Cover.stl">Misc, Corner Bracket Cover</a></td>
+<td align="right">46</td>
+<td align="right">ea</td>
+<td align="left">Count not final</td>
+</tr>
+<tr>
+<td align="left">PN091</td>
+<td align="left"><a href="091 - Misc, Limit Switch Cap.stl">Misc, Limit Switch Cap</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN092</td>
+<td align="left"><a href="092 - Misc, Printer Base Foot, TPU.stl">Misc, Printer Base Foot, TPU</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN093</td>
+<td align="left"><a href="093 - XY Motion, X Limit Switch Mount.stl">XY Motion, X Limit Switch Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN094</td>
+<td align="left"><a href="094 - Misc, X Gantry Service Bar.stl">Misc, X Gantry Service Bar</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">No ID tag</td>
+</tr>
+<tr>
+<td align="left">PN095</td>
+<td align="left"><a href="095 - Frame, Bearing Alignment Slider, TPU.stl">Frame, Bearing Alignment Slider, TPU</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN096</td>
+<td align="left"><a href="096 - Misc, T Slot Wire Anchor.stl">Misc, T Slot Wire Anchor</a></td>
+<td align="right">17</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN099</td>
+<td align="left"><a href="099 - XY Motion, Y Axis Front Rail Guide.stl">XY Motion, Y Axis Front Rail Guide</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN100</td>
+<td align="left"><a href="100 - Misc, Rear PTFE Tube Guide.stl">Misc, Rear PTFE Tube Guide</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN102</td>
+<td align="left"><a href="102 - Skirt, 80mm Fan Mount.stl">Skirt, 80mm Fan Mount</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN103</td>
+<td align="left"><a href="103 - Skirt, 80mm Fan Exterior Grill.stl">Skirt, 80mm Fan Exterior Grill</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN104</td>
+<td align="left"><a href="104 - Skirt, L Front End.stl">Skirt, L Front End</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">HDMI, USB, Ethernet plugs</td>
+</tr>
+<tr>
+<td align="left">PN105</td>
+<td align="left"><a href="105 - Skirt, R Front End.stl">Skirt, R Front End</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Power switch</td>
+</tr>
+<tr>
+<td align="left">PN106</td>
+<td align="left"><a href="106 - Skirt, L Rear End.stl">Skirt, L Rear End</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">A stepper plug</td>
+</tr>
+<tr>
+<td align="left">PN107</td>
+<td align="left"><a href="107 - Skirt, R Rear End.stl">Skirt, R Rear End</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">IEC (power), B stepper plugs</td>
+</tr>
+<tr>
+<td align="left">PN108</td>
+<td align="left"><a href="108 - Skirt, Hexagon Grill.stl">Skirt, Hexagon Grill</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN110</td>
+<td align="left"><a href="110 - Skirt, SD Card Reader Mount.stl">Skirt, SD Card Reader Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN111</td>
+<td align="left"><a href="111 - Skirt, 80mm Fan Finger Guard.stl">Skirt, 80mm Fan Finger Guard</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN112</td>
+<td align="left"><a href="112 - Skirt, Display Mount.stl">Skirt, Display Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN113</td>
+<td align="left"><a href="113 - Skirt, Display Slot.stl">Skirt, Display Slot</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN120</td>
+<td align="left"><a href="120 - Frame, PTFE Coupler.stl">Frame, PTFE Coupler</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN121</td>
+<td align="left"><a href="121 - Frame, Exhaust Coupler.stl">Frame, Exhaust Coupler</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN122</td>
+<td align="left"><a href="122 - Frame, PTFE Coupling Guide, TPU.stl">Frame, PTFE Coupling Guide, TPU</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN123</td>
+<td align="left"><a href="123 - Z Axis, L Z Slider Mount.stl">Z Axis, L Z Slider Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN124</td>
+<td align="left"><a href="124 - Z Axis, R Z Slider Mount.stl">Z Axis, R Z Slider Mount</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN125</td>
+<td align="left"><a href="125 - Frame, Pull Handle.stl">Frame, Pull Handle</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN126</td>
+<td align="left"><a href="126 - Frame, Pull Handle, T Slot.stl">Frame, Pull Handle, T Slot</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">V Slot Door Handle</td>
+</tr>
+<tr>
+<td align="left">PN127</td>
+<td align="left"><a href="127 - Frame, Wire Conduit, Top, TPU.stl">Frame, Wire Conduit, Top, TPU</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN128</td>
+<td align="left"><a href="128 - Frame, Wire Conduit, Bottom, TPU.stl">Frame, Wire Conduit, Bottom, TPU</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN200</td>
+<td align="left"><a href="200 - Filtration, Exhaust Adapter, TPU.stl">Filtration, Exhaust Adapter, TPU</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">TPU/PETG</td>
+</tr>
+<tr>
+<td align="left">PN201</td>
+<td align="left"><a href="201 - Filtration, Fan Intake Gasket, TPU.stl">Filtration, Fan Intake Gasket, TPU</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">TPU/PETG</td>
+</tr>
+<tr>
+<td align="left">PN202</td>
+<td align="left"><a href="202 - Filtration, Fan Intake Duct.stl">Filtration, Fan Intake Duct</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN203</td>
+<td align="left"><a href="203 - Filtration, HEPA Filter Sleeve.stl">Filtration, HEPA Filter Sleeve</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN204</td>
+<td align="left"><a href="204 - Filtration, HEPA Intake Duct.stl">Filtration, HEPA Intake Duct</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN205</td>
+<td align="left"><a href="205 - Filtration, HEPA Latch, TPU.stl">Filtration, HEPA Latch, TPU</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">TPU/PETG</td>
+</tr>
+<tr>
+<td align="left">PN206</td>
+<td align="left"><a href="206 - Filtration, AC Tank Gasket, TPU.stl">Filtration, AC Tank Gasket, TPU</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">TPU/PETG</td>
+</tr>
+<tr>
+<td align="left">PN207</td>
+<td align="left"><a href="207 - Filtration, Base Stand.stl">Filtration, Base Stand</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN210</td>
+<td align="left"><a href="210 - Filtration, AC Tank Lid.stl">Filtration, AC Tank Lid</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN211</td>
+<td align="left"><a href="211 - Filtration, AC Tank Filter Ring.stl">Filtration, AC Tank Filter Ring</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+<tr>
+<td align="left">PN212</td>
+<td align="left"><a href="212 - Filtration, AC Tank, 50mm.stl">Filtration, AC Tank, 50mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">PETG/ABS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="toolhead">Toolhead</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN400</td>
+<td align="left"><a href="https://www.amazon.com/Genuine-E3D-All-Metal-Universal-V6-175-MO/dp/B074DHD751">E3D V6 Hotend (Direct Drive)</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Or compatible clone; GCR uses incompatible thermistor</td>
+</tr>
+<tr>
+<td align="left">PN450</td>
+<td align="left"><a href="https://www.amazon.com/Genuine-Bondtech-BMG-Extruder-EXT-BMG/dp/B07DGL43SQ">Bondtech BMG Extruder</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Or compatible clone</td>
+</tr>
+<tr>
+<td align="left">PN485</td>
+<td align="left"><a href="https://www.amazon.com/ANTCLABS-BLTouch-Leveling-Premium-Extension/dp/B076PQG1FF">BLTouch V3.1</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Or compatible clone</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fastener">Fastener</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN500</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078LBVG2C">Screw, M3-0.5 x 6mm SHCS</a></td>
+<td align="right">46</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN501</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078L47SCG">Screw, M3-0.5 x 8mm SHCS</a></td>
+<td align="right">161</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN502</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078KZRT8L">Screw, M3-0.5 x 12mm SHCS</a></td>
+<td align="right">23</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN503</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078LCYXPL">Screw, M3-0.5 x 16mm SHCS</a></td>
+<td align="right">19</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN504</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078L48BMP">Screw, M3-0.5 x 20mm, SHCS</a></td>
+<td align="right">7</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN505</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B08BBVKXWC">Screw, M3-0.5 x 25mm SHCS</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left">Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)</td>
+</tr>
+<tr>
+<td align="left">PN506</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B078KZXP5P">Screw, M3-0.5 x 30mm SHCS</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left">Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)</td>
+</tr>
+<tr>
+<td align="left">PN507</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B078L42CXS/">Screw, M3-0.5 x 35mm SCHS</a></td>
+<td align="right">19</td>
+<td align="right">ea</td>
+<td align="left">Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)</td>
+</tr>
+<tr>
+<td align="left">PN508</td>
+<td align="left"><a href="https://www.amazon.com/10-M3-0-50-6mm-Stainless-MonsterBolts/dp/B07JHB1G85">Screw, M3-0.5 x 40mm SHCS</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left">Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)</td>
+</tr>
+<tr>
+<td align="left">PN509</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/221000551310/?ProductCode=CSHZ-SUS-M3-45">Screw, M3-0.5 x 45mm SHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Long M3 screws can usually be found in multi-size packs on Amazon (25-45mm)</td>
+</tr>
+<tr>
+<td align="left">PN530</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLXQWG">Screw, M5-0.8 x 8mm BHCS</a></td>
+<td align="right">53</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN532</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B078CQLGKX">Screw, M5-0.8 x 12mm BHCS</a></td>
+<td align="right">216</td>
+<td align="right">ea</td>
+<td align="left">200pc: https://www.amazon.com/M5-0-8-Button-Available-Stainless-Machine/dp/B07VRZYMP6</td>
+</tr>
+<tr>
+<td align="left">PN533</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WLQ1LZ">Screw, M5-0.8 x 16mm BHCS</a></td>
+<td align="right">38</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN534</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WCYJB9">Screw, M5-0.8 x 25mm BHCS</a></td>
+<td align="right">22</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN535</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-8-Button-Available-Stainless-Machine/dp/B08FJCS884">Screw, M5-0.8 x 60mm BHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">May be hard to find in BH, SHCS also works.</td>
+</tr>
+<tr>
+<td align="left">PN536</td>
+<td align="left"><a href="https://www.amazon.com/M5-0-80-Stainless-Button-Socket-Screws/dp/B077WKWHXC?th=1">Screw, M5-0.8 x 20mm BHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN537</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08HLW8LW6">Screw, M5-0.8 x 50mm BHCS</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left">May be hard to find in BH, SHCS also works.</td>
+</tr>
+<tr>
+<td align="left">PN550</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07SDFX766">Screw, M4-0.7 x 35mm FHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Included with bed leveling nuts</td>
+</tr>
+<tr>
+<td align="left">PN551</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07PK8ZJTV">Set Screw, M4-0.7 x 4mm</a></td>
+<td align="right">24</td>
+<td align="right">ea</td>
+<td align="left">Included with hidden corner brackets</td>
+</tr>
+<tr>
+<td align="left">PN552</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07RMZCLZ3">Screw, M4-0.7 x 16mm SHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Included with spider couplers</td>
+</tr>
+<tr>
+<td align="left">PN553</td>
+<td align="left"><a href="https://www.amazon.com/20-M5-0-80-35mm-Stainless-MonsterBolts/dp/B078L3YNS3">Screw, M5-0.8 x 16mm SHCS</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left">Door corners only. MISUMI corners ships with screws.</td>
+</tr>
+<tr>
+<td align="left">PN555</td>
+<td align="left"><a href="https://www.amazon.com/Countersunk-Socket-Screws-20-piece-Stainless/dp/B07CNTZMNV">Screw, M5-0.8 x 14mm FHCS</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left">M5-0.8 x 15mm will also work. 16mm is too long.</td>
+</tr>
+<tr>
+<td align="left">PN556</td>
+<td align="left"><a href="https://www.amazon.com/Befenybay-Collar-Shaft-Screw-Printer/dp/B07V41FRZS">Set Screw, M4-0.7 x 4mm</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Included with 8mm Lock Collars</td>
+</tr>
+<tr>
+<td align="left">PN557</td>
+<td align="left"><a href="https://www.amazon.com/10-M4-0-70-12mm-Stainless-MonsterBolts/dp/B078YDH3LY">Screw, M4-0.7 x 8mm BHCS</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">For PSU only</td>
+</tr>
+<tr>
+<td align="left">PN558</td>
+<td align="left"><a href="https://www.homedepot.com/p/Everbilt-8-x-3-4-in-Phillips-Drive-Truss-Head-Lath-Sharp-Point-Screw-1-lb-Box-215-Pack-116102/205142852">Screw, #8 x 3/4", Truss Head, Sharp Point</a></td>
+<td align="right">24</td>
+<td align="right">ea</td>
+<td align="left">Metric: M4 x 20mm</td>
+</tr>
+<tr>
+<td align="left">PN570</td>
+<td align="left"><a href="https://www.amazon.com/dp/B087R22HM2">Hex Nut, M3</a></td>
+<td align="right">14</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN571</td>
+<td align="left"><a href="https://www.amazon.com/dp/B087R22HM2">Hex Nut, M4</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN572</td>
+<td align="left"><a href="https://www.amazon.com/dp/B087R22HM2">Hex Nut, M5</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN573</td>
+<td align="left"><a href="https://www.amazon.com/IEUYO-Fastener-Aluminum-Profile-Accessories/dp/B07NZKK1PM">Tee Nut, 6mm Slot, M3, Drop In</a></td>
+<td align="right">23</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN574</td>
+<td align="left"><a href="https://www.amazon.com/IEUYO-Fastener-Aluminum-Profile-Accessories/dp/B07NZKK1PM">Tee Nut, 6mm Slot, M5, Drop In</a></td>
+<td align="right">16</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN575</td>
+<td align="left"><a href="https://www.amazon.com/100-Pack-Aluminum-Extrusions-Profile-Accessories/dp/B07VHNGBWJ">Tee Nut, 6mm Slot, M5, Roll In</a></td>
+<td align="right">277</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN576</td>
+<td align="left"><a href="https://www.amazon.com/Boeray-Sliding-Aluminum-Extrusion-Profile/dp/B01GCDG2QE">Tee Nut, 6mm Slot, M3, Slide In</a></td>
+<td align="right">80</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN577</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07Z2FFPCJ">Washer, M5, Split Lock</a></td>
+<td align="right">230</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN578</td>
+<td align="left"><a href="https://www.amazon.com/Steel-Washer-Plated-Finish-Metric/dp/B009OK4TZO">Washer, M5x10mm</a></td>
+<td align="right">29</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN579</td>
+<td align="left"><a href="https://www.amazon.com/PZRT-Nickel-Plated-Knurled-Eco-Friendly-Printers/dp/B07P627SJN">Thumb Nut, M3</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">7mm thickness is preferable</td>
+</tr>
+<tr>
+<td align="left">PN580</td>
+<td align="left"><a href="https://www.amazon.com/uxcell-Coupling-L25xD14-Coupler-Connector/dp/B07P6X8RWL">Coupler, 5mm to 8mm, Rigid</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">A/B steppers</td>
+</tr>
+<tr>
+<td align="left">PN581</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07RMZCLZ3">Coupler, 5mm to 8mm, Spider</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Z steppers</td>
+</tr>
+<tr>
+<td align="left">PN582</td>
+<td align="left"><a href="https://www.amazon.com/Befenybay-Collar-Shaft-Screw-Printer/dp/B07V41FRZS">Lock Collar, 8mm</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN595</td>
+<td align="left"><a href="https://www.amazon.com/iplusmile-Embedment-Threaded-Printing-Projects/dp/B087NBYF65">Heat Set Insert, M3x5.7mm</a></td>
+<td align="right">135</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="transmission">Transmission</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN600</td>
+<td align="left"><a href="https://www.amazon.com/uxcell-Bearing-8x16x5mm-Shielded-Bearings/dp/B07Z3F68H4">Bearing, F688ZZ</a></td>
+<td align="right">8</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN601</td>
+<td align="left"><a href="https://www.amazon.com/uxcell-F695-2RS-Bearing-5x13x4mm-Bearings/dp/B085D91TW1">Bearing, F695-2RS</a></td>
+<td align="right">20</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN610</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07BPGYX3G">Idler Pulley, 2GT-2 20T, 5mm Bore</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN611</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07K69SMV2">Pulley, 2GT-2, 30T, 8mm Bore</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN612</td>
+<td align="left"><a href="https://www.amazon.com/Timing-Printer-FYSETC-Fiberglass-Reinforced/dp/B07BRKZGMS">Belt, 2GT-2, 6mm, Fiberglass Core</a></td>
+<td align="right">400</td>
+<td align="right">cm</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN620</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07MHGHH84">Dowel Pin, 5mm OD, 25mm</a></td>
+<td align="right">10</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN621</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07JL1WK8B">Linear Rod, 8mm OD, 250mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN631</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08G1M4SX8">Linear Rail, MGN12, 400mm</a></td>
+<td align="right">5</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN632</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08G1M4SX8">Linear Rail Carriage, MGN12H</a></td>
+<td align="right">5</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN642</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B085FYDWYG">Lead Screw, Tr8x4, 500mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN643</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08DJ76YXG">Lead Screw Nut, Tr8x4, Anti-Backlash</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="framing">Framing</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN700</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302060920/?ProductCode=HBKTS5-C">Corner Bracket, Tapped</a></td>
+<td align="right">56</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN701</td>
+<td align="left"><a href="https://www.amazon.com/dp/B07PK8ZJTV">Corner Bracket, Inside Hidden</a></td>
+<td align="right">12</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN702</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302060830/?ProductCode=HBKUS5-C">Corner Bracket, Super Thick, Tapped</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN710</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HBLTC5">Corner Bracket, Door Frame</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN711</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302362010/?ProductCode=HHPSN5">2020 Extrusion Hinge</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN713</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFSSK5-2000">2020 Door Panel Gasket, 564mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Must be cut to size</td>
+</tr>
+<tr>
+<td align="left">PN714</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFSSK5-2000">2020 Door Panel Gasket, 646mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Must be cut to size</td>
+</tr>
+<tr>
+<td align="left">PN715</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B00GI1CWHO">Piano Hinge, 24" x 1.25"</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">2" hole spacing</td>
+</tr>
+<tr>
+<td align="left">PN725</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302685660/?ProductCode=HFSP5-2020-440">2020 Extrusion, 440mm, Milled</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">X axis rail</td>
+</tr>
+<tr>
+<td align="left">PN726</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302685660/?ProductCode=HFSP5-2020-540">2020 Extrusion, 540mm, Milled</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Y axis rails</td>
+</tr>
+<tr>
+<td align="left">PN727</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-620">2020 Extrusion, 620mm</a></td>
+<td align="right">6</td>
+<td align="right">ea</td>
+<td align="left">Y axis crossbar, external top side bar</td>
+</tr>
+<tr>
+<td align="left">PN728</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-500">2020 Extrusion, 500mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Z axis crossbar (X axis)</td>
+</tr>
+<tr>
+<td align="left">PN729</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-510">2020 Extrusion, 510mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Z axis rails</td>
+</tr>
+<tr>
+<td align="left">PN730</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-540">2020 Extrusion, 540mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Z axis crossbar (Y axis)</td>
+</tr>
+<tr>
+<td align="left">PN732</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-220">2020 Extrusion, 220mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Bed frame</td>
+</tr>
+<tr>
+<td align="left">PN733</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302683830/?ProductCode=HFS5-2020-350">2020 Extrusion, 350mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Bed frame</td>
+</tr>
+<tr>
+<td align="left">PN740</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302684350/?ProductCode=HFS5-2040-800">2040 Extrusion, 800mm</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">External vertical frame</td>
+</tr>
+<tr>
+<td align="left">PN741</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302684350/?ProductCode=HFS5-2040-620">2040 Extrusion, 620mm</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Lower frame crossbar, all sides</td>
+</tr>
+<tr>
+<td align="left">PN742</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302684350/?ProductCode=HFS5-2040-540">2040 Extrusion, 540mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Side interior crossbars</td>
+</tr>
+<tr>
+<td align="left">PN750</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302685320/?ProductCode=HFS5-404020-620">404020 Extrusion, 620mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">External top bar, front and rear</td>
+</tr>
+<tr>
+<td align="left">PN751</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFTF5-2020-564-TPW">2020 Door Extrusion, 564mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Horizontal door frame</td>
+</tr>
+<tr>
+<td align="left">PN752</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110302375310/?ProductCode=HFTF5-2020-646-TPW">2020 Door Extrusion, 646mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Vertical door frame</td>
+</tr>
+<tr>
+<td align="left">PN760</td>
+<td align="left">Acrylic Sheet, 577x659x3mm</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Inner door window</td>
+</tr>
+<tr>
+<td align="left">PN761</td>
+<td align="left">Acrylic Sheet, 613x694x3mm</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Outer door window</td>
+</tr>
+<tr>
+<td align="left">PN769</td>
+<td align="left">Wood Panel, Outside Rear</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN770</td>
+<td align="left">Wood Panel, Outside Right</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN771</td>
+<td align="left">Wood Panel, Outside Left</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN772</td>
+<td align="left">Wood Panel, Outside Top</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN773</td>
+<td align="left">Wood Panel, Top Hatch</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN774</td>
+<td align="left">Wood Panel, Floor Access, Rear</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN775</td>
+<td align="left">Wood Panel, Floor Access, Front</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN776</td>
+<td align="left">Wood Panel, Floor Cover, Front Left</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN777</td>
+<td align="left">Wood Panel, Floor Cover, Front Right</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN778</td>
+<td align="left">Wood Panel, Front Left</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN779</td>
+<td align="left">Wood Panel, Front Right</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN780</td>
+<td align="left">Wood Panel, Front Center</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN782</td>
+<td align="left">Wood Strip, Hinge Anchor</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">1/2" or 12mm will do.</td>
+</tr>
+<tr>
+<td align="left">PN785</td>
+<td align="left">PIR Foam, 1/2", Rear Panel</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">3/4" will also work</td>
+</tr>
+<tr>
+<td align="left">PN786</td>
+<td align="left">PIR Foam, 1/2", Left Side with Cutout</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">3/4" will also work</td>
+</tr>
+<tr>
+<td align="left">PN787</td>
+<td align="left">PIR Foam, 1/2", Right Side with Cutout</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">3/4" will also work</td>
+</tr>
+<tr>
+<td align="left">PN788</td>
+<td align="left">PIR Foam, 1/2", Top Hatch</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work</td>
+</tr>
+<tr>
+<td align="left">PN789</td>
+<td align="left">PIR Foam, 1/2", Top Outer</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work</td>
+</tr>
+<tr>
+<td align="left">PN790</td>
+<td align="left">PIR Foam, 1/2", Floor Access Panel, Rear</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work</td>
+</tr>
+<tr>
+<td align="left">PN791</td>
+<td align="left">PIR Foam, 1/2", Floor Access Panel, Front</td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work with some adjustments</td>
+</tr>
+<tr>
+<td align="left">PN792</td>
+<td align="left">PIR Foam, 1/2", Side Floor Cover, Rear</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work</td>
+</tr>
+<tr>
+<td align="left">PN793</td>
+<td align="left">PIR Foam, 1/2", Side Floor Cover, Front</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Up to 1" will work</td>
+</tr>
+<tr>
+<td align="left">PN794</td>
+<td align="left">PIR Foam, 1/2", Generic Side</td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">3/8" thickness, at least 1/2" width.</td>
+</tr>
+<tr>
+<td align="left">PN797</td>
+<td align="left"><a href="https://www.homedepot.com/p/M-D-Building-Products-3-8-in-x-10-ft-Black-Sponge-Rubber-Foam-Weatherstrip-Tape-06635/100353487">Foam Weatherstrip, 3/4" x 3/8", 580mm</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="misc">Misc</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN800</td>
+<td align="left"><a href="https://www.amazon.com/BIGTREETECH-Direct-Vibration-Creality-Printers/dp/B083JTC6JJ">Vibration Damper, NEMA 17</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN801</td>
+<td align="left"><a href="https://www.amazon.com/BIGTREETECH-Direct-Vibration-Creality-Printers/dp/B083JTC6JJ">Heatsink, 42x42x12mm</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left">Z heatsinks optional</td>
+</tr>
+<tr>
+<td align="left">PN802</td>
+<td align="left"><a href="https://www.amazon.com/ZZHXSM-Heatsink-Aluminum-Radiator-Conductive/dp/B092LW4K9L">Heatsink, 14x14x6mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">For RPi, optional</td>
+</tr>
+<tr>
+<td align="left">PN810</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07SDFX766">Bed Spring</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Creality clone</td>
+</tr>
+<tr>
+<td align="left">PN811</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07SDFX766">Bed Leveling Nut, 60mm</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Creality clone</td>
+</tr>
+<tr>
+<td align="left">PN812</td>
+<td align="left"><a href="https://www.amazon.com/Creality-CR-10S-Aluminum-Heated-Replacement/dp/B07TVMGFRZ">Heated Bed, 310x310mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Creality CR-10 Stock</td>
+</tr>
+<tr>
+<td align="left">PN813</td>
+<td align="left"><a href="https://openbuildspartstore.com/idler-pulley-plate/">Idler Pulley Plate</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Or clone</td>
+</tr>
+<tr>
+<td align="left">PN814</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07SH1S2C1">Build Plate, Spring Steel, 310x310mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN815</td>
+<td align="left"><a href="https://www.amazon.com/Teflon-tubing-Filament-Printer-Tech/dp/B073RDFTDV">PTFE Tube, 4mm OD, 2mm ID</a></td>
+<td align="right">1</td>
+<td align="right">cm</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN816</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08R8NQZG2">French Press Filter, 4" (8 Cup)</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN818</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08S3CXSRH">Silicone Tubing, 5/8" ID</a></td>
+<td align="right">1</td>
+<td align="right">cm</td>
+<td align="left">Quality varies, but 3/4" OD often comes out as 20mm</td>
+</tr>
+<tr>
+<td align="left">PN819</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07H7QWB2M">HEPA Cartridge, 72x20mm</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Vacuum filters for Kenmore EF-2</td>
+</tr>
+<tr>
+<td align="left">PN821</td>
+<td align="left"><a href="https://www.amazon.com/AiTrip-PC4-M10-Straight-Fitting-Extruder/dp/B07ZCNB1L8">Coupler, Pneumatic, PC4-M10</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Often found included with PTFE tube kits</td>
+</tr>
+<tr>
+<td align="left">PN823</td>
+<td align="left"><a href="https://www.amazon.com/SanDisk-Extreme-microSDHC-UHS-3-SDSQXAF-032G-GN6MA">Micro SD Card, Class A1</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Class A1, 32GB</td>
+</tr>
+<tr>
+<td align="left">PN824</td>
+<td align="left"><a href="https://www.amazon.com/Verbatim-Premium-Memory-UHS-I-Class/dp/B000RLBWJK">SD Card</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Any size works; solely for flashing MCU.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="electrical">Electrical</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PN900</td>
+<td align="left"><a href="https://www.omc-stepperonline.com/nema-17-bipolar-0-9deg-46ncm-65-1oz-in-2a-2-9v-42x42x48mm-4-wires.html">Stepper, NEMA 17, 48mm, 0.9 Degree, 2A</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">A &amp; B</td>
+</tr>
+<tr>
+<td align="left">PN901</td>
+<td align="left"><a href="https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-6374ozin-15a-42x42x39mm-4-wires-w--1m-pin-connector.html">Stepper, NEMA 17, 39mm, 1.8 Degree, 1.5A</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Z1 &amp; Z2</td>
+</tr>
+<tr>
+<td align="left">PN902</td>
+<td align="left"><a href="https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-13ncm-18-4oz-in-0-7a-2-9v-42x42x25mm-4-wires.html">Stepper, NEMA 17, 25mm, 1.8 Degree, 0.7A</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Extruder</td>
+</tr>
+<tr>
+<td align="left">PN910</td>
+<td align="left"><a href="https://www.amazon.com/Creality-3D-Printer-Separate-Package/dp/B09NLVDK1J/">Limit Switch, Makerbot/Creality Form</a></td>
+<td align="right">4</td>
+<td align="right">ea</td>
+<td align="left">Usually 3pcs. Generic in 4pc and 5pc for less.</td>
+</tr>
+<tr>
+<td align="left">PN911</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/nkk-switches/S1F/1006965">Switch, Panel Mount, &gt;5A VAC</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">12-12.5mm circular cutout, either SPST or DPST</td>
+</tr>
+<tr>
+<td align="left">PN912</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/mean-well-usa-inc/SE-450-24/7706608">Power Supply, 24V, 450W</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN913</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/bel-fuse-inc/5ET-5-R/1009940">Fuse, 5x20mm, Glass, Fast Blow, 5A</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN950</td>
+<td align="left"><a href="https://www.amazon.com/Coolerguys-40x40x20-CG4020L12S-Devices-Printers/dp/B07V4GGPW3">Fan, Axial, 40mm x 20mm, 12V</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN951</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08R9JW1DF">Fan, Radial, 50mm x 15mm, 12V</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN952</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B00IOIJ4AC">Fan, Axial, 80mm x 25mm, 12V</a></td>
+<td align="right">3</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN953</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B08NCMY3H5">Fan, Radial, 75mm x 30mm, 24V</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left">Some variation between mfgrs in dimensions</td>
+</tr>
+<tr>
+<td align="left">PN960</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07C87FYLY">Panel Mount Extension, USB Type A</a></td>
+<td align="right">2</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN961</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B00S5WJ5RO">Panel Mount Extension, RJ-45</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN962</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07WJGPQSW">Panel Mount Extension, HDMI</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">HDMI terminated on RPi 3B+, mini-HDMI on RPi4</td>
+</tr>
+<tr>
+<td align="left">PN963</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B01D9JIUU0">Micro SD to SD Extension</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Removed from plastic housing</td>
+</tr>
+<tr>
+<td align="left">PN964</td>
+<td align="left"><a href="https://us.misumi-ec.com/vona2/detail/110400258530">IEC C14 Socket with Fuse Holder</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Needs a 5 amp fuse; 10amp is way too high.</td>
+</tr>
+<tr>
+<td align="left">PN965</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07RZX9MCS">Micro HDMI to HDMI Adapter</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Not needed with RPi 3B+</td>
+</tr>
+<tr>
+<td align="left">PN966</td>
+<td align="left"><a href="https://www.amazon.com/StarTech-com-Standard-Computer-Power-Cord/dp/B001CATESG">IEC C13 Cable, 1m</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN967</td>
+<td align="left"><a href="https://www.amazon.com/SUNGUY-%E3%80%902-Pack-x2%E3%80%91Rapid-Charging-Nintendo/dp/B07T6T3KZZ">USB C to USB Type A cable, 24"</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN968</td>
+<td align="left"><a href="https://www.amazon.com/Pc-Accessories-Connectors-Sockets-10P-20cm-2PK">IDC 10-Pin Cable, 8", 2pk</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN970</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B091GQJK1B">5050 RGB LED Pixel, 12mm PCB, 16.6mm Pitch</a></td>
+<td align="right">36</td>
+<td align="right">ea</td>
+<td align="left">60 LED/m, typically WS2812B or WS2815</td>
+</tr>
+<tr>
+<td align="left">PN971</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07QDQXDQ5/">Thermistor, NTC 100K, E3D V6 cartridge</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN972</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07QDQXDQ5/">Thermistor, NTC 100K 3950 Bead</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN980</td>
+<td align="left"><a href="https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP">Octopus V1.1 MCU</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN981</td>
+<td align="left"><a href="https://www.amazon.com/BIGTREETECH-Printer-Stepstick-TMC2209-Heatsink/dp/B07YW7BM68">Stepper Driver, TMC2209</a></td>
+<td align="right">5</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN982</td>
+<td align="left"><a href="https://www.amazon.com/BIGTREETECH-Mini12864-Graphic-Display-Prusa-i3/dp/B08P5LXR86">Mini12864 LCD V1.0</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN984</td>
+<td align="left"><a href="https://www.digikey.com/en/products/detail/raspberry-pi/Raspberry-Pi-4B-2GB/10258782">Raspberry Pi 4B 2GB</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN985</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07SN8HB1R">Raspberry Pi Camera</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN986</td>
+<td align="left"><a href="https://www.amazon.com/BTF-LIGHTING-Amplifier-Repeater-Addressable-Programmable/dp/B07RDKRW5T">Signal Amplifier, SP901E</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">PN987</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07ZQB6S3L">Buck Converter, 3A, USB C Out</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Must accept up 24VDC in.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="supplies">Supplies</h2>
+<table>
+<thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Description</th>
+<th align="right">UOM</th>
+<th align="right">Qty</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">UN001</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B0081JE0OO">Synthetic Lubricant with PTFE</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN002</td>
+<td align="left"><a href="https://www.walmart.com/ip/Equate-91-Isopropyl-Alcohol-Antiseptic-32-fl-oz/276040459">Isopropyl rubbing alcohol</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">90%+</td>
+</tr>
+<tr>
+<td align="left">UN003</td>
+<td align="left"><a href="https://www.amazon.com/AIDEA-Microfiber-Cleaning-Absorbent-Lint-Free/dp/B07ZDRVRPP">Lint free towels</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN004</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B09KLN6T5B">Right Angle Clamps</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN005</td>
+<td align="left"><a href="https://www.amazon.com/dp/B0756D2T73">PTFE Tube Cutter</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Often found included with PTFE tube kits</td>
+</tr>
+<tr>
+<td align="left">UN006</td>
+<td align="left"><a href="https://www.amazon.com/dp/B000AS28UC">Soldering iron</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN007</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B07VR4LBZ7">Soldering Iron Heat Set Insert Tip, M3</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Usually comes with M3, M4, and M5 as a pack.</td>
+</tr>
+<tr>
+<td align="left">UN008</td>
+<td align="left"><a href="https://www.amazon.com/Precision-Anti-Static-Electronics-Sodlering%EF%BC%8CJewelry-Laboratory/dp/B07ZBZ7MSF">Electrical Tweezers</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN009</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B000A0OW2M">Needle-nosed Pliers, 6"</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN010</td>
+<td align="left"><a href="https://www.amazon.com/DOWELL-Stripper-Multi-Function-Tool%EF%BC%8CProfessional-Craftsmanship/dp/B06X9875Z7">Wire Strippers</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN011</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B078WNZ9FW">Wire Crimper, Open Barrel</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN012</td>
+<td align="left"><a href="https://www.amazon.com/Klein-Tools-32614-Screwdriver-Electronics/dp/B07PNC5MPB">Electrical Screw Driver Set</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Philips and flathead for terminal connectors</td>
+</tr>
+<tr>
+<td align="left">UN013</td>
+<td align="left"><a href="https://www.amazon.com/SEEKONE-Heat-Gun-Hot-Air/dp/B078S5QMFG">Heat Gun</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">For heat shrink and butt splices</td>
+</tr>
+<tr>
+<td align="left">UN016</td>
+<td align="left"><a href="https://www.amazon.com/Zoom-SPOUT-Sewing-Machine-Oiler-118ml/dp/B00BYCKTW2">Lily White Lubricating Oil, 4 fl. oz.</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">Can substitute with NLGI 1 grease w/ low viscosity, no PTFE</td>
+</tr>
+<tr>
+<td align="left">UN020</td>
+<td align="left"><a href="https://www.walmart.com/ip/9-in-1-Folding-Hex-Key-Set-Metric-Aluminum-Allen-Wrench-Multi-Purposes-Hex-Key-Tool-Non-Slip-for-Construction-Home-Decoration/723992410">Allen wrences, Metric</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">UN031</td>
+<td align="left"><a href="https://www.walmart.com/ip/Sharpie-Permanent-Markers-Fine-Point-Black-2-Count/17617453">Fine Tip Marker</a></td>
+<td align="right">1</td>
+<td align="right">ea</td>
+<td align="left">For labeling part bags and wires</td>
+</tr>
+<tr>
+<td align="left">UN032</td>
+<td align="left"><a href="https://www.walmart.com/ip/100-Baggies-W-4-X6-H-Small-Reclosable-Seal-Clear-Plastic-Poly-Bag/401047000">Plastic Bags, 4"x6"</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left">For organizing parts before assembly</td>
+</tr>
+<tr>
+<td align="left">UN033</td>
+<td align="left"><a href="https://www.walmart.com/ip/100-Baggies-W-3-X4-H-Small-Reclosable-Seal-Clear-Plastic-Poly-Bag/326515524">Plastic Bags, 3"x4"</a></td>
+<td align="right">1</td>
+<td align="right">pk</td>
+<td align="left">For organizing parts before assembly</td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../guide/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Decision Guide" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Decision Guide
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../assembly/" class="md-footer__link md-footer__link--next" aria-label="Next: Assembly Guide Introduction" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Assembly Guide Introduction
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>
