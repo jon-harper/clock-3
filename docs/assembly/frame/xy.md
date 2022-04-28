@@ -7,9 +7,11 @@ date: 2022-04-15
 
 *This document is actively being refined and edited for mistaeks.*
 
+[![overview of parts](../../img/xy_frame/overview.jpg)](../../img/xy_frame/overview.jpg)
+
 ## 1. Assemble XY Frame
 
-### Parts
+### A. Parts
 
 | ID    | Qty | Description                   | Notes |
 |-------|-----|-------------------------------|-------|
@@ -23,11 +25,20 @@ date: 2022-04-15
 | PN700 | 4   | Corner Bracket, Tapped        | |
 | PN701 | 4   | Corner Bracket, Inside Hidden | |
 
-### A. 
+### B. Install Hidden Corner Brackets
 
-### B.
+| Step | Example |
+|------|---------|
+| Install brackets as pictured. Note the orientation of the frame guides. | [![step 1](../../img/xy_frame/step1.jpg)](../../img/xy_frame/step1.jpg) |
+| Slide A1 into A4 and A5 from the left. You will need to remove one tee nut each on A4 and A5. | [![step 2](../../img/xy_frame/step2.jpg)](../../img/xy_frame/step2.jpg) |
+| Reinsert the tee nuts! | [![step 3](../../img/xy_frame/step3.jpg)](../../img/xy_frame/step3.jpg) |
+| Square and tighten. | [![step 4](../../img/xy_frame/step4.jpg)](../../img/xy_frame/step4.jpg) |
 
-### C.
+### C. Install Tapped Corner Brackets
+
+[![installed brackets](../../img/xy_frame/step5.jpg)](../../img/xy_frame/step5.jpg)
+
+Each inside hidden bracket has a matching tapped corner bracket on the other side of the extrusion. Follow the usual procedure for attaching and squaring a corner bracket for all four.
 
 ## 2. Prepare Brackets
 

@@ -14,11 +14,11 @@ For your convenience, you can click any image to enlarge or use the [PDF version
 !!! note "Musical Interlude"
     We're listening to The Heavy right now. Just sayin'.
 
-## 2. Instructions
+## Instructions
 
 [![Labeling Instructions](../../img/frame_labels/instructions.png)](../../img/frame_labels/instructions.png)
 
-## 3. Frame Sections
+## Frame Sections
 
 ### A. XY Axes
 

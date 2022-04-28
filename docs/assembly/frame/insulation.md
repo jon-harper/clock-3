@@ -18,14 +18,24 @@ date: 2022-04-07
     - Do not try to make a crease on side and cut the other: the crease that appears on the uncut part of the foam will not align with the precut area. Instead cut halfway, then cut a second or third time more deeply over the first until breaking through.
     - Use a piece of cardboard underneath the foam to avoid cutting anything important underneath the foam and/or damaging your blade.
 
-## Materials
+## A. Materials
 
 | Parts | Description                              |
 |-------|------------------------------------------|
 | MN003 | VHB Tape, Double-Sided, 1" Width         |
 | MN100 | Polyisocyanurate Foam, 1/2", 4'x8' sheet |
 
-## A. Mark Side Panels
+## B. General Procedure
+
+All of the insulation pieces follow the same general procedure of laying out the frame, marking, and cutting. To illustrate:
+
+| Step | Example |
+|------|---------|
+| Lay out | [![lay out the insulation](../../img/insulation_side/step1.jpg)](../../img/insulation_side/step1.jpg) |
+| Mark at least twice around | [![lay out the insulation](../../img/insulation_side/step2.jpg)](../../img/insulation_side/step2.jpg) |
+| Remove the frame and cut carefully. | [![lay out the insulation](../../img/insulation_side/step3.jpg)](../../img/insulation_side/step3.jpg) |
+
+## C. Mark Side Panels
 
 1. Turn the frame on its side.
 2. Lay a ~2'/600 wide strip of PIR foam across the side panel
@@ -34,7 +44,7 @@ date: 2022-04-07
 5. Repeat the outline several times to ensure it covers at much area as possible.
 6. Set aside on a flat surface and carefully cut the insulation.
 
-## B. Mark Rear Panel
+## D. Mark Rear Panel
 
 1. Leave the frame on its side.
 2. Cut a strip slightly wider than 2'/600mm of PIR foam.
@@ -42,14 +52,14 @@ date: 2022-04-07
 4. Mark an outline of the inside of the frame on the insulation, repeating twice.
 5. Set aside on a flat surface and carefully cut the insulation.
 
-## C. Mark Top Panel
+## E. Mark Top Panel
 
 1. Cut a 2'/600mm wide strip of PIR foam insulation.
 2. Press firmly against the top of the frame.
 3. Mark an outline of the frame and brackets, repeating twice.
 4. Set aside on a flat surface and carefully cut the insulation.
 
-## D. Floor Cover Insulation
+## F. Floor Cover Insulation
 
 1. Mark two (2) 40mm x 300mm strips of insulation.
 2. Mark two (2) 40mm x 140mm strips of insulation.
@@ -58,7 +68,7 @@ date: 2022-04-07
 6. Place a piece of VHB tape on both ends of each of the 300mm strips.
 7. Attach to the underside of the floor cover.
 
-## E. Floor Hatch Insulation
+## G. Floor Hatch Insulation
 
 
 ## TODO

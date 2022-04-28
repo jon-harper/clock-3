@@ -53,7 +53,7 @@ At this point, all of our linear rails should be attached to an extrusion. The Z
 1. Check that both of the alignment brackets are flat to the rail with a good grip to center the rail.
 2. Tighten the first and last screws on the extrusion, using the alignment bracket peephole if needed (see image).
 
-## Repeat with Z2
+### E. Repeat with Z2
 
 [![random picture](../../img/z_rail_align/step5.jpg)](../../img/z_rail_align/step5.jpg)
 

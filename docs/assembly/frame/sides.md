@@ -10,7 +10,7 @@ date: 2022-04-07
 ## 1. Assembling the Sides
 
 We will start with the left side, but have the parts ready for both.
-### Parts
+### A. Parts
 
 | ID    | Qty | Description               |
 |-------|-----|---------------------------|
@@ -34,7 +34,7 @@ We will start with the left side, but have the parts ready for both.
 !!! caution
     Always square each corner before tightening a bracket. See the previous section for instructions.
 
-### Steps
+### B. General Steps
 
 The steps for both sides are the same:
 
@@ -45,7 +45,7 @@ The steps for both sides are the same:
 5. Continually check your work for a good, square fit as you go.
 6. Attach the fourth bracket. It should slide in place easily on a square frame.
 
-### Left Side
+### C. Left Side
 
 | Step | Example |
 |---|---|
@@ -54,14 +54,14 @@ The steps for both sides are the same:
 | Attach L2 and L4 | [![step 3](../../img/frame_side/step3.jpg)](../../img/frame_side/step3.jpg) |
 | Attach L2 and L3 | [![step 4](../../img/frame_side/step4.jpg)](../../img/frame_side/step4.jpg) |
 
-### Right Side
+### D. Right Side
 
 Repeat the above steps with the pieces for the right side (R1-R4) and the remaining fasteners.
-## 2. Adding the L5 and R5 Crossbars
+## 2. L5 and R5 Crossbars
 
 [![overview](../../img/frame_side_center/overview.jpg)](../../img/frame_side_center/overview.jpg)
 
-### Parts
+### A. Parts
 
 | ID    | Qty | Description               |
 |-------|-----|---------------------------|
@@ -71,7 +71,7 @@ Repeat the above steps with the pieces for the right side (R1-R4) and the remain
 | PN577 | 8   | Washer, M5, Split Lock    |
 | PN700 | 4   | Corner Bracket, Tapped    |
 
-### Steps
+### B. General Steps
 
 As above, the steps are the same for both sides.
 
@@ -83,7 +83,7 @@ As above, the steps are the same for both sides.
 !!! note
     You can set the second side of the frame on top of the first to simplify positioning for the second set of brackets.
 
-### Left Side
+### C. Left Side
 
 | Step | Example |
 |---|---|
@@ -92,8 +92,29 @@ As above, the steps are the same for both sides.
 | Square the crosspiece. | [![step 3](../../img/frame_side_center/step3.jpg)](../../img/frame_side_center/step3.jpg) |
 | Add bottom brackets | [![step 4](../../img/frame_side_center/step4.jpg)](../../img/frame_side_center/step4.jpg)
 
-### Right Side
+### D. Right Side
 
 Repeat the steps above for the right side with R5 and the remaining fasteners.
 
 [![finished](../../img/frame_side_center/finished.jpg)](../../img/frame_side_center/finished.jpg)
+
+## 3. Bracket Covers
+
+[![bracket covers](../../img/bracket_covers_side/overview.jpg)](../../img/bracket_covers_side/overview.jpg)
+
+### A. Parts
+
+| ID    | Qty | Description                |
+|-------|-----|----------------------------|
+| PN090 | 16  | Misc, Corner Bracket Cover |
+| PN530 | 16  | Screw, M5-0.8 x 8mm BHCS   |
+
+### B. Steps
+
+| Step | Example |
+|------|---------|
+| Slip a cover over the bracket. | [![step 1](../../img/bracket_covers_side/step1.jpg)](../../img/bracket_covers_side/step1.jpg) |
+| Add an M5x8 screw and tighten. | [![step 2](../../img/bracket_covers_side/step2.jpg)](../../img/bracket_covers_side/step2.jpg) |
+| Repeat for the remaining brackets. | [![step 3](../../img/bracket_covers_side/step3.jpg)](../../img/bracket_covers_side/step3.jpg) |
+
+[![finished](../../img/bracket_covers_side/finished.jpg)](../../img/bracket_covers_side/finished.jpg)
