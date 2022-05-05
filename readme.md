@@ -5,7 +5,7 @@
 |---|---|
 | [![Cover photo of hotend](/Media/Photos/2021-12/20211223_cover.jpg)](/Media/Photos/2021-12/20211223_cover.jpg) | [![Cover photo with door open](/Media/Photos/2022-04/2022-04-15_door_open.jpg)](/Media/Photos/2022-04/2022-04-15_door_open.jpg) |
 
-This is the evolution of the concept of a fully-enclosed 3D printer with externally mounted steppers. The idea of building an enclosed 3D printer to suit my specific needs came out of excess free time during the 2021 Winter Storm.
+This is the evolution of the concept of a fully enclosed, temperature-controlled 3D printer with externally mounted steppers motors. The idea of building an enclosed 3D printer to suit my specific needs came out of excess free time during the 2021 Winter Storm.
 
 Clock 1 was a thought experiment to enclose an Ender 5-like Cartesian printer. Clock 2 was a from-scratch CoreXY printer that I largely built before acquiring the ability to safely print ABS.
 
@@ -13,11 +13,9 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-Documentation is ongoing and active at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/) and is the current focus of the project. Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
+Documentation of the initial prootype is ongoing and active. The most recent compiled markdown can be viewed at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/). Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
 
-Markdown pages in this repository may undergo significant changes as content is moved to MkDocs.
-
-There is a [changelog](changelog.md) for detailed modifications.
+**Note 5/5/22** An attempted in-place upgrade went sideways. I now have two printers down and have to bootstrap my way back to a functional ABS printer. Documentation may be slow the next week or two as I get things running again.
 
 ## Notes
 
@@ -25,12 +23,7 @@ There is a [changelog](changelog.md) for detailed modifications.
 - The Clock Face project is [here](../clock-face), which revises the physical display and menu system for Klipper.
 - The Fusion 360 model is not published yet, but you can find the project's Python scripts [here](../Clock3Scripts)
 - This project is very much under active development, [**first printing on 12/21/2021**](/Media/Cropped/20211221_Hotend.jpg).
-- All renders and quite a few photos are stored in this repository, but you can also follow along visually with assembly and discussion on Instagram [@jonspaceharper](https://www.instagram.com/jonspaceharper/).
-- A heat set insert press (or a steady hand with a soldering iron) is strongly recommended.
-
-## Media
-
-Head to the [Media](/Media) folder for renders and photos of the prototype.
+- Head to the [Media](/Media) folder for renders and photos of the prototype.
 
 # Organization
 
