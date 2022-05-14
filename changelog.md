@@ -1,5 +1,13 @@
 # Changelog
 
+## 2022-05-12
+
+- Had some catastrophic issues with multiple SKR 2s. Had to switch over to Octopus 1.1s, which required a new control case. That took a week.
+- I have two printers up and expect to have a third printing ABS by tomorrow.
+- Testing with Clock 3 hotend cooling assembly and BMG on an Ender 5 is going extremely well.
+- Also testing a hotend panel mount on an Ender 5.
+- BLTouch will need some work, so opened issue #50.
+
 ## 2022-04-27
 
 - Still working on documentation. I took a week off to solve some long-term issues and test out a few things.

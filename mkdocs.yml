@@ -46,8 +46,8 @@ nav:
       - assembly/frame/finishing.md
     - Z Axis:
       - assembly/z_axis/index.md
-      - assembly/z_axis/steppers.md
       - assembly/z_axis/bed.md
+      - assembly/z_axis/steppers.md
       - assembly/z_axis/gantries.md
       - assembly/z_axis/finishing.md
     - X and Y Axes:
