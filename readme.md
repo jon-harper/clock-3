@@ -13,10 +13,6 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 Documentation of the initial prootype is ongoing and active. The most recent compiled markdown can be viewed at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/). Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
 
-**Note 5/5/22** An attempted in-place upgrade went sideways. I now have two printers down and have to bootstrap my way back to a functional ABS printer. Documentation may be slow the next week or two as I get things running again.
-
-**Note 5/9/22** Found the root cause. I have a lot of dead SKR 2s. I'm replacing with Octopus boards, but printing new cases and setup will take until approx 5/12 or 5/13.
-
 ## Notes
 
 - Klipper firmware for Clock 3 is available [here](../clock3-klipper).

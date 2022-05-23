@@ -1,6 +1,6 @@
 ---
-title: Bed Assembly
-summary: Instructions on assembling the heated bed.
+title: Bed Frame Assembly
+summary: Instructions on assembling the frame for the heated bed.
 authors: Jon Harper
 date: 2022-04-11
 ---
@@ -25,17 +25,7 @@ date: 2022-04-11
 
 ### B. Steps
 
+| Step | Example |
+|------|---------|
+| 
 
-## Bed Leveling Plates
-
-### A. Parts
-
-| ID    | Qty | Description                         |
-|-------|-----|-------------------------------------|
-| PN029 | 1   | Z Axis, Bed Wire Support            |
-| PN532 | 8   | Screw, M5-0.8 x 12mm BHCS           |
-| PN577 | 8   | Washer, M5, Split Lock              |
-| PN578 | 6   | Washer, M5 x 10mm                   |
-| PN813 | 4   | Idler Pulley Plate                  |
-
-### B. Steps

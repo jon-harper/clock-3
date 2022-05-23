@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-05-21/22
+
+- Panel mount can be adapted and will be.
+- Have already pushed changes to hotend for BLTouch mount points; will add BLTouch adapter later after testing.
+- Z Axis assembly largely finished; outline done for Z Axis section of the documentation.
+- Mostly done with XY axes outline.
+
 ## 2022-05-12
 
 - Had some catastrophic issues with multiple SKR 2s. Had to switch over to Octopus 1.1s, which required a new control case. That took a week.

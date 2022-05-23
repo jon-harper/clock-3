@@ -43,7 +43,7 @@ The steps for both sides are the same:
 3. Add another section of frame with a bracket and pair of screws and lock washers.
 4. Keep going around the corners adding brackets.
 5. Continually check your work for a good, square fit as you go.
-6. Attach the fourth bracket. It should slide in place easily on a square frame.
+6. Attach the fourth bracket. If the frame is squared, it will readily slide in place.
 
 ### C. Left Side
 
@@ -117,4 +117,25 @@ Repeat the steps above for the right side with R5 and the remaining fasteners.
 | Add an M5x8 screw and tighten. | [![step 2](../../img/bracket_covers_side/step2.jpg)](../../img/bracket_covers_side/step2.jpg) |
 | Repeat for the remaining brackets. | [![step 3](../../img/bracket_covers_side/step3.jpg)](../../img/bracket_covers_side/step3.jpg) |
 
-[![finished](../../img/bracket_covers_side/finished.jpg)](../../img/bracket_covers_side/finished.jpg)
+## 4. Frame Feet
+
+### A. Parts
+
+| ID    | Qty | Description                  |
+|-------|-----|------------------------------|
+| PN092 | 2   | Misc, Printer Base Foot, TPU |
+| PN532 | 8   | Screw, M5-0.8 x 12mm BHCS    |
+
+
+### B. Steps
+
+| Step | Example |
+|------|---------|
+| Lay the left side of the frame flat. | |
+| Line up the screw holes of one (1) of the Base Feet with the prepared roll-in tee nuts on the underside of L2 | |
+| Fasten the foot with two (2) M5 x 12mm screws. | |
+| Repeat for the other foot. |
+| Install the other two feet on the right side in the same manner. | |
+
+
+<!-- [![finished](../../img/bracket_covers_side/finished.jpg)](../../img/bracket_covers_side/finished.jpg) -->

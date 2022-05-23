@@ -12,10 +12,9 @@ markdown_extensions:
   - admonition
 
 nav:
-  - todo.md
   - overview.md
-  - About:
-    - about/features.md
+  - about/features.md
+  - About:    
     - about/goals.md
     - about/faq.md
     - about/roadmap.md
@@ -44,18 +43,30 @@ nav:
       - assembly/frame/insulation.md
       - assembly/frame/xy.md
       - assembly/frame/finishing.md
-    - Z Axis:
-      - assembly/z_axis/index.md
-      - assembly/z_axis/bed.md
-      - assembly/z_axis/steppers.md
-      - assembly/z_axis/gantries.md
-      - assembly/z_axis/finishing.md
+    # - Paneling:
+    #   - Preparation
+    #   - Top Hatch
+    #   - Flooring
+    #   - Front and Rear Panels
+    #   - Side Panels
     - X and Y Axes:
       - assembly/xy_axes/index.md
+      - assembly/xy_axes/pulleys.md
+      - assembly/xy_axes/tensioners.md
+      - assembly/xy_axes/xy_joint.md
+      - assembly/xy_axes/y_rails.md
+      - assembly/xy_axes/ab_steppers.md
+      - assembly/xy_axes/x_gantry.md
+    - Z Axis:
+      - assembly/z_axis/index.md
+      - assembly/z_axis/bed_frame.md
+      - assembly/z_axis/steppers.md
+      - assembly/z_axis/gantries.md
+      - assembly/z_axis/hotbed.md
+      - assembly/z_axis/finishing.md
     - Electronics, Part 1:
       - assembly/toys/index.md
       # Skirt
-      # AB Steppers & top panel
     - Wiring Fabrication:
       - assembly/wiring/index.md
     - Electronics, Part 2:
