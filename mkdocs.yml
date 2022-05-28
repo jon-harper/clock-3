@@ -66,6 +66,11 @@ nav:
       - assembly/z_axis/finishing.md
     - Electronics, Part 1:
       - assembly/toys/index.md
+      - assembly/toys/e1.md
+      - assembly/toys/e2.md
+      - assembly/toys/rear_skirt.md
+      - assembly/toys/front_skirt.md
+      - assembly/toys/toolhead.md
       # Skirt
     - Wiring Fabrication:
       - assembly/wiring/index.md

@@ -18,5 +18,6 @@ After the bed is assembled, the rest of the assembly process is centered on the 
 3. Install the Z gantries and attach the bed frame.
 4. Install the limit switches and align the Z linear rails.
 5. Add the bed to the bed frame.
+6. Lubricate and install the lead screws.
 
 When you're ready, we'll get started.

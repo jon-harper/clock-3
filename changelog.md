@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-05-27
+
+- Finishing up the first electronics section and wiring details.
+- Steppers mount on the panels with no issue.
+- Side panels work, although initial mounting of the couplers is tough.
+- Switching to final color scheme; looking good.
+
 ## 2022-05-21/22
 
 - Panel mount can be adapted and will be.
