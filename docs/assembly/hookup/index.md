@@ -1,5 +1,5 @@
 ---
-title: Running Wiring Overview
+title: Connections Overview
 summary: An overview of running cabling during assembly.
 authors: Jon Harper
 date: 2022-04-11

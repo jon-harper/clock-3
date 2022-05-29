@@ -71,11 +71,13 @@ nav:
       - assembly/toys/rear_skirt.md
       - assembly/toys/front_skirt.md
       - assembly/toys/toolhead.md
-      # Skirt
     - Wiring Fabrication:
       - assembly/wiring/index.md
     - Electronics, Part 2:
       - assembly/hookup/index.md
+      - assembly/hookup/lights.md
+      - assembly/hookup/toolhead.md
+      - assembly/hookup/couplers.md
     - Finishing Up:
       - assembly/finishing/index.md
   - Configuration: 

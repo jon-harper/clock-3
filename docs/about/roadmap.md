@@ -11,15 +11,15 @@ This page is a roadmap for future releases. Goals are subject to change and new 
 
 | Status      | Goal |
 |:-----------:|:-----|
-| In Progress | Split Bill of Materials into a "shopping list" and an "assembly list" |
-| In Progress | Recategorize BOM part types |
 | In Progress | Complete intro and "About" sections of documentation |
-| In Progress | Complete skeleton file list to generate full TOC |
+| In Progress | Complete documentation outline |
+| Completed   | Complete skeleton file list to generate full TOC |
 | Completed   | Deploy initial doc framework |
 | Completed   | Create a sample, complete documentation section |
+| Completed   | Photograph assembly process for illustration |
+| In Progress | Split Bill of Materials into a "shopping list" and an "assembly list" |
+| In Progress | Recategorize BOM part types |
 | In Progress | Update Clock3Scripts to generate new BOM formats |
-| In Progress | Complete documentation outline |
-| In Progress | Photograph assembly process for illustration |
 
 ## Pre-Release 0.6
 
@@ -28,7 +28,7 @@ This page is a roadmap for future releases. Goals are subject to change and new 
 | In Progress | Finish rough draft of assembly documentation |
 | In Progress | Fully reassemble final prototype |
 | Pending     | Photograph final prototype |
-| Pending     | Test fixed Left Panel Mount |
+| Completed   | Test fixed Left Panel Mount |
 
 ## Pre-Release 0.7
 
