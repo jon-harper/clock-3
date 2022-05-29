@@ -1,5 +1,23 @@
 # Changelog
 
+## 2022-05-29
+
+- RGB lights do not work, possibly because of the SP901E. I have replaced these with 12V white LEDs for now.
+- Chamber is sealed except for the around the flooring edges. May another gasketing material.
+- Hotend thermistor is inaccurate. Going to create a resistance table.
+- Door and all panels are back on.
+- Kinematics work.
+- Fans for both chamber and electronics are configured and working.
+
+## 2022-05-28
+
+- Undercarriage wiring is in with no issue.
+- Chamber is now sealed except for:
+    - Door gasketing
+    - Side panel weatherseal
+    - Wiring tunnels (left and right)
+- New panel mount works nicely.
+
 ## 2022-05-27
 
 - Finishing up the first electronics section and wiring details.
