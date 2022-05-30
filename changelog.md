@@ -1,5 +1,12 @@
 # Changelog
 
+## 2022-05-30
+
+- Fixed numerous kinematic values for steppers. XYZE are all calibrated now.
+- Made a custom temp map for the thermistor I'm using.
+- Stability issues. Not sure if bed or gantry.
+- Added PN129 and PN130 for a front door latch.
+
 ## 2022-05-29
 
 - RGB lights do not work, possibly because of the SP901E. I have replaced these with 12V white LEDs for now.
