@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-06-01
+
+- Fixed Z axis issue—the anti-backlash nut wasn't secured properly on Z2.
+- Printing successfully today.
+
+## 2022-05-31
+
+- Modified the door latch for wider opening arc.
+- Testing TPU door seals and gaskets. Currently testing TPU with E6000 glue and have Loctite 406 on order.
+
 ## 2022-05-30
 
 - Fixed numerous kinematic values for steppers. XYZE are all calibrated now.
