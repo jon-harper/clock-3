@@ -1,5 +1,11 @@
 # Changelog
 
+## 2022-06-03
+
+- Added PN131, a lower door latch.
+- Also working on PN132, a spinning latch for the floor panels.
+- Gasketing went in perfectly. Clock 3 is sealed.
+
 ## 2022-06-01
 
 - Fixed Z axis issue—the anti-backlash nut wasn't secured properly on Z2.
