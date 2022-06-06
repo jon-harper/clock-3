@@ -64,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#new-here" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -217,6 +222,32 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="about/features/" class="md-nav__link">
         Features
@@ -224,34 +255,21 @@
     </li>
   
 
-    
-      
-      
-      
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/gallery/" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
 
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          About
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="About" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          About
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+            
           
             
               
@@ -281,13 +299,61 @@
 
             
           
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Status
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Status" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Status
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
             
               
   
   
   
     <li class="md-nav__item">
-      <a href="about/roadmap/" class="md-nav__link">
+      <a href="status/changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="status/roadmap/" class="md-nav__link">
         Roadmap
       </a>
     </li>
@@ -301,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/releases/" class="md-nav__link">
+      <a href="status/releases/" class="md-nav__link">
         Release Log
       </a>
     </li>
@@ -1332,6 +1398,51 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#new-here" class="md-nav__link">
+    New Here?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#need-help" class="md-nav__link">
+    Need Help?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stls-source-and-licensing" class="md-nav__link">
+    STLs, Source, and Licensing
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -1346,11 +1457,12 @@
   <h1>Clock 3 Documentation</h1>
 
 <p>Welcome to the documentation project for the <a href="https://github.com/jon-harper/clock-3/">Clock 3</a> 3D printer. Clock 3 is a project for an enclosed, CoreXY 3D printer in advanced stages of development.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you're here to help edit, start with <a href="todo/">this page</a>.</p>
-</div>
-<p>You can visit the <a href="overview/">Overview</a> or skip to the list of <a href="about/features/">Features</a> and <a href="about/features/">Frequently Asked Questions</a> if you're interested in learning more. Help with <a href="assembly/">Assembly</a> and <a href="config/">Configuration</a> is available.</p>
+<h2 id="new-here">New Here?</h2>
+<p>Visit the <a href="overview/">Overview</a> to get a general idea about this project. Jump to the list of <a href="about/features/">Features</a> and <a href="about/features/">Frequently Asked Questions</a> to learn more.</p>
+<p>There is also a <a href="about/gallery/">Gallery</a> of progress photos and renders.</p>
+<h2 id="need-help">Need Help?</h2>
+<p><a href="assembly/">Assembly</a> and <a href="config/">Configuration</a> documentation are under development.</p>
+<h2 id="stls-source-and-licensing">STLs, Source, and Licensing</h2>
 <p>The printer design, tools, drawings, and related files in the <a href="https://github.com/jon-harper/clock-3/">Clock 3 GitHub</a> are open source and <a href="https://github.com/jon-harper/clock-3">released under the GPLv3</a>.</p>
 <table>
 <thead>

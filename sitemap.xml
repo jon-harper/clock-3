@@ -31,17 +31,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jon-harper.github.io/clock-3/about/gallery/</loc>
+         <lastmod>2022-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jon-harper.github.io/clock-3/about/goals/</loc>
-         <lastmod>2022-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jon-harper.github.io/clock-3/about/releases/</loc>
-         <lastmod>2022-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jon-harper.github.io/clock-3/about/roadmap/</loc>
          <lastmod>2022-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -267,6 +262,21 @@
     </url>
     <url>
          <loc>https://jon-harper.github.io/clock-3/config/</loc>
+         <lastmod>2022-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/clock-3/status/changelog/</loc>
+         <lastmod>2022-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/clock-3/status/releases/</loc>
+         <lastmod>2022-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/clock-3/status/roadmap/</loc>
          <lastmod>2022-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>

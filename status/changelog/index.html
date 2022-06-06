@@ -1,0 +1,5346 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation and assembly instructions for the Clock 3 enclosed, CoreXY 3D printer.">
+      
+      
+        <meta name="author" content="Jon Harper">
+      
+      
+        <link rel="canonical" href="https://jon-harper.github.io/clock-3/status/changelog/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
+    
+    
+      
+        <title>Changelog - Clock 3 Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.644de097.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#q2-2022" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Clock 3 Documentation" class="md-header__button md-logo" aria-label="Clock 3 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Clock 3 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jon-harper/clock-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Clock 3 Documentation" class="md-nav__button md-logo" aria-label="Clock 3 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Clock 3 Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jon-harper/clock-3" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/features/" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/gallery/" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/goals/" class="md-nav__link">
+        Development Goals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Status
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Status" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Status
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#q2-2022" class="md-nav__link">
+    Q2 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q2 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-06" class="md-nav__link">
+    2022-06-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-04" class="md-nav__link">
+    2022-06-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-03" class="md-nav__link">
+    2022-06-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-01" class="md-nav__link">
+    2022-06-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-31" class="md-nav__link">
+    2022-05-31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-30" class="md-nav__link">
+    2022-05-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-29" class="md-nav__link">
+    2022-05-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-28" class="md-nav__link">
+    2022-05-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-27" class="md-nav__link">
+    2022-05-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-2122" class="md-nav__link">
+    2022-05-21/22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-12" class="md-nav__link">
+    2022-05-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-27" class="md-nav__link">
+    2022-04-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-17" class="md-nav__link">
+    2022-04-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-14" class="md-nav__link">
+    2022-04-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-11" class="md-nav__link">
+    2022-04-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-08" class="md-nav__link">
+    2022-04-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-07" class="md-nav__link">
+    2022-04-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-06" class="md-nav__link">
+    2022-04-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-05" class="md-nav__link">
+    2022-04-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-04" class="md-nav__link">
+    2022-04-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-03" class="md-nav__link">
+    2022-04-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-02" class="md-nav__link">
+    2022-04-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-01" class="md-nav__link">
+    2022-04-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q1-2022" class="md-nav__link">
+    Q1 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q1 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-30" class="md-nav__link">
+    2022-03-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-29" class="md-nav__link">
+    2022-03-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-28" class="md-nav__link">
+    2022-03-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-27" class="md-nav__link">
+    2022-03-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-26" class="md-nav__link">
+    2022-03-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-25" class="md-nav__link">
+    2022-03-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-24" class="md-nav__link">
+    2022-03-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-23" class="md-nav__link">
+    2022-03-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-22" class="md-nav__link">
+    2022-03-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-21" class="md-nav__link">
+    2022-03-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-20" class="md-nav__link">
+    2022-03-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-19" class="md-nav__link">
+    2022-03-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-18" class="md-nav__link">
+    2022-03-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-17" class="md-nav__link">
+    2022-03-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-16" class="md-nav__link">
+    2022-03-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-15" class="md-nav__link">
+    2022-03-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-14" class="md-nav__link">
+    2022-03-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-12" class="md-nav__link">
+    2022-03-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-11" class="md-nav__link">
+    2022-03-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-10" class="md-nav__link">
+    2022-03-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-09" class="md-nav__link">
+    2022-03-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-08" class="md-nav__link">
+    2022-03-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-06" class="md-nav__link">
+    2022-03-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-05" class="md-nav__link">
+    2022-03-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-04" class="md-nav__link">
+    2022-03-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-03" class="md-nav__link">
+    2022-03-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-02" class="md-nav__link">
+    2022-03-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-01" class="md-nav__link">
+    2022-03-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-28" class="md-nav__link">
+    2022-02-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-27" class="md-nav__link">
+    2022-02-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-26" class="md-nav__link">
+    2022-02-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-25" class="md-nav__link">
+    2022-02-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-24" class="md-nav__link">
+    2022-02-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-23" class="md-nav__link">
+    2022-02-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-22" class="md-nav__link">
+    2022-02-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-21" class="md-nav__link">
+    2022-02-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-20" class="md-nav__link">
+    2022-02-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-19" class="md-nav__link">
+    2022-02-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-18" class="md-nav__link">
+    2022-02-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-17" class="md-nav__link">
+    2022-02-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-16" class="md-nav__link">
+    2022-02-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-15" class="md-nav__link">
+    2022-02-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-14" class="md-nav__link">
+    2022-02-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-13" class="md-nav__link">
+    2022-02-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-12" class="md-nav__link">
+    2022-02-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-11" class="md-nav__link">
+    2022-02-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-10" class="md-nav__link">
+    2022-02-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-09" class="md-nav__link">
+    2022-02-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-08" class="md-nav__link">
+    2022-02-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-07" class="md-nav__link">
+    2022-02-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-06" class="md-nav__link">
+    2022-02-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-05" class="md-nav__link">
+    2022-02-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-04" class="md-nav__link">
+    2022-02-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-03" class="md-nav__link">
+    2022-02-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-02" class="md-nav__link">
+    2022-02-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-25-2022-02-01" class="md-nav__link">
+    2022-01-25 - 2022-02-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q1-2022_1" class="md-nav__link">
+    Q1 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q1 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-24" class="md-nav__link">
+    2022-01-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-23" class="md-nav__link">
+    2022-01-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-22" class="md-nav__link">
+    2022-01-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-21" class="md-nav__link">
+    2022-01-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-20" class="md-nav__link">
+    2022-01-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-19" class="md-nav__link">
+    2022-01-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-18" class="md-nav__link">
+    2022-01-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-17" class="md-nav__link">
+    2022-01-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-16" class="md-nav__link">
+    2022-01-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-15" class="md-nav__link">
+    2022-01-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-14" class="md-nav__link">
+    2022-01-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-13" class="md-nav__link">
+    2022-01-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-12" class="md-nav__link">
+    2022-01-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-11" class="md-nav__link">
+    2022-01-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-10" class="md-nav__link">
+    2022-01-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-09" class="md-nav__link">
+    2022-01-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-08" class="md-nav__link">
+    2022-01-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-07" class="md-nav__link">
+    2022-01-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-06" class="md-nav__link">
+    2022-01-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-05" class="md-nav__link">
+    2022-01-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-04" class="md-nav__link">
+    2022-01-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-03" class="md-nav__link">
+    2022-01-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-02" class="md-nav__link">
+    2022-01-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-01" class="md-nav__link">
+    2022-01-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q4-2021" class="md-nav__link">
+    Q4 2021
+  </a>
+  
+    <nav class="md-nav" aria-label="Q4 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-30" class="md-nav__link">
+    2021-12-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-29" class="md-nav__link">
+    2021-12-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-28" class="md-nav__link">
+    2021-12-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-27" class="md-nav__link">
+    2021-12-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-26" class="md-nav__link">
+    2021-12-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-23" class="md-nav__link">
+    2021-12-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-22" class="md-nav__link">
+    2021-12-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-21" class="md-nav__link">
+    2021-12-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-20" class="md-nav__link">
+    2021-12-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-19" class="md-nav__link">
+    2021-12-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-18" class="md-nav__link">
+    2021-12-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-17" class="md-nav__link">
+    2021-12-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-16" class="md-nav__link">
+    2021-12-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-15" class="md-nav__link">
+    2021-12-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-14" class="md-nav__link">
+    2021-12-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-13" class="md-nav__link">
+    2021-12-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-12" class="md-nav__link">
+    2021-12-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-11" class="md-nav__link">
+    2021-12-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-10" class="md-nav__link">
+    2021-12-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-09" class="md-nav__link">
+    2021-12-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-08" class="md-nav__link">
+    2021-12-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-07" class="md-nav__link">
+    2021-12-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-06" class="md-nav__link">
+    2021-12-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-05" class="md-nav__link">
+    2021-12-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-04" class="md-nav__link">
+    2021-12-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-03" class="md-nav__link">
+    2021-12-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-02" class="md-nav__link">
+    2021-12-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-01" class="md-nav__link">
+    2021-12-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-30" class="md-nav__link">
+    2021-11-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-29" class="md-nav__link">
+    2021-11-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-28" class="md-nav__link">
+    2021-11-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-27" class="md-nav__link">
+    2021-11-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-26" class="md-nav__link">
+    2021-11-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-25" class="md-nav__link">
+    ~2021-11-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    Break
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q3-2021" class="md-nav__link">
+    Q3 2021
+  </a>
+  
+    <nav class="md-nav" aria-label="Q3 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-19" class="md-nav__link">
+    2021-08-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-15" class="md-nav__link">
+    2021-08-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-12-2021-08-14" class="md-nav__link">
+    2021-08-12 - 2021-08-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-11" class="md-nav__link">
+    2021-08-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-10" class="md-nav__link">
+    2021-08-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-09" class="md-nav__link">
+    2021-08-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-08" class="md-nav__link">
+    2021-08-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-07" class="md-nav__link">
+    2021-08-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-06" class="md-nav__link">
+    2021-08-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-05" class="md-nav__link">
+    2021-08-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-04" class="md-nav__link">
+    2021-08-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-03" class="md-nav__link">
+    2021-08-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-02" class="md-nav__link">
+    2021-08-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-01" class="md-nav__link">
+    2021-08-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-31" class="md-nav__link">
+    2021-07-31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-30" class="md-nav__link">
+    2021-07-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-29" class="md-nav__link">
+    2021-07-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-28" class="md-nav__link">
+    2021-07-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-27" class="md-nav__link">
+    2021-07-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-26" class="md-nav__link">
+    2021-07-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-25" class="md-nav__link">
+    2021-07-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-24" class="md-nav__link">
+    2021-07-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-23" class="md-nav__link">
+    2021-07-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-22" class="md-nav__link">
+    2021-07-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-21" class="md-nav__link">
+    2021-07-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-20" class="md-nav__link">
+    2021-07-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-19" class="md-nav__link">
+    2021-07-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-18" class="md-nav__link">
+    2021-07-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-17" class="md-nav__link">
+    2021-07-17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases/" class="md-nav__link">
+        Release Log
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Bill of Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bill of Materials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Bill of Materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/" class="md-nav__link">
+        Bill of Materials Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/printing/" class="md-nav__link">
+        Printed Parts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/guide/" class="md-nav__link">
+        Decision Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/bill_of_materials/" class="md-nav__link">
+        Bill of Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/jon-harper/clock-3/tree/main/BOM" class="md-nav__link">
+        BOM Source Repository
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Assembly Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Assembly Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Assembly Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/" class="md-nav__link">
+        Assembly Guide Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Preparation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Preparation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Preparation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/" class="md-nav__link">
+        Getting Ready & Organized
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/fabrication/" class="md-nav__link">
+        Fabrication Checklist
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/frame_labels/" class="md-nav__link">
+        Frame Labels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/inserts/" class="md-nav__link">
+        Heat Set Inserts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/linear_rail_1/" class="md-nav__link">
+        Linear Rail Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/tee_nuts/" class="md-nav__link">
+        Roll-In Tee Nut Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/prep/linear_rail_2/" class="md-nav__link">
+        Z Axis Linear Rail Alignment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Frame Assembly
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Frame Assembly" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Frame Assembly
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/" class="md-nav__link">
+        Overview and Instructions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/sides/" class="md-nav__link">
+        Side Frames
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/center/" class="md-nav__link">
+        Joining the Halves
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/z/" class="md-nav__link">
+        Z Framing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/insulation/" class="md-nav__link">
+        Prepare Insulation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/xy/" class="md-nav__link">
+        XY Framing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/frame/finishing/" class="md-nav__link">
+        Finishing Touches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          X and Y Axes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X and Y Axes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          X and Y Axes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/" class="md-nav__link">
+        XY Axes Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/pulleys/" class="md-nav__link">
+        Stepper Pulley Assembly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/tensioners/" class="md-nav__link">
+        Tensioners
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/xy_joint/" class="md-nav__link">
+        XY Joint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/y_rails/" class="md-nav__link">
+        Y Rail Alignment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/ab_steppers/" class="md-nav__link">
+        A and B Steppers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/xy_axes/x_gantry/" class="md-nav__link">
+        X Gantry and Belts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          Z Axis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Z Axis" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Z Axis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/" class="md-nav__link">
+        Z Axis Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/bed_frame/" class="md-nav__link">
+        Bed Frame Assembly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/steppers/" class="md-nav__link">
+        Stepper Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/gantries/" class="md-nav__link">
+        Z Gantries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/hotbed/" class="md-nav__link">
+        Heated Bed Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/z_axis/finishing/" class="md-nav__link">
+        Finishing the Z Axis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Electronics, Part 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Electronics, Part 1" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Electronics, Part 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/" class="md-nav__link">
+        Initial Electronics Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/e1/" class="md-nav__link">
+        First Extrusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/e2/" class="md-nav__link">
+        Second Extrusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/rear_skirt/" class="md-nav__link">
+        Rear Skirt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/front_skirt/" class="md-nav__link">
+        Front Skirt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/toys/toolhead/" class="md-nav__link">
+        Toolhead Setup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_7">
+          Wiring Fabrication
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wiring Fabrication" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Wiring Fabrication
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/wiring/" class="md-nav__link">
+        Wiring Fabrication Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_8">
+          Electronics, Part 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Electronics, Part 2" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Electronics, Part 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hookup/" class="md-nav__link">
+        Connections Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hookup/lights/" class="md-nav__link">
+        Light Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hookup/toolhead/" class="md-nav__link">
+        Finishing Out the Toolhead
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hookup/couplers/" class="md-nav__link">
+        Finishing Out the Enclosure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_9">
+          Finishing Up
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Finishing Up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Finishing Up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/finishing/" class="md-nav__link">
+        Last Steps
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Configuration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Configuration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Configuration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/" class="md-nav__link">
+        Configuration Introduction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#q2-2022" class="md-nav__link">
+    Q2 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q2 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-06" class="md-nav__link">
+    2022-06-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-04" class="md-nav__link">
+    2022-06-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-03" class="md-nav__link">
+    2022-06-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-06-01" class="md-nav__link">
+    2022-06-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-31" class="md-nav__link">
+    2022-05-31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-30" class="md-nav__link">
+    2022-05-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-29" class="md-nav__link">
+    2022-05-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-28" class="md-nav__link">
+    2022-05-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-27" class="md-nav__link">
+    2022-05-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-2122" class="md-nav__link">
+    2022-05-21/22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-05-12" class="md-nav__link">
+    2022-05-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-27" class="md-nav__link">
+    2022-04-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-17" class="md-nav__link">
+    2022-04-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-14" class="md-nav__link">
+    2022-04-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-11" class="md-nav__link">
+    2022-04-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-08" class="md-nav__link">
+    2022-04-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-07" class="md-nav__link">
+    2022-04-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-06" class="md-nav__link">
+    2022-04-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-05" class="md-nav__link">
+    2022-04-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-04" class="md-nav__link">
+    2022-04-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-03" class="md-nav__link">
+    2022-04-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-02" class="md-nav__link">
+    2022-04-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-04-01" class="md-nav__link">
+    2022-04-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q1-2022" class="md-nav__link">
+    Q1 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q1 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-30" class="md-nav__link">
+    2022-03-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-29" class="md-nav__link">
+    2022-03-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-28" class="md-nav__link">
+    2022-03-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-27" class="md-nav__link">
+    2022-03-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-26" class="md-nav__link">
+    2022-03-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-25" class="md-nav__link">
+    2022-03-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-24" class="md-nav__link">
+    2022-03-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-23" class="md-nav__link">
+    2022-03-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-22" class="md-nav__link">
+    2022-03-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-21" class="md-nav__link">
+    2022-03-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-20" class="md-nav__link">
+    2022-03-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-19" class="md-nav__link">
+    2022-03-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-18" class="md-nav__link">
+    2022-03-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-17" class="md-nav__link">
+    2022-03-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-16" class="md-nav__link">
+    2022-03-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-15" class="md-nav__link">
+    2022-03-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-14" class="md-nav__link">
+    2022-03-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-12" class="md-nav__link">
+    2022-03-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-11" class="md-nav__link">
+    2022-03-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-10" class="md-nav__link">
+    2022-03-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-09" class="md-nav__link">
+    2022-03-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-08" class="md-nav__link">
+    2022-03-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-06" class="md-nav__link">
+    2022-03-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-05" class="md-nav__link">
+    2022-03-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-04" class="md-nav__link">
+    2022-03-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-03" class="md-nav__link">
+    2022-03-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-02" class="md-nav__link">
+    2022-03-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-03-01" class="md-nav__link">
+    2022-03-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-28" class="md-nav__link">
+    2022-02-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-27" class="md-nav__link">
+    2022-02-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-26" class="md-nav__link">
+    2022-02-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-25" class="md-nav__link">
+    2022-02-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-24" class="md-nav__link">
+    2022-02-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-23" class="md-nav__link">
+    2022-02-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-22" class="md-nav__link">
+    2022-02-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-21" class="md-nav__link">
+    2022-02-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-20" class="md-nav__link">
+    2022-02-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-19" class="md-nav__link">
+    2022-02-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-18" class="md-nav__link">
+    2022-02-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-17" class="md-nav__link">
+    2022-02-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-16" class="md-nav__link">
+    2022-02-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-15" class="md-nav__link">
+    2022-02-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-14" class="md-nav__link">
+    2022-02-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-13" class="md-nav__link">
+    2022-02-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-12" class="md-nav__link">
+    2022-02-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-11" class="md-nav__link">
+    2022-02-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-10" class="md-nav__link">
+    2022-02-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-09" class="md-nav__link">
+    2022-02-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-08" class="md-nav__link">
+    2022-02-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-07" class="md-nav__link">
+    2022-02-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-06" class="md-nav__link">
+    2022-02-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-05" class="md-nav__link">
+    2022-02-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-04" class="md-nav__link">
+    2022-02-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-03" class="md-nav__link">
+    2022-02-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-02-02" class="md-nav__link">
+    2022-02-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-25-2022-02-01" class="md-nav__link">
+    2022-01-25 - 2022-02-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q1-2022_1" class="md-nav__link">
+    Q1 2022
+  </a>
+  
+    <nav class="md-nav" aria-label="Q1 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-24" class="md-nav__link">
+    2022-01-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-23" class="md-nav__link">
+    2022-01-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-22" class="md-nav__link">
+    2022-01-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-21" class="md-nav__link">
+    2022-01-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-20" class="md-nav__link">
+    2022-01-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-19" class="md-nav__link">
+    2022-01-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-18" class="md-nav__link">
+    2022-01-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-17" class="md-nav__link">
+    2022-01-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-16" class="md-nav__link">
+    2022-01-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-15" class="md-nav__link">
+    2022-01-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-14" class="md-nav__link">
+    2022-01-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-13" class="md-nav__link">
+    2022-01-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-12" class="md-nav__link">
+    2022-01-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-11" class="md-nav__link">
+    2022-01-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-10" class="md-nav__link">
+    2022-01-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-09" class="md-nav__link">
+    2022-01-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-08" class="md-nav__link">
+    2022-01-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-07" class="md-nav__link">
+    2022-01-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-06" class="md-nav__link">
+    2022-01-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-05" class="md-nav__link">
+    2022-01-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-04" class="md-nav__link">
+    2022-01-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-03" class="md-nav__link">
+    2022-01-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-02" class="md-nav__link">
+    2022-01-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2022-01-01" class="md-nav__link">
+    2022-01-01
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q4-2021" class="md-nav__link">
+    Q4 2021
+  </a>
+  
+    <nav class="md-nav" aria-label="Q4 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-30" class="md-nav__link">
+    2021-12-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-29" class="md-nav__link">
+    2021-12-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-28" class="md-nav__link">
+    2021-12-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-27" class="md-nav__link">
+    2021-12-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-26" class="md-nav__link">
+    2021-12-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-23" class="md-nav__link">
+    2021-12-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-22" class="md-nav__link">
+    2021-12-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-21" class="md-nav__link">
+    2021-12-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-20" class="md-nav__link">
+    2021-12-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-19" class="md-nav__link">
+    2021-12-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-18" class="md-nav__link">
+    2021-12-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-17" class="md-nav__link">
+    2021-12-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-16" class="md-nav__link">
+    2021-12-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-15" class="md-nav__link">
+    2021-12-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-14" class="md-nav__link">
+    2021-12-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-13" class="md-nav__link">
+    2021-12-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-12" class="md-nav__link">
+    2021-12-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-11" class="md-nav__link">
+    2021-12-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-10" class="md-nav__link">
+    2021-12-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-09" class="md-nav__link">
+    2021-12-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-08" class="md-nav__link">
+    2021-12-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-07" class="md-nav__link">
+    2021-12-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-06" class="md-nav__link">
+    2021-12-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-05" class="md-nav__link">
+    2021-12-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-04" class="md-nav__link">
+    2021-12-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-03" class="md-nav__link">
+    2021-12-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-02" class="md-nav__link">
+    2021-12-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-12-01" class="md-nav__link">
+    2021-12-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-30" class="md-nav__link">
+    2021-11-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-29" class="md-nav__link">
+    2021-11-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-28" class="md-nav__link">
+    2021-11-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-27" class="md-nav__link">
+    2021-11-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-26" class="md-nav__link">
+    2021-11-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-11-25" class="md-nav__link">
+    ~2021-11-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    Break
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#q3-2021" class="md-nav__link">
+    Q3 2021
+  </a>
+  
+    <nav class="md-nav" aria-label="Q3 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-19" class="md-nav__link">
+    2021-08-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-15" class="md-nav__link">
+    2021-08-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-12-2021-08-14" class="md-nav__link">
+    2021-08-12 - 2021-08-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-11" class="md-nav__link">
+    2021-08-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-10" class="md-nav__link">
+    2021-08-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-09" class="md-nav__link">
+    2021-08-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-08" class="md-nav__link">
+    2021-08-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-07" class="md-nav__link">
+    2021-08-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-06" class="md-nav__link">
+    2021-08-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-05" class="md-nav__link">
+    2021-08-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-04" class="md-nav__link">
+    2021-08-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-03" class="md-nav__link">
+    2021-08-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-02" class="md-nav__link">
+    2021-08-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-08-01" class="md-nav__link">
+    2021-08-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-31" class="md-nav__link">
+    2021-07-31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-30" class="md-nav__link">
+    2021-07-30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-29" class="md-nav__link">
+    2021-07-29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-28" class="md-nav__link">
+    2021-07-28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-27" class="md-nav__link">
+    2021-07-27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-26" class="md-nav__link">
+    2021-07-26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-25" class="md-nav__link">
+    2021-07-25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-24" class="md-nav__link">
+    2021-07-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-23" class="md-nav__link">
+    2021-07-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-22" class="md-nav__link">
+    2021-07-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-21" class="md-nav__link">
+    2021-07-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-20" class="md-nav__link">
+    2021-07-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-19" class="md-nav__link">
+    2021-07-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-18" class="md-nav__link">
+    2021-07-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2021-07-17" class="md-nav__link">
+    2021-07-17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/jon-harper/clock-3/edit/master/docs/status/changelog.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+  <h1>Changelog</h1>
+
+<p>This is a (mostly) daily changelog for Clock 3, beginning August 2021 during the end of testing the previous version.</p>
+<h2 id="q2-2022">Q2 2022</h2>
+<h3 id="2022-06-06">2022-06-06</h3>
+<ul>
+<li>Tweaked latch designs somewhat for cleaner appearance and open/close action (PN129-PN131).</li>
+<li>Tweaked initial floor tab design (PN132). Smaller and actually fits!</li>
+<li>Continuing to evolve ideas for hotend/extruder/part fan mount.</li>
+<li>Relocated a number of doc files for better access to info from the landing page.</li>
+</ul>
+<h3 id="2022-06-04">2022-06-04</h3>
+<ul>
+<li>Added feet resolved stability issues, though a more stable surface would still help.</li>
+<li><em>Printing both ABS and PLA today</em>.</li>
+<li>Started work on a new hotend/gantry carriage format. Still deciding best directions, however:<ul>
+<li>Footprint is narrower</li>
+<li>Ducting is much tigher to the heatsink on the X axis to help with directed cooling;</li>
+<li>Hotend cage is 6mm shorter on Y axis, as well</li>
+</ul>
+</li>
+<li>Still early on designing this, so it'll be awhile before I find a good combination of component mounting methods and arrangement.</li>
+</ul>
+<h3 id="2022-06-03">2022-06-03</h3>
+<ul>
+<li>Added PN131, a lower door latch.</li>
+<li>Also working on PN132, a spinning latch for the floor panels.</li>
+<li>Gasketing went in perfectly. Clock 3 is sealed.</li>
+</ul>
+<h3 id="2022-06-01">2022-06-01</h3>
+<ul>
+<li>Fixed Z axis issue—the anti-backlash nut wasn't secured properly on Z2.</li>
+<li>Printing successfully today.</li>
+</ul>
+<h3 id="2022-05-31">2022-05-31</h3>
+<ul>
+<li>Modified the door latch for wider opening arc.</li>
+<li>Testing TPU door seals and gaskets. Currently testing TPU with E6000 glue and have Loctite 406 on order.</li>
+</ul>
+<h3 id="2022-05-30">2022-05-30</h3>
+<ul>
+<li>Fixed numerous kinematic values for steppers. XYZE are all calibrated now.</li>
+<li>Made a custom temp map for the thermistor I'm using.</li>
+<li>Stability issues. Not sure if bed or gantry.</li>
+<li>Added PN129 and PN130 for a front door latch.</li>
+</ul>
+<h3 id="2022-05-29">2022-05-29</h3>
+<ul>
+<li>RGB lights do not work, possibly because of the SP901E. I have replaced these with 12V white LEDs for now.</li>
+<li>Chamber is sealed except for the around the flooring edges. May another gasketing material.</li>
+<li>Hotend thermistor is inaccurate. Going to create a resistance table.</li>
+<li>Door and all panels are back on.</li>
+<li>Kinematics work.</li>
+<li>Fans for both chamber and electronics are configured and working.</li>
+</ul>
+<h3 id="2022-05-28">2022-05-28</h3>
+<ul>
+<li>Undercarriage wiring is in with no issue.</li>
+<li>Chamber is now sealed except for:<ul>
+<li>Door gasketing</li>
+<li>Side panel weatherseal</li>
+<li>Wiring tunnels (left and right)</li>
+</ul>
+</li>
+<li>New panel mount works nicely.</li>
+</ul>
+<h3 id="2022-05-27">2022-05-27</h3>
+<ul>
+<li>Finishing up the first electronics section and wiring details.</li>
+<li>Steppers mount on the panels with no issue.</li>
+<li>Side panels work, although initial mounting of the couplers is tough.</li>
+<li>Switching to final color scheme; looking good.</li>
+</ul>
+<h3 id="2022-05-2122">2022-05-21/22</h3>
+<ul>
+<li>Panel mount can be adapted and will be.</li>
+<li>Have already pushed changes to hotend for BLTouch mount points; will add BLTouch adapter later after testing.</li>
+<li>Z Axis assembly largely finished; outline done for Z Axis section of the documentation.</li>
+<li>Mostly done with XY axes outline.</li>
+</ul>
+<h3 id="2022-05-12">2022-05-12</h3>
+<ul>
+<li>Had some catastrophic issues with multiple SKR 2s. Had to switch over to Octopus 1.1s, which required a new control case. That took a week.</li>
+<li>I have two printers up and expect to have a third printing ABS by tomorrow.</li>
+<li>Testing with Clock 3 hotend cooling assembly and BMG on an Ender 5 is going extremely well.</li>
+<li>Also testing a hotend panel mount on an Ender 5.</li>
+<li>BLTouch will need some work, so opened issue #50.</li>
+</ul>
+<h3 id="2022-04-27">2022-04-27</h3>
+<ul>
+<li>Still working on documentation. I took a week off to solve some long-term issues and test out a few things.</li>
+<li>Documentation is now merged into the clock-3 repo instead of being its own repo. This will simplify a lot of things.</li>
+</ul>
+<h3 id="2022-04-17">2022-04-17</h3>
+<ul>
+<li>Doing a lot of experimentation and testing right now, as well as catching up on maintenance.</li>
+<li>Focus ATM is testing the hotend &amp; related assemblies on an Ender 5, including a new wiring panel mount. Will adapt for Clock 3 afteward.</li>
+</ul>
+<h3 id="2022-04-14">2022-04-14</h3>
+<ul>
+<li>Making heavy progress documenting assembly.</li>
+<li>Panels are finished, insulation is 80% done.</li>
+<li>Made a number of model fixes based on assembly experience, all related to fasteners.</li>
+</ul>
+<h3 id="2022-04-11">2022-04-11</h3>
+<ul>
+<li>Finished testing Micro Fit 3 profile, updated PN070</li>
+<li>Fixed #45</li>
+</ul>
+<h3 id="2022-04-08">2022-04-08</h3>
+<ul>
+<li>Made some milestone changes. See below.</li>
+<li>Adjusted due date for 0.4.5 (pre-assembly testing).</li>
+<li>Although the Micro Fit 3 profile is done, it's not tested.</li>
+<li>The BOM needs to be broken out into the Sales BOM and the Manufacturing/Assembly BOM. This (kinda) exists with the Materials/Parts sections, but they are different things and need to be broken out.</li>
+<li>Documentation is progressing steadily in parallel, but can't progress while the BOM is changing (i.e. reference points might change).</li>
+</ul>
+<h3 id="2022-04-07">2022-04-07</h3>
+<ul>
+<li>Today is yesterday on repeat, but with more progress.</li>
+<li><a href="https://jon-harper.github.io/clock3-docs/">jon-harper.github.io/clock3-docs/</a> is live, if incomplete.</li>
+</ul>
+<h3 id="2022-04-06">2022-04-06</h3>
+<ul>
+<li>Continuing to flesh out the documentation basics</li>
+<li>Started sealing the panels with polyurethane.</li>
+</ul>
+<h3 id="2022-04-05">2022-04-05</h3>
+<ul>
+<li>Filling out docs in earnest now.</li>
+<li>Rigid coupler link in the part list/BOM is now correct</li>
+<li>Documentation changes are now tracked in the documentation repository.</li>
+</ul>
+<h3 id="2022-04-04">2022-04-04</h3>
+<ul>
+<li>BomDialog now exports both CSV and Markdown formats.</li>
+<li>Panels are sanded and ready for better weather to apply PUR.</li>
+<li>Pushed first working BOM exporter with Markdown support.</li>
+<li>Documentation framework is progressing steadily.</li>
+<li>Created a panel mount profile for the MicroFit 3.0 dual row, two pin connector.</li>
+<li>Earth wire is now 16awg.</li>
+<li>Lots of added links and corrections in the part list.</li>
+<li>Updated <code>/Scripts</code> readme text.</li>
+</ul>
+<h3 id="2022-04-03">2022-04-03</h3>
+<ul>
+<li>Apparently never exported PN127 and 128, the TPU wire conduits. This is fixed.</li>
+<li>Continued prepping panels for sanding and sealing</li>
+<li>Significant progress on BOM export as a Markdown file.</li>
+</ul>
+<h3 id="2022-04-02">2022-04-02</h3>
+<ul>
+<li>Setup <code>clock3-docs</code> repository and MkDocs.</li>
+<li>Started work on a new script to re-format the <code>BomDialog</code> output CSV file into Markdown. This will possibly make its way directly into Clock3Scripts, but it's useful enough to leave it in the <code>/Scripts</code> folder.</li>
+<li>Spent much of the morning setting up to seal the panels in polyurethane. </li>
+</ul>
+<h3 id="2022-04-01">2022-04-01</h3>
+<ul>
+<li>Assembled exterior frame, planned assembly order.</li>
+<li>Checked panels for fit.</li>
+<li>Removed extrusion channel guide from frame feet. This should greatly speed up the print time and reduce supports.</li>
+<li>Re-ordered Micro-Fit 3.0 panel mount connectors. USPS mis-delivered my package.</li>
+<li>Will likely use Jekyll for docs.</li>
+<li>Found the missing tee nut. BOM and model are now fully in sync and verified.</li>
+<li>Relabeled all extrusions with cleaner labeling</li>
+</ul>
+<h2 id="q1-2022">Q1 2022</h2>
+<h3 id="2022-03-30">2022-03-30</h3>
+<ul>
+<li>Added more layout files for exporting STLs</li>
+<li>Exploring documentation formats</li>
+<li>Picked up completed panels (YES!)</li>
+<li>Began "pre-assembly" of frame</li>
+</ul>
+<h3 id="2022-03-29">2022-03-29</h3>
+<ul>
+<li>Export BOM dialog works (mostly). Pushed an update to Clock3Scripts.</li>
+<li>Exported a working, auto-exported bill of materials.</li>
+<li>Removed old scripts folder and put in placeholder.</li>
+<li>Firmware folder is now just a <code>readme.md</code> with information on where to find the Klipper config and such.</li>
+</ul>
+<h3 id="2022-03-28">2022-03-28</h3>
+<ul>
+<li>Added a new repository for the Fusion scripts: Clock3Scripts.</li>
+<li>Migrated old scripting issues to Clock3Scripts.</li>
+<li>Added new linear rail alignment tools for during assembly.</li>
+</ul>
+<h3 id="2022-03-27">2022-03-27</h3>
+<ul>
+<li>Added a printed number to PN033, the front mount plate.</li>
+<li>Two new renders of the model with final panels.</li>
+<li>Verified all printed part counts and heat set inserts against BOM.</li>
+<li>Tested LED mount length.</li>
+<li>I believe the BOM is correct with respect to Micro Fit 3.0 connectors, although the panel mount parts are not here yet.</li>
+</ul>
+<h3 id="2022-03-26">2022-03-26</h3>
+<ul>
+<li>There is a literal, phantom tee nut in the model. I have counted component by component three different ways. The's an extra tee nut hidden in the model. =(</li>
+<li>In the process of counting, <code>Connectors.xlsx</code> is taking on new responsibilities, i.e. it's now named <code>ID Lists.xlsx</code> and contains information on parts that require fabrication or assembly: frame + tee nuts, printed parts + heat set inserts, and all of the cables.</li>
+</ul>
+<h3 id="2022-03-25">2022-03-25</h3>
+<ul>
+<li><code>Frame Identification.pdf</code> now has handy arrows to the front, top left corner of each piece and an explanation of the labeling system.</li>
+<li>Switched hotend wiring to 20awg and connector to Micro Fit 3.</li>
+<li>Fixed #42 (A/B steppers have pigtailed connectors now)</li>
+<li>Chasing a phantom tee nut.</li>
+</ul>
+<h3 id="2022-03-24">2022-03-24</h3>
+<ul>
+<li>Created a set of drawings to identify and label frame components</li>
+<li>Spent most of the day locating and counting M5 roll in tee nuts.</li>
+</ul>
+<h3 id="2022-03-23">2022-03-23</h3>
+<ul>
+<li>Fixed #39 in the model.</li>
+<li>Fixed #35. Reprinting.</li>
+<li>Added more wire anchors to the model.</li>
+<li>Added a subfolder in <code>/CAD</code> called <code>Font</code>. Inside is Hack, the monospace font used for labeling part numbers. A readme and links to the project page are included.</li>
+<li>Fixed #41 by modeling the USB C buck converter.</li>
+<li>Started a Fusion plugin to collect scripts.</li>
+<li>Fixed #38.</li>
+</ul>
+<h3 id="2022-03-22">2022-03-22</h3>
+<ul>
+<li>Opened a lot of issues and a new milestone.</li>
+<li>New render.</li>
+<li>Nearly all components are counted from the BOM.</li>
+<li>Set side panel depth to 6mm to fit all panels on 1x 4'x5'x12mm sheet and 1x 4'x5'x6mm sheet.</li>
+<li>Will need to rework acrylic to 3mm. 6mm total with an air gap is sufficient. This was pointed out by the fabricator (thank you, Michael).</li>
+<li>Finalized laser cut layout and submitted for fabrication.</li>
+<li>Started modeling PTFE filament guide.</li>
+</ul>
+<h3 id="2022-03-21">2022-03-21</h3>
+<ul>
+<li>Integrating printed parts to general part list.</li>
+<li>Parts have new, simpler name scheme and .stl filenames are auto-generated. Now to update the model...</li>
+<li>New PN070-073 (electrical panel mounts).</li>
+<li>Removed panel mount frames, PN074 and PN075.</li>
+<li>Renamed STL files to match new naming scheme.</li>
+<li>Inserted panel mounts into the model.</li>
+<li>Added PIR foam cutouts for panel mounts, which were previously missing. Have not updated drawings yet.</li>
+<li>Updated each component in the model with new Description fields and checked for issues.</li>
+<li>Fixed #31. PSU now uses M4x8mm BHCS.</li>
+<li>Uploading an initial, mostly verified, bill of materials.</li>
+<li>Fixed depth of external couplers on the side panels.</li>
+</ul>
+<h3 id="2022-03-20">2022-03-20</h3>
+<ul>
+<li>Working on issue #28 fairly steadily.</li>
+<li>All wire runs will now have an ID to aid tracking and assembly.</li>
+<li>Wire IDs are based on component IDs</li>
+<li>IDs not involving the PSU are tailed with a letter code indicating distance from MCU, e.g. HE-A is MCU-&gt;chamber panel mount, HE-B is from the right chamber panel to the tooldhead panel.</li>
+<li>There are a few third level connectors with a -C. The modified BLTouch wire is ABL-C and connects to ABL-B. Likewise, I included a -C for LED strips. Even though they are soldered on, they still have to be made by the builder. </li>
+<li>Added initial drawings for foam insulation to the <code>/BOM</code> folder</li>
+<li>Tallied and labeled all wires, connectors, and pins.</li>
+<li>Updated ExtractBOM_PN. File location is currently hardcoded and it lacks a UI, but those are already on the radar.</li>
+</ul>
+<h3 id="2022-03-19">2022-03-19</h3>
+<ul>
+<li>Adjusted dimensions to be uniform 6 or 12mm for panels due to material availability.</li>
+<li>Updated model and laser cut sketches.</li>
+<li>Working on a new panel mount design.</li>
+</ul>
+<h3 id="2022-03-18">2022-03-18</h3>
+<ul>
+<li>Laid out panels for laser cutting on 4'x5' sheets.</li>
+<li>Now have both engineering sketches and laser cut paths in the <code>BOM</code> folder; closing #33</li>
+</ul>
+<h3 id="2022-03-17">2022-03-17</h3>
+<ul>
+<li>Finished draft of engineering sketches.</li>
+<li>Several more renders of the panels for the fabricator to see.</li>
+<li>Re-export PN016, the stepper mounts, as I forgot on the 16th.</li>
+</ul>
+<h3 id="2022-03-16">2022-03-16</h3>
+<ul>
+<li>Completely remodeled the outside frame and panels, as the timeline was already in bad shape. It finally got corrupted and I threw it out and started over. The results are much cleaner.</li>
+<li>AB stepper mounts are 5mm shorter (again).</li>
+<li>Restarting engineering sketches again due to frame and panel problems. Should go much more quickly.</li>
+</ul>
+<h3 id="2022-03-15">2022-03-15</h3>
+<ul>
+<li>Modeled piano hinge</li>
+<li>Attempted to update the the <code>Outside Frame</code> file and on to finish the drawings, but Fusion is crashing constantly.</li>
+<li>Will need to merge printed part list in to <code>General Part List.xlsx</code> for proper export as a CSV.</li>
+<li>Exported first completed set of panel sketches.</li>
+</ul>
+<h3 id="2022-03-14">2022-03-14</h3>
+<ul>
+<li>Cleanup and tweaking to the readme file.</li>
+<li>Lots of issue and milestone cleanups.</li>
+<li>Preparing <code>General Part List.xlsx</code> to be exported as a <code>.csv</code> file instead of tab-delimited.</li>
+<li>Will need to merge printed part list into the general file.</li>
+<li>Added a value column and merged the default values.</li>
+<li>The Fusion Python script now reads in the CSV file and optionally includes default values, then scrapes the model for part numbers, and exports to a specified file.</li>
+<li>The UI does not work correctly. It appears, but events do not fire properly.</li>
+</ul>
+<h3 id="2022-03-12">2022-03-12</h3>
+<ul>
+<li>Added printed part numbers to PN123 and PN124</li>
+<li>Minor edits and updates to the <code>General Parts List</code>.</li>
+</ul>
+<h3 id="2022-03-11">2022-03-11</h3>
+<ul>
+<li>Picked up on learning Fusion's UI API. It's built on Qt, so very familiar.</li>
+</ul>
+<h3 id="2022-03-10">2022-03-10</h3>
+<ul>
+<li>Learned a few lessons and laid out the panels as derived objects in a separate file, then created the drawings from that.</li>
+<li>Waiting on a piano hinge to draw up the top panel and hatch.</li>
+<li>All other fabricated pieces have drawings now.</li>
+<li>Exported the initial sketches (minus the top) to the <code>/BOM</code> folder.</li>
+</ul>
+<h3 id="2022-03-09">2022-03-09</h3>
+<ul>
+<li>Top hatch is now 300mm deep instead of 390. This leaves room for a spool holder on top of the printer.</li>
+<li>Continuing to work on drawings.</li>
+<li>Multiple new renders to illustrate paneling.</li>
+</ul>
+<h3 id="2022-03-08">2022-03-08</h3>
+<ul>
+<li>Exported initial designs for panels and a mockup of panels/frame to discuss with fabricator.</li>
+<li>Began engineering drawings for panels.</li>
+</ul>
+<h3 id="2022-03-06">2022-03-06</h3>
+<ul>
+<li>Finished disassembling frame.</li>
+<li>Modified base foot design to accomodate roll-in tee nuts.</li>
+<li>Now verifying total on hand count against the model.</li>
+<li>Aside from count verification, BOM just needs connector count and cable lengths.</li>
+<li>Closed disassembly milestone.</li>
+</ul>
+<h3 id="2022-03-05">2022-03-05</h3>
+<ul>
+<li>Re-exported PN099. File somehow got lost without being replaced.</li>
+<li>More fastener length fixes.</li>
+</ul>
+<h3 id="2022-03-04">2022-03-04</h3>
+<ul>
+<li>Continuing model and BOM verification. Working on kinematic components today.</li>
+<li>Restored PN088, the camera base.</li>
+<li>Added a linear rail plug that can be printed in TPU in case they are lost (I need them right now; figured they can't hurt).</li>
+<li>Lot of corrections to fastener sizes.</li>
+</ul>
+<h3 id="2022-03-03">2022-03-03</h3>
+<ul>
+<li>Continued model/BOM verification.</li>
+<li>Lots of fastener adjustments, but no major surprises</li>
+<li>The electrical panel mount will definitely need redesign, and the PSU mount is dubious.</li>
+<li>Also need a mount for the new RPi buck converter.</li>
+</ul>
+<h3 id="2022-03-02">2022-03-02</h3>
+<ul>
+<li>Began verification of BOM and model.</li>
+<li>Replaced M5x12 SHCS for the doors with M5x16.</li>
+<li>Shortened air filter base stand top 2mm.</li>
+</ul>
+<h3 id="2022-03-01">2022-03-01</h3>
+<ul>
+<li>Moved exhaust hose and PTFE coupler exits. Panels are no longer identical but this is much simpler to work around.</li>
+<li>FPD of wire conduit for the paneling. Since there is no physical paneling yet, the conduit will definitely need revision later. This is mostly to ensure it's doable, counted in the BOM, and have <em>something</em> to test when the paneling is fabricated.</li>
+<li>Model is now missing only lock collars for the F688 alignment bearings.</li>
+<li>Only remaining design necessary for a complete prototype are TPU gaskets for the front door. Changes definitely need to be made around the hotend and (later) the Z axis, but an enclosed prototype is almost here.</li>
+<li>BOM is accurately generated for all <strong>printed</strong> parts but lock collars and some extra zip tie anchors.</li>
+<li>Added the aluminum facing for PIR foam, fixed numerous issues.</li>
+<li>Several new renders.</li>
+<li>Added quite a few zip tie anchors to the model, as well.</li>
+<li>Added foam weather stripping to the sides of the floor panels.</li>
+</ul>
+<h3 id="2022-02-28">2022-02-28</h3>
+<ul>
+<li>Massive number of small edits to filenames, <code>Printed Part List.xlsx</code> and model to ensure consistency.</li>
+<li>Updated Raspberry Pi in the model, adding heatsink, HDMI adapter, and SD card.</li>
+<li>Removed even more stale STL files.</li>
+<li>Added PN111, a fan finger guard with about the right amount of spacing for a M3x35mm screw.</li>
+<li>Added SD cards, thumb screws, and other small details to the models.</li>
+<li>Updated the Readme file with my spare time while Fusion saves.</li>
+<li>Designed two styles of pull handles: one is narrow to fit the V-slot door, the other is 25mm wide for everywhere else. PN125 and 126</li>
+<li>Started work on wire pass-thrus for the flooring.</li>
+</ul>
+<h3 id="2022-02-27">2022-02-27</h3>
+<ul>
+<li>Removing PN095 and 097, as the panels are done and no M5 inserts were needed.</li>
+<li>Renumbered PN089 to PN095. It's now circular and is used on all A/B and Z steppers for a near-airtight seal.</li>
+<li>Added PN123 and PN124, the bearing slider mounts for the Z axis (left and right).</li>
+<li>All printed part file names have three-digit numbers now, e.g. <code>090 - Misc - Frame - Corner Bracket Cover.stl</code>. This will help sorting on every platform other than Windows.</li>
+<li><code>Printed Part List.xlsx</code> is updated to reflect three-digit file names, as well.</li>
+<li>Added PN122, a PTFE tube guide for between the pneumatic connectors for PN120</li>
+<li>Fixed outside panel coupler dimensions for new panel widths.</li>
+<li>Moved some brackets slightly to work with thicker floor panel.</li>
+<li>Modeled all remaining insulation and added relevant parts.</li>
+<li>Finished adding fasteners to the floor panels.</li>
+<li>Working on ensuring the air filtration both fits and can exhaust easily. This may require work, but is doable.</li>
+</ul>
+<h3 id="2022-02-26">2022-02-26</h3>
+<ul>
+<li>Set panel thickness to 7/32" or ~5.56mm for front panel.</li>
+<li>Side panels and top are now 5/16".</li>
+<li>Rear panel and flooring is 7/16".
+Updating model positions and sketches.</li>
+<li>Deleted STL files for SKR board mount, as the board itself is currently unsupported.</li>
+<li>Running hard against physical memory limits with Fusion when loading the master model. Pagefiles are still on spinning disks on my machine, not flash, so pagefile thrashing hurts and is possibly causing crashes.</li>
+<li>Fixed the alignment of a few brackets.</li>
+<li>Floor panel dimensions are in. Still finishing adding insulation and fasteners.</li>
+</ul>
+<h3 id="2022-02-25">2022-02-25</h3>
+<ul>
+<li>Lots of part corrections in the model.</li>
+<li>Modeled and added the 3mm spring steel build plate.</li>
+<li>Finished the front door and related components in the model. Added M5x14 FHCS to the BOM.</li>
+<li>Cleaned up the frame components to be external references instead of internal. Will fix the XY and rest of Z axis tomorrow.</li>
+<li>PTFE coupler and hose exhaust work well--will need TPU guide between the pneumatic couplers to align the PTFE tubes.</li>
+<li>Readme edits.</li>
+<li>Two new renders added.</li>
+</ul>
+<h3 id="2022-02-24">2022-02-24</h3>
+<ul>
+<li>Assembled and measured door. Approximate clearance with MISUMI hinges is 4-5mm on the handle side.</li>
+<li>FPD of hose exhaust and PTFE coupler for side panels. Adding PN120 and PN121.</li>
+<li>Testing stability of door. I've mocked up spacers that are as thick as the paneling, but I believe they are allowing the door to sag.</li>
+<li>Modified PN092, the frame base foot, to work with BHCS.</li>
+<li>Corrected a few file names against the master log.</li>
+</ul>
+<h3 id="2022-02-23">2022-02-23</h3>
+<ul>
+<li>Modified AB stepper mounts and TPU shim to sit on top panel.</li>
+<li>Extended AB stepper mount height, now uses M5 x 60mm BHCS.</li>
+<li>Added PN089, a stepper alignment slider. It's a TPU plug for where the linear rods from the AB steppers enter the top panel. A ball bearing sits in it and plugs the bottom to keep it airtight, but the top has room for the bearing to slide sideways to get it precisely positioned.</li>
+<li>Added some lateral clearance for the stepper mounting holes, as well.</li>
+<li>Removed <code>AB Stepper Modules</code> from the <code>XY Master</code> and pulled it into the <code>Master</code> file because it mounts above the enclosure.</li>
+<li>BOM tweaks.</li>
+</ul>
+<h3 id="2022-02-22">2022-02-22</h3>
+<ul>
+<li>Adjusted PN083/PN084 clearances around the extrusion.</li>
+<li>Tweaking master part list entries a bit, adding "Supplies" category that includes items of indeterminate quantity (e.g. lubricant) or that may be on hand as a tool (e.g. screwdrivers) and generally don't go on a BOM but will be needed.</li>
+<li>Removed old PN082 file.</li>
+<li>Rebalanced screws on the Z Gantries. There are now three M5 on top, three under.</li>
+<li>Finished insulation and fasteners for all of the panels but the flooring.</li>
+<li>Updated the master model and removed old paneling.</li>
+<li>Added in feet to the <code>Outer Frame</code> model.</li>
+</ul>
+<h3 id="2022-02-21">2022-02-21</h3>
+<ul>
+<li>PN100 is finished. PTFE tube stays neatly out of the way and has a shorter feed path.</li>
+<li>Adding new milestones and issues to help sort short- and long-term goals.</li>
+<li>Turns out PN083 and PN084's issues are not thickness underneath the insert but severe ringing by the printer. Removed the issue. Will fix belt tension on printer later.</li>
+<li>Adding insulation and joints to the new panel models in the Outer Frame file.</li>
+<li>Finishing out the connector list based on the wire harnesses.</li>
+</ul>
+<h3 id="2022-02-20">2022-02-20</h3>
+<ul>
+<li>Iterating through PN100 to get a satisfactory design.</li>
+<li>Nearly all internal connector wires have a prespecified length now. I will leave the undercarriage unspecified as it's short enough it can be left to the end user. Plus no two people are going to want to arrange it the same way.</li>
+<li>Not a lot of model progress today; focused on wiring.</li>
+<li>Now using a PTFE tube to stiffen the hotend wiring loom. No filament is in it--it just adds rigidity.</li>
+</ul>
+<h3 id="2022-02-19">2022-02-19</h3>
+<ul>
+<li>Focusing on wiring today.</li>
+<li><code>Connectors.xlsx</code> has a new tab for "Upper Level Wiring". This is wiring from the lower level patch panel up, e.g. to the hotend fans. Every connector has a pin count, recommended wire gauge, and approximate length needed. More will be filled in during disassembly.</li>
+<li>Added PN100, a PTFE tube guide to keep it from snagging the belts. The tube will now exit out of the back right, passing near the rear belts on the way. This will keep it out of the way and anchor it while the hotend moves.</li>
+<li>Top panel and hatch are modeled with a piano hinge.</li>
+</ul>
+<h3 id="2022-02-18">2022-02-18</h3>
+<ul>
+<li>Added twin cutouts to the side panels. Right side cutout is for PTFE conduit, the left side is for exhaust.</li>
+<li>Still considering approachs to wiring for the hotend.</li>
+</ul>
+<h3 id="2022-02-17">2022-02-17</h3>
+<ul>
+<li>One year since this all really started in earnest.</li>
+<li>Uploaded parametric t-slot extension for the electrical undercarriage, closing #14.</li>
+<li>Installed thermistor for the electronics (<code>TE</code>).</li>
+<li>Updated <code>Connectors.xlsx</code> to reflect minor changes.</li>
+<li>PN013, Tensioner Cap: fixed issue with impossible to print features. M5x25 instead of M5x16 screws are needed. They're already needed for the tensioner bolt iself, so no new fasteners are introduced.</li>
+</ul>
+<h3 id="2022-02-16">2022-02-16</h3>
+<ul>
+<li>Raspberry Pi board mounts (PN083, PN084) are now horizontal to allow better airflow, fixing #15</li>
+<li>Part numbers are now broken out into "General Part List" and "Printed Part List"</li>
+<li>All part numbers are now three digit.</li>
+<li>Created wire anchor assembly.</li>
+<li>Door frame assembly is modeled, minus the hinges.</li>
+<li>Concerned hinge gap is too small for door frame, or may leave too large a gap on the handle side. May need to design printable hinges to properly align.</li>
+</ul>
+<h3 id="2022-02-15">2022-02-15</h3>
+<ul>
+<li>Fixed a ton of minor issues with brackets in the model.</li>
+<li>All brackets are now properly positioned and should be propogated.</li>
+<li>Removed brackets from the bed frame; will rely solely on printed parts.</li>
+<li>Bracket assemblies still used SHCS instead of button head; fixed and propagated.</li>
+<li>Filtration is in the model.</li>
+<li>Finished renaming printed part numbers.</li>
+<li>SP901E has a placeholder body with fasteners in the model, temporarily addressing #21.</li>
+</ul>
+<h3 id="2022-02-14">2022-02-14</h3>
+<ul>
+<li>Fixed outer frame for part ID purposes.</li>
+<li>Added invisible SP901E assembly to the model to get it and the appropriate fasteners inventoried.</li>
+<li>Updated base foot and LED strips for part numbers.</li>
+<li>Too many minor changes to count.</li>
+<li>Lots of work on the prototype to reassemble the fixed skirt panels.</li>
+</ul>
+<h3 id="2022-02-13">2022-02-13</h3>
+<ul>
+<li>Temporarily removed the part codes Markdown file, as it is not current. Too many changes are taking place with the BOM to keep up.</li>
+<li>Renamed <code>Printer Part Codes.xlsx</code> to <code>Part Codes.xlsx</code> and shifted it to the <code>/BOM</code> folder.</li>
+<li>Replaced stock nuts with anti-backlash in the model, fixed some missing screws in the <code>Z Master</code></li>
+<li>Adjusted RPi panel mount connector profiles. The skirt is now fully modeled and should be correct in the BOM. Also tested and working.</li>
+<li>Made exhaust adapter fully parametric and exported to <code>/CAD/Templates</code> folder.</li>
+<li>Ditto LED Guide Channel.</li>
+<li>Exhaust adapter now has a larger fan exhaust duct coverage area to help keep it in place.</li>
+<li>Mass renamed filtration parts with appropriate names and updated <code>Part Codes</code>.</li>
+<li>Finalized Vertical Filter model.</li>
+</ul>
+<h3 id="2022-02-12">2022-02-12</h3>
+<ul>
+<li>Exported parametric tools for heated inserts.</li>
+<li>Changed a few part categories and added a "Type" column for parts.</li>
+<li>Modified the 80mm fan grill for better printing.</li>
+<li>I believe all but some very odds-and-ends parts have numbers, so closing issue #20.</li>
+</ul>
+<h3 id="2022-02-11">2022-02-11</h3>
+<ul>
+<li>Tensioner definitely needs rework.</li>
+<li>Removed PN100-PN103, the frame caps. With wood paneling, they are unnecessary.</li>
+<li>Pushing the <code>ExtractBOM_PN</code> Fusion script.</li>
+<li>Re-exporting files and continuing reprints before disassembly.</li>
+<li>Added a lot of entries that are not modeled, like heat shrink and zip ties.</li>
+<li>Most entries in the parts list now have links to reference suppliers</li>
+<li>New 80mm fan mounts for front and rear panels, with PNs 102 and 103</li>
+</ul>
+<h3 id="2022-02-10">2022-02-10</h3>
+<ul>
+<li>Continuing fresh reprints. May have discovered an issue with the tensioner.</li>
+<li>Adding reference links to the BOM.</li>
+<li>Most parts are now in the BOM--looking to address issues like zip ties and other oddments</li>
+<li>Considering using placeholder (empty) bodies with part numbers to trigger the script when scraping for BOM.</li>
+</ul>
+<h3 id="2022-02-09">2022-02-09</h3>
+<ul>
+<li>Moving through components to add part numbers and locate model inconsistencies.</li>
+<li>Resolved some very old model components that didn't get updated against the prototype.</li>
+<li><code>Printer Pard Codes.xlsx</code> has a significant update with tabs for each BOM category.</li>
+<li>Fusion model now is largely updated with internal part codes for auto-generating a BOM.</li>
+<li>Python script for scraping part numbers and instances is initially done.</li>
+<li>Removed a lot of unused and outdated files from the Fusion project.</li>
+<li>Removed PN080 and PN081, the freestanding 80mm fan mount and grille, along with some other stale entries.</li>
+<li>Exported XY Pulleys and XY Joints again for final reprint before disassembly.</li>
+</ul>
+<h3 id="2022-02-08">2022-02-08</h3>
+<ul>
+<li>Lots of progress auto-generating a BOM, though I will need to individually tag each part that needs to be included.</li>
+<li>Each part is tagged with a part number starting in "PN". These match up with the printed IDs, but are extended to any BOM part.</li>
+<li>This should massively speed up generating the BOM, as there are fewer parts added to the list (the script doesn't add anything without a "PN" part number).</li>
+</ul>
+<h3 id="2022-02-07">2022-02-07</h3>
+<ul>
+<li>Visual display of chamber temperatures is critical, so I'm quickly adjusting the default display for Klipper.</li>
+<li>I also plan to change the menu layout, so I'm laying the groundwork for that, as well.</li>
+<li>Created a repository for <a href="https://github.com/jon-harper/clock-face">Clock Face</a>, as I'm calling the display screen.</li>
+<li>Removed the OctoPrint menu and changed "SD Card" to read "Virtual SD"</li>
+<li>It works and I've sketched up a new menu layout, so stopping on that for now.</li>
+</ul>
+<h3 id="2022-02-06">2022-02-06</h3>
+<ul>
+<li>Updating issues.</li>
+<li>Going with a very simple, conservative, notched-edged panel approach for the floor.</li>
+<li>Working on auto-generating a BOM</li>
+</ul>
+<h3 id="2022-02-05">2022-02-05</h3>
+<ul>
+<li>Closed #11 regarding air filtration, as a working vertical prototype is completed.</li>
+<li>Will proceed with 0.2" plywood for panels due to cost.</li>
+<li>FPD of a new gantry lock bar.</li>
+<li>All project files now up to date with parametric heated insert holes.</li>
+<li>Enclosure maintaining at 45C with 48C target</li>
+</ul>
+<h3 id="2022-02-04">2022-02-04</h3>
+<ul>
+<li>Enclosure maintains 3C above target at 45C.</li>
+<li>A 2/3 full 75mm tank is currently doing the job. Printed off two 50mm tanks.</li>
+</ul>
+<h3 id="2022-02-03">2022-02-03</h3>
+<ul>
+<li>Working on testing Klipper, lights, and the exhaust in an enclosure.</li>
+</ul>
+<h3 id="2022-02-02">2022-02-02</h3>
+<ul>
+<li>Modified exhaust adapter for ~20mm OD hose.</li>
+<li>Continuing to work on enclosure/Klipper/filtration integration</li>
+<li>Widened HEPA filter latch for vertical filter.</li>
+<li>Added a render of the finished filter assembly.</li>
+<li>Added pinout diagram for the SKR 2.</li>
+</ul>
+<h3 id="2022-01-25-2022-02-01">2022-01-25 - 2022-02-01</h3>
+<p>Focused at the moment on finding a plastics fabricator to answer some basic questions about material and panels.</p>
+<p>Meanwhile, since I can't enclose the prototype yet, I've setup Klipper on the ABS printer and am getting that ironed out. This way I can test the chamber exhaust in an real-world environment.</p>
+<h2 id="q1-2022_1">Q1 2022</h2>
+<h3 id="2022-01-24">2022-01-24</h3>
+<ul>
+<li>Tested filtration with 75mm fans; much improved.</li>
+<li>Fit tested model with shroud--may need some minor adjustments to maintain tension around the HEPA filter.</li>
+<li>Current cold temperatures are making it diffiult to maintain chamber temps, so having more warp than usual and therefore more reprints.</li>
+</ul>
+<h3 id="2022-01-23">2022-01-23</h3>
+<ul>
+<li>Tested the filtration; seems to work slowly but efficiently. Likely will rely on 75mm fan solution.</li>
+<li>Iterated through some changes to the base and fan intake for the vertical stand.</li>
+<li>Added a shroud to help keep the HEPA cartridge in place</li>
+<li>Modified the TPU latch to print on its back.</li>
+<li>Found two Raspberry Pis.</li>
+</ul>
+<h3 id="2022-01-22">2022-01-22</h3>
+<p>Filtration</p>
+<ul>
+<li>Added a small hole to the center of the 75mm tank to add more perimeters for sturdiness. The center pillar is pretty weak.</li>
+<li>AC -&gt; HEPA duct is done for the vertical filtration assembly.</li>
+<li>Testing dual 50mm fan setup in an enclosure today.</li>
+</ul>
+<p>GitHub</p>
+<ul>
+<li>Added a number of issues to GitHub and pinned an issue containing a list of what needs closing before disassembly.</li>
+<li>Removed Marlin firmware folder. It's not maintained or even finished, nor do I intend to move away from Klipper now.</li>
+<li>Reworded some of the readme.md and slimmed it down. Moved the TODO entirely to Issues.</li>
+<li>Moved orientation-specific STLs for filtration to subfolders.</li>
+</ul>
+<h3 id="2022-01-21">2022-01-21</h3>
+<p>Clock 3</p>
+<ul>
+<li>Renaming a lot of the components to group them by function.</li>
+<li>Added a new #95: a panel mount piece. A 50 pack of M5 heated inserts is $14 and will cover any panel subdivisions I need to make, as well as possibly being useful elsewhere.</li>
+</ul>
+<p>Filtration</p>
+<ul>
+<li>Made shims/TPU gaskets for both 75mm and 50mm fans. They push the fans out 1.6mm to make room for a hose adapter (and dampen noise).</li>
+<li>Both the 50mm and 75mm fan intakes work, though the right 50mm profile is incorrect.</li>
+<li>Working on 75mm fan exhaust to tighten fit. Modeling is difficult as there is some variation between brands in wall thicknesses, etc.</li>
+<li>Ordered 1" ID hose instead of 1/4". The 75mm fan is having difficulty providing pressure, so I'm going to try avoiding necking down. The 1/4" hosing may still be useful for 50mm fans.</li>
+<li>1/4" hose is ideal for 50mm fan.</li>
+<li>50mm fan intake is now front heavy with hose on, added hole for an insert and foot.</li>
+<li>Started work on a fully vertical filter tower.</li>
+</ul>
+<h3 id="2022-01-20">2022-01-20</h3>
+<ul>
+<li>Will need TPU shims to leave room for tubing connectors.</li>
+<li>Fixed fan holes to fit regardless of orientation.</li>
+<li>Added foot to 75mm fan intake.</li>
+<li>Added small front foot to use with 75mm fan intake</li>
+<li>Modeled 75mm radial fan</li>
+</ul>
+<h3 id="2022-01-19">2022-01-19</h3>
+<ul>
+<li>Dual 50mm seem like they would work for a small chamber, particularly with one 50mm running continuously as exhaust.</li>
+<li>Modeled and started a FPD for dual 75mm blowers.</li>
+<li>Looking into flexible hosing, ordered 1/4" ID, 1/2" OD silicone tubing and push connectors.</li>
+<li>Dual 75mm is front-heavy.</li>
+</ul>
+<h3 id="2022-01-18">2022-01-18</h3>
+<ul>
+<li>Created a hole diameter test for heat pressing with variable tapers.</li>
+<li>Big change in standard heated inserts after testing. All inserts (both vertically and horizontally) will default to 4.5mm with a -4 degree taper.</li>
+<li>Re-exported all affected STL files.</li>
+<li>Created <code>heated_insert_test_block.md</code> in the <code>/Docs</code> folder to explain heated insert testing.</li>
+<li>Air filter prototype is finished; waiting on new fans to test.</li>
+</ul>
+<h3 id="2022-01-17">2022-01-17</h3>
+<ul>
+<li>Filtration: Finished the latch, hinge, and carbon tank gasket.</li>
+<li>Added in all fasteners to the filtration model.</li>
+<li>Started printing FPD of components.</li>
+<li>Added renders to GitHub.</li>
+<li>Hinges work, latches align.</li>
+<li>Remodeled backside of activated carbon duct to reduce weight by 50 grams, down from over 200 (2mm perimeters, 20% infill).</li>
+<li>Generic ABS not happy with such a large solid volume (delaminating). Printing in PETG for now, will switch to modified ABS later.</li>
+</ul>
+<h3 id="2022-01-16">2022-01-16</h3>
+<ul>
+<li>Took a break yesterday; came up with some good ideas.</li>
+<li>~~Working on a relatively straightforward, 3-fan filtration setup, but need to dissect a fan first to get the diameter of the inner bearings.~~</li>
+<li>Destroyed a fan; starting over.</li>
+<li>Almost done with a different setup using just two 5015 or 7530 fans.</li>
+</ul>
+<h3 id="2022-01-15">2022-01-15</h3>
+<ul>
+<li>Activated carbon appears to be a good supplier. No sign of rust on any of the test items.</li>
+<li>Updated the FAQ a bit.</li>
+</ul>
+<h3 id="2022-01-14">2022-01-14</h3>
+<ul>
+<li>Waiting on HEPA filters so working on polishing XY components for milestone print.</li>
+<li>Added surface chamfers to XY Pulleys, XY Joint components.</li>
+<li>Fixed #1 and #2 ID text to specify that they are Left side components.</li>
+<li>Redid #8, R Top XY Joint. Center rib now stretches to the wire anchor, the anchor is slightly deeper, and there is now a lip around the rear edge.</li>
+<li>Found a screw hole that somehow got lost on #10.</li>
+</ul>
+<h3 id="2022-01-13">2022-01-13</h3>
+<ul>
+<li>Had some initial success using a French press filter to hold the activated carbon.</li>
+<li>Testing a lid with another French press filter to act as a sealed container for activated carbon.</li>
+<li>AC will either need to be pre-sieved or thoroughly shaken in the container to sieve the finer particles out.</li>
+<li>Last export of bed corner bracket didn't have part code. This is fixed.</li>
+<li>Modest edits to the readme.</li>
+</ul>
+<h3 id="2022-01-12">2022-01-12</h3>
+<ul>
+<li>Working on some concepts for filtration.</li>
+</ul>
+<h3 id="2022-01-11">2022-01-11</h3>
+<ul>
+<li>Fixed mounting hole size for part cooling fan.</li>
+<li>Created a skeleton FAQ.</li>
+<li>Added a note in the <code>/Firmware/Klipper</code> folder where to find the <code>.cfg</code> files for Klipper.</li>
+<li>Testing virgin coconut shell activated carbon for oxidation. Hopefully this is a good supplier.</li>
+<li>Raised A/B steppers a few mm. Now use M5x45mm screws.</li>
+<li>Lots of issues resolved on the X Gantry and hotend.</li>
+<li>Changed mointing direction for part cooling fan. Heated insert no longer enters at an angle, which should help alignment issues.</li>
+<li>BLTouch mount works.</li>
+<li>Pretty much every component touched to update <code>Parameters</code> file. No changes due to new parameters yet.</li>
+<li>Went through a number of iterations on the camera mount. Have settled on a location near the front left on top of the tensioner.</li>
+<li>Steadily adding issues to the issue tracker. Working on setting some initial milestones.</li>
+</ul>
+<h3 id="2022-01-10">2022-01-10</h3>
+<ul>
+<li>Hotend now locks in place with two screws into the mount itself, rather than passing through to the front plate. This allows preassembly of the hotend and fewer screws to remove the mount plate for belt access (4-&gt;2).</li>
+<li>Between the above and changing the fan screws, the hotend cage, fan and all, can be removed with 4 total screws instead of 8.</li>
+<li>Fixed an issue with the front mount plate's vent not passing all the way through.</li>
+<li>Steadily adding 0.4mm chamfers to narrow holes (mostly screw holes) that touch the build surface in case of elephant's foot. Completed hotend and stepper mount modification so far.</li>
+<li>Also moving ID # off the build surface if an alternate location is available, e.g. under the stepper on the BMG mount. This keeps the # from fusing closed.</li>
+<li>Added Octopus pinout diagram to docs.</li>
+<li>Belt clamps now have a 'U' shape with much more grip.</li>
+<li>Display works on prototype now. Note: Klipper docs use a reversed orientation for their board aliases from Marlin, so I skipped using aliases and directly inserted pins.</li>
+</ul>
+<h3 id="2022-01-09">2022-01-09</h3>
+<ul>
+<li>Created a Klipper config repository.</li>
+<li>Working on an Raspberry Pi camera mount.</li>
+</ul>
+<h3 id="2022-01-08">2022-01-08</h3>
+<ul>
+<li>Added #110 (a different #110), which is a panel mount for an SD card extension PCB. Crack the extension case, slip the cable through the back and the PCB into the slot. Mounts with 2 brass inserts.</li>
+<li>Finished prototype wiring, labeling, and front panel. Now working on Klipper.</li>
+<li>Need to flip RPi mount to lay flat for cooling.</li>
+<li>Started adding issues to Github.</li>
+<li>Working on initial Klipper config.</li>
+</ul>
+<h3 id="2022-01-07">2022-01-07</h3>
+<ul>
+<li>Printing was delayed by layer shifting on the 92mm fan mount. </li>
+<li>Did a relayout on the left panel mount. The Fusion timeline is more manageable and the layout of the connectors more logical.</li>
+<li>Front panel mounts all fit save for Ethernet and SD Card--expect those to arrive today.</li>
+<li>Added zip tie anchors to the forward-facing side of the panel mount.</li>
+<li>RJ-45 cutout is off by a bit, but it fit after some effort. Going on the TODO list.</li>
+</ul>
+<h3 id="2022-01-06">2022-01-06</h3>
+<ul>
+<li>More wire anchors, more wire routing.</li>
+<li>Finishing front panel component printing.</li>
+<li>Added through hole for a screw to the display slot so that the front panel will have two vertical fasteners.</li>
+<li>Added a cutout for full size SD card slot with the rest of the panel mounts in front. Waiting on extension PCB to arrive in the mail, so no corresponding mount yet.</li>
+<li>Moved USB, HDMI, and Ethernet panel mounts to left panel to avoid crowding the display area.</li>
+<li>Modified left interior panel mount for chamber thermistor and chamber fan ports.</li>
+<li>Shortened and recrimped much of the undercarriage.</li>
+<li>Feeling more comfortable with the general state and layout of the undercarriage wiring.</li>
+<li>Shortened tops of wiring panel mounts to leave space for flooring panel to inset.</li>
+</ul>
+<h3 id="2022-01-05">2022-01-05</h3>
+<ul>
+<li>Working on wiring in general:</li>
+<li>Raspberry Pi now has a dedicated power/IO cable that I've hot-glued in place. I can't figure another way to properly secure Dupont connectors, as they don't latch. Hot glue it is.</li>
+<li>Created a harness to properly wire the SP901E and mounted it.</li>
+<li>Checked light wiring connections and recrimped a few.</li>
+<li>Added wire anchors in numerous locations.</li>
+</ul>
+<h3 id="2022-01-04">2022-01-04</h3>
+<ul>
+<li>Added JST SM connectors for the alpha and beta steppers. They now plug in to the back skirt end panels instead of being wired to the board directly. This modified #106 and #107.</li>
+<li>Designed skirt slot for display and USB, HDMI, and Ethernet ports.</li>
+<li>Started initial Raspberry Pi and Klipper setup.</li>
+<li>Reorganized fan headers, added Supply Voltage column to <code>Connectors.xlsx</code>.</li>
+<li>Finished the back skirt assembly, including today's modifications.</li>
+</ul>
+<h3 id="2022-01-03">2022-01-03</h3>
+<ul>
+<li>Added tab with a screw hole for the skirt grille. It's a little flimsy in the center currently.</li>
+<li>Modified power switch port to accept 15mm hex nut cutout. Should stabilize the power switch.</li>
+<li>Skirt ends: moved M5 hole down to give easier access with plugs and switches and such installed.</li>
+</ul>
+<h3 id="2022-01-02">2022-01-02</h3>
+<ul>
+<li>Tweaked frame caps so the screw holes are more printable</li>
+<li>Re-exported X gantry's front plate.</li>
+</ul>
+<h3 id="2022-01-01">2022-01-01</h3>
+<ul>
+<li>Back in office. 31 parts to print until I'm caught up.</li>
+<li>Strengthened PSU bracket</li>
+<li>Switched to M4 screws for PSU bracket (oops)</li>
+<li>Modified fan exhaust and intakes to print properly. Fan mount had impossible overhangs; this is fixed.</li>
+<li>Tweaked tolerance for IEC plug</li>
+</ul>
+<h2 id="q4-2021">Q4 2021</h2>
+<h3 id="2021-12-30">2021-12-30</h3>
+<ul>
+<li>Added some bracing to the electrical panel mounts to reduce flex and moved them further back.</li>
+<li>Introduced the wiring panels to the master model.</li>
+<li>Added lighting into the model for 3 x 12 pixel strips at 60px/m (16.6mm spacing).</li>
+<li>Made a few fixes to the lighting strip so the zip tie does not cross over an LED.</li>
+<li>Plenty of new renders.</li>
+</ul>
+<h3 id="2021-12-29">2021-12-29</h3>
+<ul>
+<li>Fixed ABL mount issues with belt attachment screws.</li>
+<li>Also simplified mounting the hotend fan. Two screws mount into the fan shroud and two pass through to mount both. The fan shroud and fan then can come off with two screws instead of four.</li>
+<li>Added motion joints.</li>
+<li>Reviewed assemblies and added any missing fasteners.</li>
+<li>Updated wiring anchors on the x gantry. BMG mount now has a groove and zip tie channels for wiring on the right side.</li>
+<li><code>Electrical T Slot Extension</code> now has a slot for inserting new roll-in tee nuts (or taking them out) without having to dismount the extrusion.</li>
+</ul>
+<h3 id="2021-12-28">2021-12-28</h3>
+<ul>
+<li>Fairly significant number of changes today.</li>
+<li>Added a number of missing brackets in the model. I <em>believe</em> they are all present now, but will check WBIO (when back in office).</li>
+<li>Fixed a few naming issues in the part codes list. Working on consistency and logical grouping. Re-numbering will come WBIO.</li>
+<li>Iterating through the models and making sure all fasteners are present.</li>
+<li>Added a TPU vibration damper between the AB stepper mounts and the frame. I will test TPU washers WBIO.</li>
+<li>Fixed minor issues with tensioner assembly/disassembly.</li>
+<li>Inset M3s on the tensioner top and added chamfers for screw head insertion/removal.</li>
+<li>Removed #97 after integrating wire guide into the right top <code>XY Joint</code> piece (#8).</li>
+<li>Entire XY axis assembly has fasteners but the hotend and X gantry.</li>
+<li>Z axis now has all fasteners; fixed Z2 stepper mislocation.</li>
+<li>Deleted #95 <code>Wire Guide</code> part ID entry, as the anchors are doing just fine.</li>
+<li>Trying to modify the side panels for the new crossbars but running into Fusion issues.</li>
+</ul>
+<h3 id="2021-12-27">2021-12-27</h3>
+<ul>
+<li>Finished rear exhaust and tagging pieces with IDs for the skirt.</li>
+<li>Publishing 104-111 and reserving 112 and 113 for the display (to be done when back in office).</li>
+<li>Fixed up the electronics undercarriage file with parts already designed.</li>
+<li>Added PSU to the model and desgined a power supply mount, as well.</li>
+</ul>
+<h3 id="2021-12-26">2021-12-26</h3>
+<ul>
+<li>Significant work done on skirts:</li>
+<li>Designed frame and section system. Front panels are modular and replaceable but fit together with screws.</li>
+<li>Finished 92mm fan intake, right switch panel, two identical center grille pieces.</li>
+<li>Work for screen and front communications ports can be done once back in office.</li>
+<li>Rear panel has two grilles and two fan cutouts, plus an IEC panel mount spot.</li>
+<li>Not entirely satisfied with fan cutouts, will work on them in the morning and push everything tomorrow.</li>
+<li>Added #s 100-103, the caps to cover the exterior frame edges at the base and top.</li>
+</ul>
+<h3 id="2021-12-23">2021-12-23</h3>
+<ul>
+<li>I needed to bring a buck converter with me, so added #85 for a 5A DROK mount.</li>
+</ul>
+<h3 id="2021-12-22">2021-12-22</h3>
+<ul>
+<li>Preparing for vacation, so slowing activity.</li>
+<li>Significantly cleaned up wiring in undercarriage area.</li>
+<li>Added Marlin firmware modifications to source tree. Eventually switching to Klipper, but this is functional.</li>
+<li>Slight modification to the SKR2 board mount to improve clearance beneath.</li>
+<li>Created a Raspberry Pi board mount.</li>
+</ul>
+<h3 id="2021-12-21">2021-12-21</h3>
+<p><strong>IT PRINTS.</strong></p>
+<ul>
+<li>Working on firmware for lighting. May need to open an issue with Marlin or push a fix to get two light strips synced with different controllers. First controller (BTT 12864 display) follows the lighting pattern, the second is static.</li>
+<li>Testing a patch to <code>printer_event_leds.h</code> and <code>printer_event_leds.cpp</code>. It requires adding another preprocessor flag, but it seems to work.</li>
+<li>Printing at 120mm/s and 0.16mm layers okay. Blower needs a higher minimum cutoff.</li>
+<li>Reintroduced Y axis frame bracing to reduce frame vibration during Y axis moves.</li>
+<li>Modified light channel to have deeper siding.</li>
+</ul>
+<h3 id="2021-12-20">2021-12-20</h3>
+<ul>
+<li>Finished all crimps but ABL.</li>
+<li>Started mapping headers and began Wiki with corresponding article.</li>
+<li>Tested limit switches, fans, thermistors, bed heat, and finally first hotend heat and filament extrusion.</li>
+<li>Designed mount for programmable LEDs. Design is parametric based on spacing, PCB width, and LED count. Includes a zip tie anchor.</li>
+<li>LED tests. SP901E is finicky with WS2815, leaving it out for now.</li>
+<li>Nearly all connectors are now labeled.</li>
+<li>Resolved display issue.</li>
+<li>Added a modification of an old PTFE tubing coupler design. This part should go away in later revisions.</li>
+<li>First print should be tomorrow.</li>
+</ul>
+<h3 id="2021-12-19">2021-12-19</h3>
+<ul>
+<li>Recrimped (properly) all but three of the JST SM connections. Generic crimper for the XH and PH connectors arrived, so went ahead and finished the connectors for all three harnesses above the electrical undercarriage.</li>
+<li>Created an 80mm fan mount for cooling the steppers. Will upload after verifying the second print fits.</li>
+<li>Mounted the Octopus.</li>
+<li>Started work on skirt layout, including IEC (power in) and power switch location.</li>
+<li>Crimped even more wires.</li>
+</ul>
+<h3 id="2021-12-18">2021-12-18</h3>
+<ul>
+<li>Fixed emboss on right patch panel</li>
+<li>Revision 2 of XY Joint wire guide. Dealing with some elephant's foot.</li>
+<li>Added a file for extending spare T slot underneath for mounting equipment. The file is parametric for the end-user's modification.</li>
+<li>Designed clamps for board mounting</li>
+<li>Added screw holes to board tray to secure it in place.</li>
+<li>Modified blank tray template and exported STEP file to <code>/CAD</code> folder.</li>
+<li>Rebuilt Octopus tray from template file.</li>
+<li>Threw out the last four entries about clamps and boards and went with a simpler design with fewer parts and easier mounting.</li>
+<li>Boards mount at an angle for easier access from the front.</li>
+<li>Made parts for both Octopus and SKR 2 (1.4 if you can find it anymore)</li>
+<li>Started plotting out Octopus fan header usage (cleaner and simpler for now than using SKR 2 + bucks)</li>
+</ul>
+<h3 id="2021-12-17">2021-12-17</h3>
+<ul>
+<li>Fixed issue with patch panels.</li>
+<li>Terminated wires, probably terribly, but at least have the lengths and wrap done. Will re-crimp properly later (before using the wires).</li>
+<li>Finished up the <code>T Slot Wire Anchor</code> design.</li>
+<li>Tested panel mount--will need to be moved backwards.</li>
+<li>Added a wire guide for the right <code>XY Joint</code> to keep the harness elevated.</li>
+<li>Redesigned wire panel mounts to sit further back, leaving more room for exiting wire.</li>
+<li>Added a folder for test GCODE and a basic movement test file, though it needs...testing.</li>
+<li>Modified Z limit switches to lower them 6mm.</li>
+<li>Discovered issue with BLTouch mount after attaching cable ties. Will probably try and move mount position forward a few mm.</li>
+</ul>
+<h3 id="2021-12-16">2021-12-16</h3>
+<ul>
+<li>Finished labeling wiring panels.</li>
+<li>Documented part names for consistency and added info to the Readme.</li>
+<li>All parts with wires now have 2-3 letter codes for commonality of labels on connectors and panels.</li>
+<li>Designed panels for left and right side to connect wiring.</li>
+<li>Created <code>Electronics Master</code> file for undercarriage area.</li>
+<li>Working on wire anchors/guide channels</li>
+<li>Will start testing lighting channels at some point soon.</li>
+<li>Crimped way, way more wires today. Probably done crimping until the JST-PH connectors arrive.</li>
+</ul>
+<h3 id="2021-12-15">2021-12-15</h3>
+<ul>
+<li>Tested XY motion</li>
+<li>Designed and tested replacement for Z bottom bracket that includes rail alignment.</li>
+<li>Tested all endstops</li>
+<li>Added build plate</li>
+<li>Sketched up panel mounts for JST-SM connectors for 2-6 pins and fit-tested</li>
+<li>Began setting up wiring for JST-SM</li>
+<li>Added STL Filename column to <code>Part Codes</code></li>
+<li>Crimped a lot of wires.</li>
+<li>Created file for tracking wire codes and terminal names</li>
+</ul>
+<h3 id="2021-12-14">2021-12-14</h3>
+<ul>
+<li>Fixed some issues with the left pulley component.</li>
+<li>Fixed an incorrect peg hole depth on right mid <code>XY Joint</code>.</li>
+<li>Added 5mm to the AB stepper mounts.</li>
+<li>Pushed Y limit switch out ~20mm to allow clearance for the X limit switch. This is hacky, but will work and keep the bed area available.</li>
+<li>Adjusted screw holes on right pulley component to account for the new limit switch mount.</li>
+<li>Designed Bowden mount for BMG.</li>
+<li>Designed <code>Gantry Lock</code> for servicing hotend and belts.</li>
+<li>Raised the Y limit switch a bit to give clearance for heated inserts in the mount.</li>
+</ul>
+<h3 id="2021-12-13">2021-12-13</h3>
+<ul>
+<li>Fixed up some Tony Table issues</li>
+<li>Created a Y rail alignment guide for in front of the tensioners</li>
+<li>Right <code>XY Joint</code> now has attachment points for zip ties and a guide for wiring.</li>
+<li>Right <code>XY Joint</code> now has additional room (1mm) for cut tolerance on the X axis extrusions/linear rail and heat growth for both the same.</li>
+<li>Adjusted height of XY pulley components to allow for 0.2mm difference in height of the milled Y rail.</li>
+<li>Fixed some issues with the Left <code>XY Joint</code>'s bottom piece.</li>
+<li>All <code>XY Joint</code> belt guides are now at roofed at 35 degree angles instead of the prior 45 degrees. This shouldn't be an issue with print difficulty and will give additional belt clearance.</li>
+<li>Ditto <code>Stepper Pulleys</code>.</li>
+<li>Added <code>Y Axis Rail Guide</code> parts for both sides on the <code>Stepper Pulleys</code> components. <em>The Y limit switch mounts on this guide</em>.</li>
+<li>Spent part of the day learning to crimp JST-SM pins and replacing Blender's heater cartridge (terminated in JST-SM, but also what Clock 3 uses)</li>
+<li>Added <code>X Limit Switch Mount</code></li>
+<li>Published to a public repository.</li>
+<li>Dropped the fan duct about a millimeter to get it to blow under the nozzle (hopefully).</li>
+</ul>
+<h3 id="2021-12-12">2021-12-12</h3>
+<ul>
+<li>FPD and second iteration for part cooling duct. The front half is from the EVA project, modified for heated inserts.</li>
+<li>Redid all gantry core fastener locations to make room for other parts.</li>
+<li>Working belt clamp design.</li>
+<li>Created a Tony Table with part codes.</li>
+</ul>
+<h3 id="2021-12-11">2021-12-11</h3>
+<ul>
+<li>Assembled second X gantry print--much better clearances around the hotend and fit is good.</li>
+<li>PTFE collar issue resolved with a brace on the mounting bracket</li>
+<li>Added fourth screw hole to extruder mount and relocated to ensure flat connection.</li>
+<li>Added zip tie anchors on front mount plate for wiring.</li>
+<li>Started work on belt tie-offs.</li>
+<li>Updated part color-coding and ran into some Fusion bugs.</li>
+</ul>
+<h3 id="2021-12-10">2021-12-10</h3>
+<ul>
+<li>Installed bed frame of correct length. Bed is now a complete unit and finished.</li>
+<li>Installed new lead screws (500mm).</li>
+<li>X axis extrusion and Z crossbar should both arrive today for proper kinematics testing.</li>
+<li>Still having 12864 display issues.</li>
+<li>Modified the hotend mounting bracket to have an install point for ABL.</li>
+<li>Created a BLTouch bracket (what I have on hand).</li>
+<li>There is now a working mount for the BMG + stepper of arbitrary depth. Included cutouts for mounting with wires sideways.</li>
+<li><em>Frame is now current to spec</em>.</li>
+</ul>
+<h3 id="2021-12-09">2021-12-09</h3>
+<ul>
+<li>Testing bed height adjustment screw with a locking thumbscrew, similar to the Ender 5's Z endstop trigger.</li>
+<li>Working in earnest on hotend mount and cooling. </li>
+<li>FPD for V6/BMG mount.</li>
+<li>Testing <code>PTFE Collar</code> to allow PTFE tube from extruder to be removable and reattachable easily.</li>
+<li>Started work on paneling.</li>
+<li>Added a few missing joints.</li>
+<li>Added clearance to edges of X axis by rounding the <code>XY Joint</code> fronts.</li>
+</ul>
+<h3 id="2021-12-08">2021-12-08</h3>
+<ul>
+<li>Tested new limit switch arrangement to raise bed.</li>
+<li>Adjusted limit switch design.</li>
+<li>Reassembled <code>XY Joint</code>.</li>
+<li>Some adjustments to <code>Z Gantry</code> and <code>Lead Screw Plates</code>.</li>
+<li>More limit switch design tweaks to maximize volume.</li>
+<li>Finished bed wire support design.</li>
+<li>Added linear rail stop to raise maximum bed height with identical build volume.</li>
+<li>Working towards shortening filament path for hotend when the <code>X Gantry</code> comes together.</li>
+<li>Need to stiffen up new limit switch, but that can wait.</li>
+<li>Pursuing modular panel cutouts for flooring to simplify design and add flexibility for later.</li>
+<li>Modeled full exterior frame and brackets</li>
+<li>Combined frame and internal parts into <code>Master</code> file</li>
+<li>Lots of additions to <code>Parameters</code> file and fixes</li>
+</ul>
+<h3 id="2021-12-07">2021-12-07</h3>
+<ul>
+<li>Organized files, now tracking STLs with a naming scheme in a spreadsheet</li>
+<li>Fixed misnumbered and nonsequential parts</li>
+<li>Lots of work to fix endstop issue and raise Z bed max</li>
+<li>Several iterations to fix small issues with the XY Joint (no longer XY Interface)</li>
+<li>Actively working towards a hotend arrangement design</li>
+<li>Switched to button head screws for most printed parts on the test rig</li>
+<li>Designed cable support piece for the bed wires</li>
+</ul>
+<h3 id="2021-12-06">2021-12-06</h3>
+<ul>
+<li>Worked around X axis linear rail</li>
+<li>Adjusted XY interface for linear rail on bottom</li>
+<li>Modeled X gantry and hotend</li>
+<li>Tested cooler ideas, explored EVA as a COTS option (belts incompatible)</li>
+</ul>
+<h3 id="2021-12-05">2021-12-05</h3>
+<ul>
+<li>Worked on Z axis all day</li>
+<li>Z limit switch designed, printed, and tested</li>
+<li>Fixed issues with Z steppers after too much troubleshooting</li>
+<li>Added several files for components</li>
+<li>Making switch to button head screws to avoid recesses to socket head.</li>
+<li>Tested bed auto align</li>
+<li>First time with working Z kinematics!</li>
+</ul>
+<h3 id="2021-12-04">2021-12-04</h3>
+<ul>
+<li>Finished printing FPD Z axis parts</li>
+<li>Spit and polish to Z stepper mount designs</li>
+<li>Assembled Z axis minus limit switches</li>
+</ul>
+<h3 id="2021-12-03">2021-12-03</h3>
+<ul>
+<li>Lots of Z axis fixes and tweaks</li>
+<li>FPD of bed frame bracket</li>
+<li>FPD of printed Z gantry</li>
+<li>Finished <code>Z Master</code> file containing full Z motion</li>
+<li>Created XYZ master integrating XY and Z master files, will add frame</li>
+</ul>
+<h3 id="2021-12-02">2021-12-02</h3>
+<ul>
+<li>FPD for stepper mounts and bearing holder (prototyped in PETG to get more printers involved)</li>
+<li>First test of heated inserts on tensioner piece with press--went well</li>
+<li>Adjusted all parts to ensure press inserts holes are included where needed</li>
+<li>Added Z frame to <code>Parameters</code> file</li>
+<li>Created <code>Z Frame</code> file to assemble Z components with</li>
+<li>Folder cleanups, moved old stuff, reorganized <code>Assemblies</code> folders</li>
+<li>Finished heat pressing all tensioner parts</li>
+<li>Mounted first AB stepper and bearing holder, printed second</li>
+<li>First XY kinematics test (manually moving tensioned belts)</li>
+</ul>
+<h3 id="2021-12-01">2021-12-01</h3>
+<ul>
+<li>Renaming Clock 3 to Snow Angel to avoid confusion with Voron Clockwork extruder. Sigh.</li>
+<li>Completed FPD of right side for XY interface, refined left.</li>
+<li>Calculated first two frame cuts, started labeling frame for machining</li>
+<li>Stole X linear rail for Z axis. Will order a higher quality one for the X.</li>
+<li>Adapted Clock 2 limit switch plate for Y axis and made a template for the other axes.</li>
+<li>Ordered Clock 2 -&gt; Snow Angel frame pieces</li>
+<li>FPD for tensioner (they mirror, so only one design)</li>
+<li>Added belt guide channel for right y gantry</li>
+<li>Continued to refine tensioner</li>
+<li>Added rail stops to X axis, built into the XY interface top pieces.</li>
+<li>Prelimary Z work</li>
+<li>Most of the design done for AB stepper mounts and internal bearing to help align the drive rods.</li>
+</ul>
+<h3 id="2021-11-30">2021-11-30</h3>
+<ul>
+<li>Cleaned up stepper pulley plates after assembly</li>
+<li>XY Interface design started</li>
+<li>Completed first printable design (FPD) for left side of XY interface (where X extrusion mates with the Y linear rail carriage)</li>
+</ul>
+<h3 id="2021-11-29">2021-11-29</h3>
+<ul>
+<li>Created XY Master file</li>
+<li>Swapped in braces with center threads</li>
+<li>Fit tested stepper pulley plates</li>
+</ul>
+<h3 id="2021-11-28">2021-11-28</h3>
+<ul>
+<li>Lots of work on the rear idlers and stepper pulleys</li>
+<li>Disassembled most of test printer</li>
+<li>Pieces will now be numbered and have a L or R designation where applicable.</li>
+</ul>
+<h3 id="2021-11-27">2021-11-27</h3>
+<ul>
+<li>Created a <code>clock-3</code> branch and started organizing files</li>
+<li>Expanded layout file</li>
+<li>Finished full belt path in layout file and added offset planes for frame and belts</li>
+<li>Still determining exact belt Z offset, as much of the design depends on that</li>
+</ul>
+<h3 id="2021-11-26">2021-11-26</h3>
+<ul>
+<li>Created a layout file for inserting derived parametrics and sketches</li>
+<li>Started breaking out parameters</li>
+<li>Sketched 3-point Z layout</li>
+<li>Did a quick pass at designing the stepper pulley bodies to look for issues in the layout file</li>
+<li>Created a hole diameter test block and brass insert practice block, inaugurating the <code>Tools</code> folder.</li>
+</ul>
+<h3 id="2021-11-25">~2021-11-25</h3>
+<ul>
+<li>Picked it back up again. Time for a redesign.</li>
+<li>Planning 3 point Z, smaller, tighter enclosure</li>
+<li>Switched to F695 idlers from F688 to save ~1/4" of width and depth.</li>
+<li>Working on a switch to brass inserts now that I have a press for them.</li>
+</ul>
+<h3 id="break">Break</h3>
+<p>Life got involved.</p>
+<h2 id="q3-2021">Q3 2021</h2>
+<h3 id="2021-08-19">2021-08-19</h3>
+<ul>
+<li>Back to printing Linear Bearing Mounts.</li>
+<li>Planning to install wiring harness in center-rear.</li>
+<li>Fit tested new limit switches (Ender 3-style).</li>
+</ul>
+<h3 id="2021-08-15">2021-08-15</h3>
+<ul>
+<li>Printed and assembled simple PETG hotend mounting plate. The entire gantry cart for the hotend is now in finished PETG except the backside belt attachment component.</li>
+<li>Proceeding with Mini Fit Jr connectors for (nearly) everything.</li>
+<li>Installed heatsinks on alpha and beta steppers</li>
+</ul>
+<h3 id="2021-08-12-2021-08-14">2021-08-12 - 2021-08-14</h3>
+<ul>
+<li>Resolved print issues</li>
+<li>Currently one Linear Bearing Mount printed, waiting on filament.</li>
+<li>Printed second Z endstop and updated firmware configuration.</li>
+</ul>
+<h3 id="2021-08-11">2021-08-11</h3>
+<ul>
+<li>Reprint of two Linear Bearing Mounts</li>
+<li>Test print for a corner bracket cover</li>
+<li>Reworked hotend carriage's belt fastening a bit. Added guide channels around the backside for working blind to center the belt.</li>
+</ul>
+<h3 id="2021-08-10">2021-08-10</h3>
+<ul>
+<li>Installed insulating washers.</li>
+<li>Installed finished feet.</li>
+<li>Installed new 204020 extrusion for above door.</li>
+<li>The hole for the linear bearing has too little clearance with my current print settings. Doing tests to find a balance.</li>
+</ul>
+<h3 id="2021-08-09">2021-08-09</h3>
+<ul>
+<li>Worked on aligning Z axis components</li>
+<li>Continued printing PETG bed parts</li>
+<li>Printed TPU feet</li>
+<li>Designed insulating washer for between the underside of the bed and the hex nuts</li>
+</ul>
+<h3 id="2021-08-08">2021-08-08</h3>
+<ul>
+<li>Started assembling and mounting print bed &amp; frame</li>
+<li>Glued heatsinks on to alpha and beta steppers</li>
+<li>Attached PETG endstops</li>
+<li>Testing PETG Z limit switch mount</li>
+<li>More minor PETG parts</li>
+<li>Designed bracket cover</li>
+</ul>
+<h3 id="2021-08-07">2021-08-07</h3>
+<ul>
+<li>First Tr8 nut mount print</li>
+<li>Designed Linear Bearing Assembly</li>
+<li>Designed Bed Mount Alignment Spacer to properly center and align bed.</li>
+<li>Added limit switch bumper to nut mount</li>
+<li>Added Z limit switch mount</li>
+<li>New Alignment Spacers for Z Axis assembly.</li>
+<li>Minor appearance fixes.</li>
+<li>Continued refining bed components.</li>
+</ul>
+<h3 id="2021-08-06">2021-08-06</h3>
+<ul>
+<li>Restarted Z axis work</li>
+<li>Got Tr8 nut mount nearly designed</li>
+<li>Fixed up component tree, added Internal Assembly</li>
+<li>Assembled bed &amp; swapped in more threaded brackets</li>
+</ul>
+<h3 id="2021-08-05">2021-08-05</h3>
+<ul>
+<li>Got to a good place on the hotend/belt mount components</li>
+<li>Designed the X Axis Limit Switch Bumper and Endstop (I need a shorter name for this)</li>
+<li>Attached the hotends on a simple mount. There's no way to raise or lower them (nor a print bed yet) but it gives me a moving test object.</li>
+<li>Working on hotend wire management and clamping belts.</li>
+</ul>
+<h3 id="2021-08-04">2021-08-04</h3>
+<ul>
+<li>Continued redesinging hotend/belt mount</li>
+<li>Integrated hotend to X gantry</li>
+<li>Replaced X rail stops with Y axis rail stops, need to redesign x limit switch bumper.</li>
+<li>Reorganized a lot of files.</li>
+<li>TPU printed files are now color coded a teal color.</li>
+<li>Started an Internal Assembly file integrating frame and components.</li>
+</ul>
+<h3 id="2021-08-03">2021-08-03</h3>
+<ul>
+<li>Printed final tensioners</li>
+<li>Fought with Fusion</li>
+<li>Redesigned hotend mount</li>
+<li>Redid Frame model from scratch.</li>
+<li>Modeled off-brand BCZAMD version of Bondtech's BMG ALU mount.</li>
+</ul>
+<h3 id="2021-08-02">2021-08-02</h3>
+<ul>
+<li>Finished reassembling both Y gantry carts and got the X gantry extrusion on.</li>
+<li>Iterated on tensioner design</li>
+<li>Printed stepper caps</li>
+</ul>
+<h3 id="2021-08-01">2021-08-01</h3>
+<ul>
+<li>Assembling X gantry at new height</li>
+<li>Designed new tensioners through several iterations. The new design is much narrower and sleeker. Also uses a shorter screw.</li>
+<li>Stepper alignment caps need redesign</li>
+<li>Inserted super thick brackets to the frame. Minor fixes.</li>
+</ul>
+<h3 id="2021-07-31">2021-07-31</h3>
+<ul>
+<li>Reassembling piece by piece to check for issues and square frame.</li>
+<li>Need to reassemble again to inset more spring-loaded t nuts and to record for instructions.</li>
+<li>Alignment shims now slide in to the extrusion or some other guide to prevent slippage.</li>
+<li>Moved X axis extrusion up 4mm to simplify logistics for screws and raise the nozzle.</li>
+<li>Redid floor of Y gantry carts for PETG printing</li>
+</ul>
+<h3 id="2021-07-30">2021-07-30</h3>
+<ul>
+<li>Finished frame brackets and fasteners, needs review</li>
+<li>Started printing parts in PETG.</li>
+<li>80mm alignment spacer for base alignment added</li>
+<li>Added more pre-assembled fasteners with screws and tee nuts</li>
+<li>Disassembled test frame for reassembly to new specs</li>
+</ul>
+<h3 id="2021-07-29">2021-07-29</h3>
+<ul>
+<li>Designed Y endstop switch mount</li>
+<li>Lots of small polishing</li>
+<li>Added alignment piece for the stepper mounts</li>
+<li>Preformatted brackets added</li>
+<li>Alignment spacer for the Y axis crossbars added</li>
+<li>Completed frame, working on inserting all brackets and fasteners</li>
+</ul>
+<h3 id="2021-07-28">2021-07-28</h3>
+<ul>
+<li>Endstop switch work</li>
+</ul>
+<h3 id="2021-07-27">2021-07-27</h3>
+<ul>
+<li>Second pass at back piece, adjusted hole sizes for standoffs</li>
+<li>Initial X endstop design. Wrong way; flipped to home to the right.</li>
+<li>Mounted hotend gantry test.</li>
+</ul>
+<h3 id="2021-07-26">2021-07-26</h3>
+<ul>
+<li>Fusion is crashing again/still.</li>
+<li>Started hotend gantry design</li>
+<li>Assembles in three main pieces, finished the MGN12H carriage section in the middle.</li>
+<li>First pass at back piece for belt mounting.</li>
+</ul>
+<h3 id="2021-07-25">2021-07-25</h3>
+<ul>
+<li>Finished up V1 of the bed, still needs polish</li>
+<li>Now have a mount for leadscrews.</li>
+<li>Redesigning the jigs for the Z axis to be slightly narrower.</li>
+</ul>
+<h3 id="2021-07-24">2021-07-24</h3>
+<ul>
+<li>Started designing bed</li>
+<li>Got initial size in place, 510mm x 260mm for frame, re-using Z axis struts that are going to be widened.</li>
+</ul>
+<h3 id="2021-07-23">2021-07-23</h3>
+<ul>
+<li>Z Axis needs to be setup <em>first</em> or it's going to be difficult.</li>
+<li>Strugged with Z axis all day.</li>
+</ul>
+<h3 id="2021-07-22">2021-07-22</h3>
+<ul>
+<li>Fusion crapped itself. Again.</li>
+<li>Looking in to endstop positioning. </li>
+<li>Will home to the front-right, so considering that aspect.</li>
+<li>Designed jig for Z axis</li>
+<li>Steppers will all have 2mm or 3mm thick covers on the their mounting plates to hold the 35 metal spacers in place and add additional spacing for the 45mm screws.</li>
+<li>35mm spacer + 3mm plate + 3mm printed spacer = 41mm, leaving 4mm to screw in to the stepperi</li>
+</ul>
+<h3 id="2021-07-21">2021-07-21</h3>
+<ul>
+<li>Printed and finished linear rail stops</li>
+<li>Adjusted height of tensioners (off by 5mm)</li>
+<li>Tested XY kinematics</li>
+<li>Started design of Z axis </li>
+</ul>
+<h3 id="2021-07-20">2021-07-20</h3>
+<ul>
+<li>Assembled full belt system</li>
+<li>Designed gantry lock for servicing belts and hotend</li>
+<li>Designed end stops for X and Y axis linear rails</li>
+</ul>
+<h3 id="2021-07-19">2021-07-19</h3>
+<ul>
+<li>Worked on belt system</li>
+<li>Printed various tensioner iterations</li>
+<li>Assembled working right tensioner and installed one belt.</li>
+<li>Adjusted wall thicknesses &amp; offsets for tensioner. Fixed a few issues and tested a lot of bad ideas.</li>
+<li>Tensioner now acts as endstop for Y axis linear rails on the front side.</li>
+</ul>
+<h3 id="2021-07-18">2021-07-18</h3>
+<ul>
+<li>Moved out extrusions in the X axis. Ideally will resolve spacing and alignment with shorter X axis rail or 60mm wide front extrusions connecting the interior and exterior frames.</li>
+<li>Tweaked and assembled right Y gantry.</li>
+<li>Moved Y axis rails backwards to add more room for hotend.</li>
+</ul>
+<h3 id="2021-07-17">2021-07-17</h3>
+<ul>
+<li>Finished stepper pulley/rear idlers component.</li>
+<li>Assembled stepper pulley/idler blocks.</li>
+<li>Continued work on Y gantry.</li>
+<li>Finished printing Mk2 of the Y gantry. No major snags.</li>
+<li>Mk1 belt tensioner designed</li>
+<li>Began tensioner printing</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../about/faq/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Frequently Asked Questions" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Frequently Asked Questions
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../roadmap/" class="md-footer__link md-footer__link--next" aria-label="Next: Roadmap" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Roadmap
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>
+      
+    
+  </body>
+</html>
