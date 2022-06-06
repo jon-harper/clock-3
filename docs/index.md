@@ -7,10 +7,17 @@ date: 2022-04-05
 
 Welcome to the documentation project for the [Clock 3](https://github.com/jon-harper/clock-3/) 3D printer. Clock 3 is a project for an enclosed, CoreXY 3D printer in advanced stages of development.
 
-!!! note
-    If you're here to help edit, start with [this page](todo.md).
+## New Here?
 
-You can visit the [Overview](overview.md) or skip to the list of [Features](about/features.md) and [Frequently Asked Questions](about/features.md) if you're interested in learning more. Help with [Assembly](assembly/) and [Configuration](config/) is available.
+Visit the [Overview](overview.md) to get a general idea about this project. Jump to the list of [Features](about/features.md) and [Frequently Asked Questions](about/features.md) to learn more.
+
+There is also a [Gallery](about/gallery.md) of progress photos and renders.
+
+## Need Help?
+
+[Assembly](assembly/) and [Configuration](config/) documentation are under development.
+
+## STLs, Source, and Licensing
 
 The printer design, tools, drawings, and related files in the [Clock 3 GitHub](https://github.com/jon-harper/clock-3/) are open source and [released under the GPLv3](https://github.com/jon-harper/clock-3).
 

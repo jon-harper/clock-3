@@ -13,12 +13,15 @@ markdown_extensions:
 
 nav:
   - overview.md
-  - about/features.md
   - About:    
+    - about/features.md
+    - about/gallery.md
     - about/goals.md
     - about/faq.md
-    - about/roadmap.md
-    - about/releases.md
+  - Status:
+    - status/changelog.md
+    - status/roadmap.md
+    - status/releases.md
   - Bill of Materials: 
     - bom/index.md
     - bom/printing.md

@@ -60,6 +60,10 @@ The is the last of the hardware setup, where we install the door, side panels, a
 
 Like with the [categorization](../bom/index.md#categorization) of parts in the Bill of Materials, there are other conventions we use during the assembly process to identify parts and orient them quickly. We will introduce them as we go through the Preparation section of this Guide.
 
-### TODO (Any other necessary background)
+## Outside Guides and Documentation Links
+
+At various points during assembly and configuration, guides for certain tasks are already available from the manufacturer, developer, or maintainer (or simply a third party). We will often link to an external guide for more detailed explanations of some procedures.
+
+An example of this is in the initial configuration of [MainsailOS](https://github.com/mainsail-crew/MainsailOS). The developers of Mainsail will always have more current documentation regarding installation and setup than ours, so we defer to them where needed.
 
 Okay, let's check and make sure we have what we need.
