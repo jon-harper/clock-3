@@ -1,5 +1,21 @@
 # Changelog
 
+## 2022-06-06
+
+- Tweaked latch designs somewhat for cleaner appearance and open/close action (PN129-PN131).
+- Tweaked initial floor tab design (PN132). Smaller and actually fits!
+- Continuing to evolve ideas for hotend/extruder/part fan mount.
+
+## 2022-06-04
+
+- Added feet resolved stability issues, though a more stable surface would still help.
+- *Printing both ABS and PLA today*.
+- Started work on a new hotend/gantry carriage format. Still deciding best directions, however:
+    - Footprint is narrower
+    - Ducting is much tigher to the heatsink on the X axis to help with directed cooling;
+    - Hotend cage is 6mm shorter on Y axis, as well
+- Still early on designing this, so it'll be awhile before I find a good combination of component mounting methods and arrangement.
+
 ## 2022-06-03
 
 - Added PN131, a lower door latch.
