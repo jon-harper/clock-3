@@ -7,12 +7,23 @@ date: 2022-06-05
 
 This is a (mostly) daily changelog for Clock 3, beginning August 2021 during the end of testing the previous version.
 
+This page is built from source and may be stale. If you are viewing from the documentation site (jon-harper.github.io/clock-3), there may be more recent addtions [here on GitHub](https://github.com/jon-harper/clock-3/blob/main/docs/status/changelog.md) that have not yet been rendered and uploaded.
+
 ## Q2 2022
+
+### 2022-06-08
+
+- Gantry frame, hotend mount/cooling duct/etc., and part fan/part fan duct are finished.
+- Still missing extruder mount and wiring panel mount for toolhead.
+- Clock 3 is back up and running. Will need plentiful M3 lock washers. I suspected this, but learned the hard way.
+- New X Gantry went through multiple print iterations. Having a second ABS printer (and a CoreXY one at that) helps greatly.
+- Added a couple of renders of the new hotend and gantry.
+- Still missing a wiring panel and the duct needs adjustment.
 
 ### 2022-06-06
 
 - Tweaked latch designs somewhat for cleaner appearance and open/close action (PN129-PN131).
-- Tweaked initial floor tab design (PN132). Smaller and actually fits!
+- Tweaked initial floor tab design (PN132), twice. Smaller and actually fits!
 - Continuing to evolve ideas for hotend/extruder/part fan mount.
 - Relocated a number of doc files for better access to info from the landing page.
 
