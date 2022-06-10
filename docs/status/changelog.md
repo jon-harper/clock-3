@@ -11,6 +11,16 @@ This page is built from source and may be stale. If you are viewing from the doc
 
 ## Q2 2022
 
+### 2022-06-10
+
+- Modified part cooling intake and back plate to allow heigh adjustment for the cooling fan.
+- Reverted EVA duct to previous version to allow for the above to work.
+
+### 2022-06-09
+
+- Lots of refactoring for the new gantry/hotend. Most parts needed at least one reprint to fix minor issues.
+- Assembled first full set of test prints. Part cooling fan will need work.
+
 ### 2022-06-08
 
 - Gantry frame, hotend mount/cooling duct/etc., and part fan/part fan duct are finished.
