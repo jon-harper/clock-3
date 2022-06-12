@@ -11,6 +11,12 @@ This page is built from source and may be stale. If you are viewing from the doc
 
 ## Q2 2022
 
+### 2022-06-11
+
+- Modified hotend mount to be slightly taller and added mounting point for an accelerometer.
+- Currently working on ABL configuration.
+- Switched lights over to strips instead of the temporary main overhead lights.
+
 ### 2022-06-10
 
 - Modified part cooling intake and back plate to allow heigh adjustment for the cooling fan.
