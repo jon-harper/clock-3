@@ -11,6 +11,21 @@ This page is built from source and may be stale. If you are viewing from the doc
 
 ## Q2 2022
 
+## 2022-06-16
+
+- Re-exported the X gantry carriage mount.
+- Printing the new X gantry for Clock 3 *on* Clock 3.
+
+## 2022-06-15
+
+- ABL is functional after twisting the wires to reduce noise.
+- Testing new hotend mount and panel mount ideas on an Ender 5.
+- Pace of development is slowing now that the printer is mostly operational. Current remaining issues are:
+    - Wire panel at toolhead
+    - Z axis stability
+    - Z axis clearance (filtration blocks lower half of movement)
+- Tested print quality at 0.08mm and satisfied with results so far.
+
 ### 2022-06-11
 
 - Modified hotend mount to be slightly taller and added mounting point for an accelerometer.

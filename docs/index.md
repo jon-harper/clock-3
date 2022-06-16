@@ -9,9 +9,10 @@ Welcome to the documentation project for the [Clock 3](https://github.com/jon-ha
 
 ## New Here?
 
-Visit the [Overview](overview.md) to get a general idea about this project. Jump to the list of [Features](about/features.md) and [Frequently Asked Questions](about/features.md) to learn more.
-
-There is also a [Gallery](about/gallery.md) of progress photos and renders.
+- Visit the [Overview](overview.md) to get a general idea about this project.
+- Jump to the list of [Features](about/features.md) for specifications.
+- Read the [Frequently Asked Questions](about/features.md) to learn more.
+- View the [Gallery](about/gallery.md) of progress photos and renders.
 
 ## Need Help?
 
