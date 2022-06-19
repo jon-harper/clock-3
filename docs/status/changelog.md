@@ -10,13 +10,22 @@ This is a (mostly) daily changelog for Clock 3, beginning August 2021 during the
 This page is built from source and may be stale. If you are viewing from the documentation site (jon-harper.github.io/clock-3), there may be more recent addtions [here on GitHub](https://github.com/jon-harper/clock-3/blob/main/docs/status/changelog.md) that have not yet been rendered and uploaded.
 
 ## Q2 2022
+### 2022-06-19
 
-## 2022-06-16
+- Documentation: Reworked the assembly index page.
+- General: Added category/topic to changelog lines.
+
+### 2022-06-18
+
+- X Gantry: Adjusted the back mount and part fan mount to slide together more easily and prevent left/right deflection of the duct.
+- X Gantry: Right side hotend screw mounts are now 19mm apart, suitable for mounting an Adafruit ADXL345 board.
+
+### 2022-06-16
 
 - Re-exported the X gantry carriage mount.
 - Printing the new X gantry for Clock 3 *on* Clock 3.
 
-## 2022-06-15
+### 2022-06-15
 
 - ABL is functional after twisting the wires to reduce noise.
 - Testing new hotend mount and panel mount ideas on an Ender 5.
