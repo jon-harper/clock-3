@@ -5,9 +5,17 @@ authors: Jon Harper
 date: 2022-06-05
 ---
 
-This is a (mostly) daily changelog for Clock 3, beginning August 2021 during the end of testing the previous version.
+This is a changelog for Clock 3, beginning August 2021 during the end of testing the previous version.
 
 This page is built from source and may be stale. If you are viewing from the documentation site (jon-harper.github.io/clock-3), there may be more recent addtions [here on GitHub](https://github.com/jon-harper/clock-3/blob/main/docs/status/changelog.md) that have not yet been rendered and uploaded.
+
+## Q3 2022
+
+### 2022-07-02
+
+- Development is slowing for the moment. I am in the process of possibly relocating.
+- I am fairly certain I have a solution for the hotend wiring using a 16-pin Molex connector.
+- Once the connectors arrive, the next step is to design a wiring box for it compact enough to fit near the hotend.
 
 ## Q2 2022
 ### 2022-06-19

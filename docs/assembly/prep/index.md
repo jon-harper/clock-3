@@ -1,5 +1,5 @@
 ---
-title: Getting Ready & Organized
+title: Getting Started
 summary: Some suggestions for organizing parts for ease.
 authors: Jon Harper
 date: 2022-04-06
