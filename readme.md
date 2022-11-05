@@ -11,7 +11,9 @@ Clock 3 is a complete redesign incorporating most of the common, off-the-shelf c
 
 ## Status
 
-Documentation of the initial prootype is ongoing and active. The most recent compiled markdown can be viewed at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/). Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.
+The core Fusion 360 files are pretty trashed due to interdependancies. I've had to halt development for now.
+
+~~Documentation of the initial prootype is ongoing and active. The most recent compiled markdown can be viewed at [jon-harper.github.io/clock-3/](https://jon-harper.github.io/clock-3/). Follow-on releases will address minor issues discovered in the process that do not require immediate resolution.~~
 
 ## Notes
 
